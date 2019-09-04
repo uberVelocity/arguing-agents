@@ -32,3 +32,18 @@
 5. Scrape procon arguments
 6. Divide arguments into pros and cons from reddit and compile list
 7. Compare pros and cons found by solution on reddit w/ pros and cons from procon
+
+## Proposal
+
+The prime goal of our assignment is to be able to extract arguments from a Reddit board called [ChangeMyView](https://www.reddit.com/r/changemyview/). In this subreddit, a person submits their view on a particular topic and people reply to them in natural language in an attempt to convince them to change their stance. The idea is based on two papers and a project given as an example on Nestor. In their example, an LSTM neural network coupled with a Corpus is used in order to determine whether sentences are arguments and establish the quality of the arguments. 
+
+### What is the problem addressed?
+
+The purpose of the project is to achieve argument extraction and classification into Pros and Cons from natural language. Typically, websites that classify arguments into pros and cons use structured essays to gather their data. Whilst these arguments are valid, they are extracted by users who carefully analyze structured text. Extracting arguments from an online discussion poses a much more difficult task, since the text is usually unstructured and features an abundance of language nuances and subtleties, rhetorical questions and implications to name a few.  
+
+The source for our argument extraction task comes from Reddit, a website on which people can create posts on an array of topics. The website is segmented into different `subreddits`, each one having a certain topic. 
+One such subreddit, named `changemyview`, consists of an original poster (OP) who posts his view on a particular topic. People may then post comments in an attempt to convince the OP to change his original stance of the topic. Although comments towards the OP's address are usually  counter-arguments to their view, people may defend the view of the OP by replying to comments attacking it. This results in an environment in which both pro and against arguments are formed on a particular view in a natural way, and it is the extraction of these arguments that is of interest to this project.
+
+### What is the state of the art concerning this problem?
+
+Argument extraction from unstructured texts has been attempted before and serves as a key inspiration for our project. The idea came from a project created in the scope of this course which attempted to extract arguments from the same subreddit and judge the quality of the arguments. 
