@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.py~
+
+# Ignore some mac specific stuff
+.DS_Store
+
+# Ignore vim swap files
+*.swp
+
+# very large data files
+extracted_vectors1.json
+extracted_vectors2.json
+
+# very large model files
+klemen*
+best_model*
