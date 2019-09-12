@@ -47,3 +47,16 @@ One such subreddit, named `changemyview`, consists of an original poster (OP) wh
 ### What is the state of the art concerning this problem?
 
 Argument extraction from unstructured texts has been attempted before and serves as a key inspiration for our project. The idea came from a project created in the scope of this course which attempted to extract arguments from the same subreddit and judge the quality of the arguments. 
+
+### What is the new idea for addressing the problem ? 
+
+pervious project assessed the quality of arguments. we want to classify pros and cons on top of this. In addition, 
+
+### What are the results? 
+
+the resulting outcome should includes score of the quality of arguments and whether they are supporting or attacking.
+
+
+### What is the relevance of this work? 
+
+This project hopes to extract structured information from unstructured dataset (reddit post). This form of argumentation mining can be used for not only extracting relevant information but also create into structured dataset and enable computational operation one 
