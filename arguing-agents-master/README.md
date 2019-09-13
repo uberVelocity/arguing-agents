@@ -1,6 +1,3 @@
-# arguing-agents
-The project files pertaining to the the arguing agents course of 2018 (group 12)
-
 # Running the code
 For the best model we have found, please see `train_lstm.py` in the top directory
 
