@@ -20,7 +20,6 @@
 ### Extensions for visualization 
 
 - Pros and Cons extraction from procon.org
-
 - Extract and split arguments for and against
 
 ## Planning
@@ -29,9 +28,33 @@
 2. Implement LSTM
 3. Figure out how they use Corpus
 4. Scrape reddit arguments
-5. Scrape procon arguments
-6. Divide arguments into pros and cons from reddit and compile list
-7. Compare pros and cons found by solution on reddit w/ pros and cons from procon
+5. Determine polarity of arguments
+6. Scrape procon arguments
+7. Divide arguments into pros and cons from reddit and compile list
+8. Compare pros and cons found by solution on reddit w/ pros and cons from procon
+
+### Feedback
+
+Search for argumentation mining papers + other website apart from reddit.
+
+Keep it simple.
+
+Concretely define the approach
+
+## Steps
+
+### Reddit data extraction https://www.reddit.com/r/changemyview
+
+1. Install PRAW API
+2. Learn PRAW API
+3. Extract X amount of posts
+4. Detect sentences and deltas.
+5. Determine quality of arguments. (corpus + LSTM)
+6. Determine the polarity of arguments (how to test their polarity? should be known prior to it: It's fine to just have two lists)
+
+Extract subject from reddit post. Insert subject to procon. Extract words from both pros and cons from Procon and use said words to determine polairty of a sentence on reddit.
+
+
 
 ## Proposal
 
@@ -46,4 +69,4 @@ One such subreddit, named `changemyview`, consists of an original poster (OP) wh
 
 ### What is the state of the art concerning this problem?
 
-Argument extraction from unstructured texts has been attempted before and serves as a key inspiration for our project. The idea came from a project created in the scope of this course which attempted to extract arguments from the same subreddit and judge the quality of the arguments. 
+Argument extraction from unstructured texts has been attempted before and serves as a key inspiration for our project. The idea came from a project created in the scope of this course which attempted to extract arguments from the same subreddit and judge the quality of the arguments. The project used Long-short term memory neural networks to learn and determine whether sentences were arguments. Moreover, a corpus was used that contained annotations describing different language features, such as the quality of an argument. In such an approach, the results show a good performance in terms of distinguishing between argumentative and non-argumentative sentences.

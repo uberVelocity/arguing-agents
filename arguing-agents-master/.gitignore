@@ -17,3 +17,6 @@ extracted_vectors2.json
 # very large model files
 klemen*
 best_model*
+
+# password file
+pass.py
