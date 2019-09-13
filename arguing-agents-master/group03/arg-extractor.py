@@ -1,6 +1,6 @@
 import praw
 from praw.models import MoreComments
-from pass import PASS
+from pfile import *
 # Initialize reddit instance
 reddit = praw.Reddit(client_id='vsf_RaO1Y0ddLA',
                      client_secret='AKNm3rM3zJ6m6lWdxJwE6u6Z7qM',
@@ -18,3 +18,8 @@ for submission in reddit.subreddit('changemyview').hot(limit=10):
         if isinstance(comment, MoreComments):
             continue
         print(comment.body)
+
+
+# Top level  (ALL)
+## second level  (ALL)
+### THIRD LEVEL  (ALL)
