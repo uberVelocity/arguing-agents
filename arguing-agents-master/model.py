@@ -1,31 +1,34 @@
-# Arguing agents start again
+
 import pandas as pd
 import numpy as np
-
 import os,csv, time
 import spacy # has pos tagger, word vector stuff and a bunch of other tools, very fast as well
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
 import json
 from tqdm import tqdm
-# a debugging import
-#from pprint import pprint
 
-top_path = 'Corpora/complete/'
+### model
+from keras.models import Sequential
+from keras.layers import (Embedding, Activation, LSTM, Dense,Dropout)
+from keras.utils import to_categorical
+
+top_path = '/complete/'
 path_to_data = os.getcwd() + '/' + top_path
 
 global_timer = time.time()
 
+
+
+
 files = os.listdir(path_to_data)
 files = list(filter(lambda k: '.tsv' in k,files)) # keep only tsv files
-#files = files[:1] # only the first file so that tests don't take hours
 
 temp_frames = []
 df = pd.DataFrame()
 for file in files:
 	print("Reading {}".format(file))
-	temp_df = pd.read_csv(path_to_data+file,delimiter='	',quoting=csv.QUOTE_NONE) # using tab delimiter (it may look like a space, but its a tab (probably))
-	# note on the 'quoting=csv.QUOTE_NONE': its there because in one of the files (school_uniforms.tsv) there's at least one entry that looks to the parser like an end of file character inside a string
+	temp_df = pd.read_csv(path_to_data+file,delimiter='	',quoting=csv.QUOTE_NONE) 
 	temp_frames.append(temp_df)
 
 df = pd.concat(temp_frames,ignore_index=True)
@@ -62,26 +65,17 @@ for s in tqdm(range(len(raw_sentences))): # len(raw_sentences) goes here normall
 	processed = nlp(raw_sentences[s])
 	processed_sentences.append(processed)
 	temp_vectors = []
-	#temp_max = 0
 	for word in processed:
 		if(not word.pos_ in ['PUNCT','SYM','X']): # not word.is_stop and 
 			temp_vectors.append(word.lex_id)
-			#temp_max += 1
 	if(len(temp_vectors) > max_len):
 		temp_vectors = temp_vectors[:max_len] # if sequence is longer, simply truncate it (should not be needed, but ok)
 		num_over_limit += 1
 	vectors.append(temp_vectors)
-	#if(temp_max > max_len):
-	#	max_len = temp_max
-
+	
 print("Number of sentences found to be over max length of {} is {}".format(max_len,num_over_limit))
 
 
-### model
-# Imports (not sure how wise it is to do those here instead of at the top)
-from keras.models import Sequential
-from keras.layers import (Embedding, Activation, LSTM, Dense,Dropout)
-from keras.utils import to_categorical
 # set backend
 os.environ['KERAS_BACKEND']='tensorflow'
 
@@ -112,7 +106,7 @@ print(model.summary())
 # train the model
 print("Training model")
 model_timing = time.time()
-model.fit(X_train, Y_train, batch_size =batch_size, epochs = 30,  verbose = 2)
+model.fit(X_train, Y_train, batch_size =batch_size, epochs = 3,  verbose = 2) # defalut epoch = 30, Changed for testing puropse now. 
 print("Model Trained. Time elapsed: {}".format(time.time()-model_timing))
 
 # score model
@@ -128,7 +122,8 @@ def save_model(model):
 	with open(model_save+'.json','w+') as json_file:
 		json_file.write(model_json)
 	print("Saving model weights")
-	model.save_weights(model_save+'.weights')
+	model.save_weights(model_save+'.h5')
+	print("Saved model to disk")
 
 save_model(model)
 

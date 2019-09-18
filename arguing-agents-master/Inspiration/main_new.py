@@ -6,19 +6,14 @@
 # TODO - identify missing nodeset IDs because its fucking up the program (check file existance before reading in parse()?)
 
 import os
-#from Parsers import lstm_new
+from Parsers import lstm_new
 from Parsers import araucaria_new
 
-path_to_corpus = os.getcwd() + '/complete'
+path_to_corpus = os.getcwd() + '/Corpora/complete'
 
 
-path_to_corpus = "/Users/sandy/Downloads/UKP Sentential Argument Mining Corpus/data/complete"
-#path_to_corpus = "/Users/sandy/Downloads/UKP Sentential Argument Mining Corpus/data/complete"
-##path_to_corpus = "/Users/sandy/Downloads/"
 arConstObj = araucaria_new.ConstDataSet()
-#
-##arConstObj.readFile("0", path_to_corpus)
-##arConstObj.readFile("1", path_to_corpus)
+
 arConstObj.readFile("2",  path_to_corpus)
 arConstObj.extractFeatures()
 ##arConstObj.extractVerbs()
