@@ -43,10 +43,4 @@ class Reddit:
             for submission_url in submission_urls:
                 submission = praw.models.Submission(self.reddit, url=submission_url)
                 self.submissions.append(submission)
-
-reddit = Reddit({'mode': 'url', 'submission_urls': ['https://www.reddit.com/r/changemyview/comments/d6f6xz/cmv_there_needs_to_be_8_chuggas_before_a_choo_choo/'], 'amount': 100, 'sortby': 'new'})
-
-for s in reddit.submissions:
-    print(s.title)
-
             

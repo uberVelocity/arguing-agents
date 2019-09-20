@@ -1,0 +1,22 @@
+{
+    "topics": [
+        {
+            "topic-name": "medical marijuana",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        },
+        {
+            "topic-name": "gun control",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        }
+    ]
+}

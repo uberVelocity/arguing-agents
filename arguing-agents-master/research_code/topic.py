@@ -27,5 +27,5 @@ class Topic:
         self.procon = Procon(procon_settings)
         self.reddit = Reddit(reddit_settings)
 
-topic = Topic({'topic-name': 'medical marijuana', 'procon': {'mode': 'find'}, 'reddit': {'mode': 'find'}})
-print(topic.procon.background)
+#topic = Topic({'topic-name': 'medical marijuana', 'procon': {'mode': 'find'}, 'reddit': {'mode': 'find'}})
+#print(topic.procon.background)

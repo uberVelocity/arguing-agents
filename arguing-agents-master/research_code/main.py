@@ -10,5 +10,10 @@ if len(argv) < 2 or len(argv) > 3:
 f = open(argv[1])
 json_str = f.read()
 settings = json.loads(json_str)
+f.close()
 
 research = Research(settings)
+
+for i in range(len(research.topics)):
+    print("___Topic", i, "___")
+    print(research.topics[i].procon.background)
