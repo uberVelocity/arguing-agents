@@ -1,0 +1,2227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8;" />
+<title>Should Marijuana Be a Medical Option? - Medical Marijuana - ProCon.org</title>
+<script src="/cdn-cgi/apps/head/csXKcpni_hOn8tah-yFt2MeLrI8.js"></script><link href="/css/bootstrap-css/3.3.5/css/bootstrap-1000.css" rel="stylesheet" />
+<link href="/css/bootstrap-css/2.1.0/bootstrap-newblue.css?v=1.0.16" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="/css/viewmodeswitch-css/default.css" />
+<link rel="stylesheet" type="text/css" href="/css/viewmodeswitch-css/component.css?v=1.0.4" />
+<link rel="stylesheet" type="text/css" href="/css/old-design/style.min.css?v=1.0.1.5" />
+<link rel="stylesheet" type="text/css" href="/css/old-design/rrssb.css" />
+
+<link href="/css/old-design/main-responsive-newblue.css?v=1.0.3" rel="stylesheet" type="text/css" />
+<link href="/css/old-design/main-responsive-sidebar-newblue.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="/css/old-design/responsive.meanmenu-newblue.css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Marcellus' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Marcellus+SC' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="/css/smartmenu/jquery.smartmenus.bootstrap.addon.css" />
+
+
+<link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+
+
+<script type="text/javascript" src="https://s3.amazonaws.com/ssl-intgr-net/tags/395_9.js"></script>
+
+<script src="/js/viewmodeswitch-js/modernizr.custom.js"></script>
+<link rel="stylesheet" type="text/css" media="screen" href="/css/jquery-ui-1.11.2.smoothness.min.css?v=1.11.2" />
+<link rel="alternate" type="application/rss+xml" title="ProCon.org Headlines Feed" href="//feeds.feedburner.com/Proconorg-headlines" />
+<link rel="alternate" type="application/rss+xml" title="ProCon.org Latest Updates Feed" href="//rss.procon.org/rss/proconrss" />
+<!--[if lt IE 7]>
+	<link rel="stylesheet" type="text/css" href="/css/old-design/ielt7.css?v=1.0.0.0">
+	<![endif]-->
+<link rel="shortcut icon" href="/favicon.ico" />
+<meta name="description" content="Should Marijuana Be a Medical Option? Read pros, cons, and expert responses in the debate." />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="/css/old-design/publir-ads.css?v=1.0.19" rel="stylesheet" type="text/css" />
+<script id="headerbidder" type="text/javascript" src="//a.publir.com/platform/395.js"></script>
+
+<script type="text/javascript" src="/js/scroll-tracking-percent-page-viewed.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','__gaTracker');
+
+  __gaTracker('create', 'UA-132545-48', 'procon.org');
+  __gaTracker('require', 'displayfeatures');
+  __gaTracker('send', 'pageview');
+	__gaTracker('create', 'UA-132545-9', 'procon.org', {'name':'b'});
+	__gaTracker('require', 'displayfeatures');
+  	__gaTracker('b.send', 'pageview');
+		
+		/** scroll tracking addon to analytics starts
+		 * Manual callback handler
+		 * false == no scroll to track from previous page
+		 */
+		var callbackData = bamPercentPageViewed.callback();
+		if(callbackData != false)
+		{
+			console.group('Callback');
+			console.log(callbackData);
+			console.groupEnd();
+			__gaTracker('send', 'event', 'Percent of Page Viewed', callbackData.documentLocation, callbackData.scrollPercent + '', undefined, true); //or send as a custom dimension before the pageview
+		}
+
+		/**
+		 * Use the bamPercentPageViewed plugin
+		 */
+		(function() {
+			var o=onload, n=function(){
+				bamPercentPageViewed.init({
+					trackDelay : '2000',
+					percentInterval : '10'
+				});
+		    }
+		    if (typeof o!='function'){onload=n} else { onload=function(){ n();o();}}
+		})(window);
+			/* scroll tracking ends*/
+
+</script>
+
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.js"></script>
+<script type="text/javascript" src="/js/jquery.cookie.min.js?v=1.0.0.0"></script>
+<script type="text/javascript" src="/js/jquery.tools-1.2.5.min.js?v=1.2.5.0"></script>
+<script type="text/javascript" src="/js/site.min.js?v=1.0.0.2"></script>
+<script src="/js/rrssb.min.js"></script>
+<script type="text/javascript" src="/js/jquery-ui-1.11.2.min.js?v=1.11.2"></script>
+
+
+
+
+<script src="/js/superclick.js"></script>
+<script>
+
+		(function($){ //create closure so we can safely use $ as alias for jQuery
+
+			$(document).ready(function(){
+
+				// initialise plugin
+				var example = $('#example').superclick({
+					//add options here if required
+				});
+
+				// buttons to demonstrate Superclick's public methods
+				$('.destroy').on('click', function(){
+					example.superclick('destroy');
+					return false;
+				});
+
+				$('.init').on('click', function(){
+					example.superclick();
+					return false;
+				});
+
+				$('.open').on('click', function(){
+					example.children('li:first').superclick('show');
+					return false;
+				});
+
+				$('.close').on('click', function(){
+					example.children('li:first').superclick('hide');
+					return false;
+				});
+
+				$('.closeall').on('click', function(){
+					example.superclick('reset');
+					return false;
+				});
+			});
+
+		})(jQuery);
+
+
+
+      <!-- menu dropdown2 code and new jquery ends -->
+
+    <!-- meanmenu js script start -->
+<!--[if lt IE 9]>
+		<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="/js/jquery.meanmenu-newblue.js"></script>
+<script>
+	jQuery(document).ready(function () {
+	    jQuery('header nav2').meanmenu();
+	});
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+
+
+<link href="/css/old-design/tile-styles.css" rel="stylesheet" />
+<link href="/css/old-design/magnific-popup.css" rel="stylesheet" />
+<script type="text/javascript" src="/js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript">
+  (function() {
+    var cx = '017402664799758818261:h8o1ba2z2o4';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+<link rel="apple-touch-icon" sizes="57x57" href="/images/apple/57x57.png" />
+
+<link rel="apple-touch-icon" sizes="114x114" href="/images/apple/114x114.png" />
+
+<link rel="apple-touch-icon" sizes="72x72" href="/images/apple/72x72.png" />
+
+<link rel="apple-touch-icon" sizes="144x144" href="/images/apple/144x144.png" />
+<style type="text/css">
+    body {font-family: "Roboto"}
+
+.nav2-collapse2.collapse2 {
+  height: auto;
+  overflow: visible;
+}
+.navbar  {display:none;}
+
+{
+  display: block;
+  left: -20px;
+}
+
+@media print {
+a[href]:after { content: none; }
+abbr[title]:after { content:none; }
+a[href^="#"]:after, a[href^="javascript:"]:after { content: ""; }
+.newblue-sidbar-cell{display:none;}
+#newblue-con-column-2{width:100%;}
+}
+
+ @media only screen and (max-width: 1000px)
+	  {
+
+.navbar  {display: block;}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse
+{
+  max-height: 330px;
+}
+
+	  }
+@media only screen and (max-width: 1000px)
+	  {
+
+.desktop-header-768 {display:none;}
+.header-behind-logo {display:none;}
+.below-mobile-menu-space {margin-bottom:0px;}
+	  }
+	@media only screen and (max-width: 767px) and (orientation: landscape)
+	  {
+  .mobile-logo {float:left;}
+.google-search {float:left; display:block; width: 200px;margin-top:10px;}
+	  }
+	  @media only screen and (max-width: 330px) 	  {
+  .mobile-logo {width:130px; height:25px;}
+
+  }
+    @media only screen and (max-width: 240px) 	  {
+  .mobile-logo {width:65px; height:12px;}
+
+  }
+	 .navbar-toggle
+{
+  position: relative;
+  float: right;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 5px;
+  background-color: #0c7cbc;
+  color:#fff;
+  background-image: none;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.navbar-default  { background-color:#fff;}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li
+{margin-top:2px;
+  color: #065380;
+  font-weight:bold;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #333;
+}
+.navbar-nav > li > a {
+	  background-color: #f0f9ff;
+
+	}
+
+.navbar-nav > li.newblue-issue-mobile-dropdown > a {
+	  background-color: #d3ecfc;
+
+	}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus { background-color:#0c7cbc; color:#fff;}
+
+
+.navbar-default .navbar-nav .open .dropdown-menu > li
+{ margin-top:2px;
+  color: #065380;
+  font-weight:bold;
+  background-color: #f6f7f7;
+}
+
+.navbar-nav .open .dropdown-menu > li > a, .navbar-nav .open .dropdown-menu .dropdown-header {
+    padding: 10px 15px 10px 35px;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > ul > li > a
+{margin-top:2px;
+  color: #065380;
+  font-weight:bold;
+  background-color: #fff;
+  font-size:1.2em;
+
+}
+
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color:#065380;}
+
+@media only screen and (max-width: 1000px)  {
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+
+
+}
+
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 340px;
+}
+
+</style>
+
+<script type='text/javascript'> var _d_site = _d_site || '536210AC8CD5939FA0FF1564'; </script>
+<script src='//widget.privy.com/assets/widget.js'></script>
+
+<div class="header-behind-logo">
+<div class="text-logo">
+<div class="newblue-logo-img"><a href="https://www.procon.org/index.php" onClick="__gaTracker('send', 'event', 'newblue-logo-img', 'Click', 'newblue-logo-img')"><img border="0" src="/files/1-procon-images/newblue-procon-logo.png" /></a>
+</div>
+</div>
+<div class="tagline-newblue" style="font-weight:bold;">P<span class="tagline-blue-lowercase">ROS</span> & C<span class="tagline-blue-lowercase">ONS OF</span> C<span class="tagline-blue-lowercase">URRENT</span> I<span class="tagline-blue-lowercase">SSUES.</span> <br />R<span class="tagline-blue-lowercase">ELIABLE.</span> N<span class="tagline-blue-lowercase">ONPARTISAN.</span> E<span class="tagline-blue-lowercase">MPOWERING.</span>
+</div>
+<div class="header-right-block">
+<div class="google-search"><gcse:searchbox-only></gcse:searchbox-only>
+</div>
+</div>
+</div>
+<br />
+<div class="mobile-header">
+
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"><span style="display:block;float:left;">Menu</span>
+<span class="sr-only">Toggle navigation</span>
+<span style="display:block;float:left;margin-top:5px; margin-left:5px;"><span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></span>
+</button>
+<a class="navbar-brand" href="#"><img border="0" src="/files/1-procon-images/procon-newblue-logo-mobile-2.png" height="35px;" class="mobile-logo" /></a>
+<div class="google-search"><gcse:searchbox-only></gcse:searchbox-only>
+</div>
+</div>
+<div class="navbar-collapse collapse">
+
+<ul class="nav navbar-nav">
+<li><a onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-home-button')" href="https://www.procon.org">HOME</a></li>
+<li class="newblue-issue-mobile-dropdown"><a href="#">MEDICAL MARIJUANA - MENU <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-issue-home', 'mobile-menu-home-medicalmarijuana.procon.org')" href="https://medicalmarijuana.procon.org/">MEDICAL MARIJUANA - HOME </a></li>
+<li><a href="#">GET STARTED <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Top Pro & Con Quotes'); window.location.reload();" href="https://medicalmarijuana.procon.org/view.answers.php?questionID=001325">Top Pro & Con Quotes</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Top 10 Pro & Con Arguments'); window.location.reload();" href="/view.resource.php?resourceID=000141">Top 10 Pro & Con Arguments</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Historical Timeline'); window.location.reload();" href="https://medicalmarijuana.procon.org/view.timeline.php?timelineID=000026">Historical Timeline</a>
+</li>
+</ul>
+</li> <li><a href="#">ISSUES AND CANDIDATE STATEMENTS <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'CORE QUESTION')" href="/view.subissues.php?issueID=000246">CORE QUESTION </a> <a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Diseases / Conditions')" href="/view.subissues.php?issueID=000029">Diseases / Conditions </a> <a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Non-Smoked Marijuana')" href="/view.subissues.php?issueID=000030">Non-Smoked Marijuana </a> <a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Risks')" href="/view.subissues.php?issueID=000032">Risks </a> <a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'US Government and Medical Marijuana')" href="/view.subissues.php?issueID=000033">US Government and Medical Marijuana </a> <a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Chemical Composition of Marijuana')" href="/view.subissues.php?issueID=000036">Chemical Composition of Marijuana </a> </li>
+</ul>
+</li> <li><a href="#">RECOMMENDED <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Did You Know?')" href="/view.resource.php?resourceID=000091">Did You Know?</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Readers' Comments')" href="#spot-comments">Readers' Comments</a>
+ <a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '33 Legal Medical Marijuana States and DC')" href="/view.resource.php?resourceID=000881"><img src="/images/site/resources/highlights/hot.gif" alt="" title="" />33 Legal Medical Marijuana States and DC</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '17 States with Legal Cannabidiol (CBD)')" href="/view.resource.php?resourceID=006473">17 States with Legal Cannabidiol (CBD)</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Deaths from Marijuana vs. 17 FDA-Approved Drugs')" href="/view.resource.php?resourceID=000145">Deaths from Marijuana vs. 17 FDA-Approved Drugs</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '60 Peer-Reviewed Studies on Medical Marijuana')" href="/view.resource.php?resourceID=000884">60 Peer-Reviewed Studies on Medical Marijuana</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Number of Legal Medical Marijuana Patients')" href="/view.resource.php?resourceID=005889">Number of Legal Medical Marijuana Patients</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '10 Pharmaceutical Drugs Based on Cannabis')" href="/view.resource.php?resourceID=000883">10 Pharmaceutical Drugs Based on Cannabis</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Opinion Polls/Surveys')" href="https://medicalmarijuana.procon.org/view.background-resource.php?resourceID=000149">Opinion Polls/Surveys</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '10 US Surgeons General and Their Views on Medical Marijuana')" href="/view.resource.php?resourceID=004872">10 US Surgeons General and Their Views on Medical Marijuana</a>
+</li>
+</ul>
+</li> <li><a href="#">DIG DEEPER <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Source Biographies')" href="https://medicalmarijuana.procon.org/source-biographies.php">Source Biographies</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Site Map')" href="https://medicalmarijuana.procon.org/sitemap.php">Site Map</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Notices Archive')" href="https://medicalmarijuana.procon.org/news.archive.php">Notices Archive</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Glossary')" href="/view.additional-resource.php?resourceID=000161">Glossary</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Average Marijuana Potency by Year, 1975-2003')" href="/view.additional-resource.php?resourceID=000191">Average Marijuana Potency by Year, 1975-2003</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Major Court Cases (and Related Docs)')" href="/view.additional-resource.php?resourceID=000159">Major Court Cases (and Related Docs)</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Drug Tests - Methods of Detecting Cannabis Use')" href="/view.additional-resource.php?resourceID=000157">Drug Tests - Methods of Detecting Cannabis Use</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'Ranking 20 Drugs and Alcohol by Overall Harm')" href="/view.additional-resource.php?resourceID=004477">Ranking 20 Drugs and Alcohol by Overall Harm</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '2016 Presidential Candidates' Positions on Medical Marijuana')" href="http://2016election.procon.org/view.answers.election.php?questionID=002020">2016 Presidential Candidates' Positions on Medical Marijuana</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '2012 Presidential Candidates' Positions on Medical Marijuana')" href="http://2012election.procon.org/view.answers.election.php?questionID=1711">2012 Presidential Candidates' Positions on Medical Marijuana</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '2008 Presidential Candidates on Medical Marijuana')" href="/view.additional-resource.php?resourceID=000882">2008 Presidential Candidates on Medical Marijuana</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', '2008 Presidential Candidates on Marijuana Raids')" href="/view.additional-resource.php?resourceID=000885">2008 Presidential Candidates on Marijuana Raids</a>
+<a onClick="__gaTracker('send', 'event', 'mobile-resource-links-medicalmarijuana.procon.org', 'Click', 'US Government Reports on Medical Marijuana')" href="/view.additional-resource.php?resourceID=000155">US Government Reports on Medical Marijuana</a>
+</li>
+</ul>
+</li> </ul>
+</li>
+<li><a onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-issues-we-cover-button')" href="#">ISSUES WE COVER <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-more-issues-most-popular')">MOST POPULAR <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://medicalmarijuana.procon.org/" title="Should Marijuana Be a Medical Option?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-medical-marijuana-button')">Medical Marijuana</a></li>
+<li><a href="https://gun-control.procon.org/" title="Should More Gun Control Laws Be Enacted?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-gun-control-button')">Gun Control</a></li>
+<li><a href="https://animal-testing.procon.org/" title="Should Animals Be Used for Scientific or Commercial Testing?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-animal-testing-button')">Animal Testing</a></li>
+<li><a href="https://deathpenalty.procon.org" title="Should the Death Penalty Be Allowed?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-death-penalty-button')">Death Penalty</a></li>
+<li><a href="https://marijuana.procon.org/" title="Should Marijuana Be Legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-recreational-marijuana-button')">Recreational Marijuana</a></li>
+<li><a href="https://school-uniforms.procon.org/" title="Should Students Have to Wear School Uniforms?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-school-uniforms-button')">School Uniforms</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005433" title="Should Zoos Exist?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-national-service-button')">Mandatory National Service </a> </li>
+<li><a href="https://abortion.procon.org/" title="Should Abortion Be Legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-abortion-button')">Abortion</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005439" title="Should Zoos Exist?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-zoos-button')">Zoos </a> </li>
+<li><a href="https://immigration.procon.org/" title="What Are the Solutions to Illegal Immigration in America?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click-most-popular', 'mobile-header-immigration-button')">Illegal Immigration</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-health-and-medicine-button')">HEALTH & MEDICINE <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://medicalmarijuana.procon.org" title="Should marijuana be a medical option?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-medical-marijuana-button')">Medical Marijuana</a></li>
+<li><a href="https://euthanasia.procon.org" title="Should euthanasia or physician-assisted suicide be legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-euthanasia-button')">Euthanasia & Assisted Suicide</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005430" title="Should any vaccines be required for children?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-vaping-button')">Vaping E-Cigarettes</a> </li>
+<li><a href="https://vaccines.procon.org/" title="Should any vaccines be required for children?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-vaccines-button')">Vaccines for Kids</a></li>
+<li><a href="https://milk.procon.org" title="Is drinking milk healthy for humans?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-milk-button')">Milk - Is It Healthy?</a></li>
+<li><a href="https://birth-control.procon.org/" title="Should Birth Control Pills Be Available Over-the-Counter?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-birth-control-button')">OTC Birth Control</a></li>
+<li><a href="https://abortion.procon.org/" title="Should abortion be legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-abortion-button')">Abortion</a></li>
+<li><a href="https://vegetarian.procon.org/" title="Should people become vegetarian?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-vegetarianism-button')">Vegetarianism</a></li>
+<li><a href="https://obesity.procon.org" title="Is obesity a disease?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-obesity-button')">Obesity a Disease?</a></li>
+<li><a href="https://healthcarereform.procon.org" title="Are the March 2010 federal health care reform laws good for America?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-obamcare-button')">Obamacare</a></li>
+<li><a href="https://healthcare.procon.org/" title="Should all Americans have the right (be entitled) to health care?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-right-to-healthcare-button')">Right to Health Care</a></li>
+<li><a href="https://prescriptiondrugs.procon.org" title="Should prescription drugs be advertised directly to consumers?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-prescription-drugs-button')">Prescription Drug Ads</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-more-issues-education')">EDUCATION <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://school-uniforms.procon.org/" title="Should Students Have to Wear School Uniforms?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-school-uniforms-button')">School Uniforms</a></li>
+<li><a href="https://standardizedtests.procon.org/" title="Is the use of standardized tests improving education in America?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-standardized-tests-button')">Standardized Tests</a></li>
+<li><a href="https://tablets-textbooks.procon.org/" title="Should tablets replace textbooks in K-12 schools?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-tablets-and-textbooks-button')">Tablets vs. Textbooks</a></li>
+<li><a href="https://college-education.procon.org/" title="Is a College Education Worth It?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-college-education-button')">College Education Worth It?</a></li>
+<li><a href="https://teachertenure.procon.org/" title="Should teachers get tenure?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-teacher-tenure-button')">Teacher Tenure</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005378" title="Should Student Loan Debt Be Easier to Discharge in Bankruptcy?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-studen-loan-debt-button')">Student Loan Debt</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005354" title="School Vouchers - Top 4 Pros and Cons" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-school-vouchers-button')">School Vouchers</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005350" title="Should Corporal Punishment Be Used in K-12 Schools?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-corporal-punishment-button')">Corporal Punishment</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005365" title="hould parents or other adults be able to ban books from schools and libraries?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-banned-books-button')">Banned Books</a></li>
+ <li><a href="https://www.procon.org/headline.php?headlineID=005411" title="Is Homework Beneficial?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-homework-button')">Homework</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005432" title="Should Public College Be Tuition-Free?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-free-college-button')">Free College</a></li>
+<li><a href="https:/dare.procon.org" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-dare-button')" style="color:#969696">D.A.R.E (archived 6/3/13)</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-politics-button')">POLITICS <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://deathpenalty.procon.org" title="Should the death penalty be allowed?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-death-penalty-button')">Death Penalty</a></li>
+<li><a href="https://drinkingage.procon.org" title="Should the drinking age be lowered from 21 to a younger age?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-drinking-age-button')">Drinking Age - Lower It?</a></li>
+<li><a href="https://immigration.procon.org" title="What are the solutions to illegal immigration in America?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-illegal-immigration-button')">Illegal Immigration</a></li>
+<li><a href="https://gun-control.procon.org" title="Should More Gun Control Laws Be Enacted in the United States?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-gun-control-button')">Gun Control</a></li>
+<li><a href="https://marijuana.procon.org" title="Should recreational marijuana be legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-recreational-marijuana-button')">Recreational Marijuana</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005433" title="Should the United States Have Mandatory National Service?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-national-service-button')">Mandatory National Service </a> </li>
+<li><a href="https://aclu.procon.org" title="Is the ACLU good for America?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-aclu-button')">ACLU - Good for America?</a></li>
+<li><a href="https://concealedguns.procon.org" title="Should adults have the right to carry a concealed handgun?" onClick="__gaTracker('send', 'event', mobile-'header-links', 'Click', 'mobile-header-concealed-handguns-button')">Concealed Handguns</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005333" title="Should Sanctuary Cities Receive Federal Funding?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-sanctuary-cities-button')">Sanctuary Cities</a></li>
+<li><a href="https://undergod.procon.org" title="Should the words &quot;under God&quot; be in the US Pledge of Allegiance?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-under-god-button')">Under God in the Pledge</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005384" title="Are DACA and the DREAM Act Good for America?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-daca-button')">DACA & Dreamers</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005331" title="Should the Dakota Access Pipeline Be Completed?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-daca-button')">Dacota Pipeline</a></li>
+<li><a href="https://wtcmuslimcenter.procon.org/" title="Should the Dakota Access Pipeline Be Completed?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-wtc-muslim-center-button')" style="color:#969696">WTC Muslim Center (archived 6/3/13)</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-science-technology-button')">SCIENCE & TECHNOLOGY <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://animal-testing.procon.org" title="Should Animals Be Used for Scientific or Commercial Testing?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-animal-testing-button')">Animal Testing</a></li>
+<li><a href="https://cellphones.procon.org" title="Are cell phones safe?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-cell-phones-button')">Cell Phones Radiation</a></li>
+<li><a href="https://alternativeenergy.procon.org" title="Can alternative energy effectively replace fossil fuels?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-alternative-energy-button')">Alternative Energy vs. Fossil Fuels</a></li>
+<li><a href="https://climatechange.procon.org" title="Is human activity a substantial cause of global climate change?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-climate-change-button')">Climate Change</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005390" title="Should Net Neutrality Be Restored?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-net-neutrality-button')">Net Nautrality </a> </li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005399" title="Should police officers wear body cameras?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-police-body-cams-button')">Police Body Cameras </a> </li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005401" title="Should Bottled Water Be Banned?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-bottled-water-button')">Bottled Water Ban </a> </li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005439" title="Should Zoos Exist?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-zoos-button')">Zoos </a> </li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005447" title="Should Zoos Exist?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-zoos-button')">GMOs </a> </li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-elections-button')">ELECTIONS & PRESIDENTS <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://2020election.procon.org" title="2012 Presidential Election: The Candidates and Where They Stand on the Issues" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-2020-election-button')">2020 Presidential Election</a></li>
+<li><a href="https://felonvoting.procon.org" title="Should felons be allowed to vote?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-felon-voting-button')">Felon Voting</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005330" title="Should the United States Use the Electoral College in Presidential Elections?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-electoral-college-button')"> Electoral College</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005416" title="Should the voting age be lowered to 16?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-voting-age')">Lowering the Voting Age to 16</a> </li>
+<li><a href="https://votingmachines.procon.org" title="Do electronic voting machines improve the voting process?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-voting-machines-button')">Voting Machines</a></li>
+<li><a href="https://reagan.procon.org" title="Was Ronald Reagan a good president?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-reagan-button')">Ronald Reagan</a></li>
+<li><a href="https://clinton.procon.org" title="Was Bill Clinton a good president President?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-clinton-button')">Bill Clinton</a></li>
+<li><a href="https://2008election.procon.org" title="2008 Presidential Election: The Candidates and Where They Stand on the Issues" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-2016-election-button')" style="color:#969696">2008 Presidential Election (archived 1/19/09)</a></li>
+<li><a href="https://2012election.procon.org" title="2012 Presidential Election: The Candidates and Where They Stand on the Issues" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-2012-election-button')" style="color:#969696">2012 Presidential Election (archived 1/22/13)</a></li>
+<li><a href="https://2016election.procon.org" title="2016 Presidential Election: The Candidates and Where They Stand on the Issues" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-2016-election-button')" style="color:#969696">2016 Presidential Election (archived 1/21/17)</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-world-international-button')">WORLD / INTERNATIONAL <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://israelipalestinian.procon.org" title="What are the solutions to the Israeli-Palestinian conflict?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-israeli-palestinian-button')">Israeli-Palestinian Conflict</a></li>
+<li><a href="https://cuba-embargo.procon.org" title="Should United States maintain its embargo against Cuba?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-cuba-embargo-button')">Cuba Embargo</a></li>
+<li><a href="https://drones.procon.org" title="Should the United States Continue Its Use of Drone Strikes Abroad?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-drones-button')">Drone Strikes Overseas</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005449" title="Was the US Drone Shot down by Iran over International Waters?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-drone-strike-iran-button')">Us Drone Shot Down by Iran</a></li>
+<li><a href="https://usiraq.procon.org/" title="Should the US Have Attacked Iraq?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-us-iraq-war-button')" style="color:#969696">US-Iraq War (archived 12/31/11)</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-sex-gender-button')">SEX & GENDER <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://gaymarriage.procon.org" title="Should gay marriage be legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-gay-marriage-button')">Gay Marriage</a></li>
+<li><a href="https://prostitution.procon.org" title="Should prostitution be legal?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-prostitution-button')">Prostitution - Legalize It?</a></li>
+<li><a href="https://borngay.procon.org" title="Is sexual orientation determined at birth?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-born-gay-button')">Born Gay? Origins of Sexual Orientation</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-media-and-entertainment-button')">ENTERTAINMENT & SPORTS <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://socialnetworking.procon.org" title="Are social networking sites good for our society?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-social-media-button')">Social Media</a></li>
+<li><a href="https://videogames.procon.org" title="Do violent video games contribute to youth violence?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-video-games-button')">Video Games and Violence</a></li>
+<li><a href="https://sportsanddrugs.procon.org" title="Should performance enhancing drugs (such as steroids) be accepted in sports?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-sports-drugs-button')">Drug Use in Sports</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005423" title="Is Binge-Watching Good for You?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-binge-watching-button')">Binge-Watching</a></li>
+<li><a href="https://golf.procon.org" title="Is golf a sport?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-golf-button')">Golf - Is It a Sport?</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005381" title="Are the Olympic Games an Overall Benefit for Their Host Countries and Cities?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-olympics-button')">Olympics</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005323" title="Is Refusing to Stand for the National Anthem an Appropriate Form of Protest?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-national-anthem-protest-button')">National Anthem Protest</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005385" title="Should fighting be allowed in hockey?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-fighting-in-hockey-button')">Fighting in Hockey</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005316" title="Is Pokémon Go Good for Our Society?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-pokemon-button')">Pokémon</a></li>
+<li><a href="https://collegefootball.procon.org/" title="Should College Football Replace the Bowl Championship Series (BCS)
+with a Playoff System?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-college-football-button')" style="color:#969696">College Football Playoffs (archived 9/18/12)</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-more-issues-links', 'Click', 'mobile-header-money-business-button')">ECONOMY & TAXES <span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://minimum-wage.procon.org" title="Should the Federal Minimum Wage Be Increased?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-minimum-wage-button')">Minimum Wage</a></li>
+<li><a href="https://gold-standard.procon.org" title="Should the United States return to a gold standard?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-gold-standard-button')">Gold Standard</a></li>
+<li><a href="https://corporatetax.procon.org" title="Does lowering the federal corporate income tax rate result in employers creating more jobs?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-corporate-tax-button')">Corporate Tax Rate & Jobs</a></li>
+<li><a href="https://churchesandtaxes.procon.org" title="Should churches (defined as churches, temples, mosques, synagogues, etc.) remain tax-exempt?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-churches-taxes-button')">Churches and Taxes</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005422" title="Are Ride-Hailing Companies Such as Uber and Lyft an Overall Benefit to Society?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-uber-lyft-button')">Uber & Lyft</a></li>
+<li><a href="https://socialsecurity.procon.org" title="Should we privatize Social Security?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-social-security-button')">Social Security Privatization</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005345" title="Should the United States Keep Daylight Saving Time?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-daylight-savings-button')">Daylight Savings Time</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005363" title="Universal Basic Income - Top 3 Pros and Cons" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-universial-basic-income-button')">Universal Basic Income</a></li>
+<li><a href="https://www.procon.org/headline.php?headlineID=005402" title="Should the Penny Stay in Circulation? - Top 3 Pros and Cons" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-penny-button')">Penny - Keep It?</a></li>
+<li><a href="https://bigthreeauto.procon.org/" title="Should the Big Three Car Manufacturers Be Bailed out by the US Government?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-big-3-auto-button')" style="color:#969696">Big Three Auto (archived 5/15/09)</a></li>
+<li><a href="https://insidertrading.procon.org/" title="Should Insider Trading by Congress Be Allowed?" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-insider-trading-button')" style="color:#969696">Insider Trading by Congress (archived 4/18/12)</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-you-may-also-like-button')">YOU MAY ALSO LIKE<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=005329" title="Video Page" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-video-page-button')">Watch Our Videos</a></li>
+<li><a href="https://www.procon.org/education.php" title="Teachers' Corner" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-teachers-corner-button')"> Teachers' Corner</a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=001470" title="Readers' Comments" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-readers-comments-button')">Readers' Comments</a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=004241" title="Who Uses ProCon.org" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-who-uses-procon-button')">Who Uses ProCon.org?</a></li>
+<li><a href="https://www.procon.org/debate-topics.php" title="Debate Topics" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-debate-topics-button')">Debate Topics</a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=005031" title="Testimonials" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-testimonials-button')">Testimonials</a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=002640" title="Donors & Sponsors" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-donors-sponsors-button')">Donors & Sponsors</a></li>
+</ul>
+</li>
+<li><a href="#" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-get-involved-button')">GET INVOLVED<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=006772" title="ProCon.org Events" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-procon-events-button')">ProCon.org Events</a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=001465" title="Suggest a Topic" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-suggest-topic-button')">Suggest a Topic</a></li>
+<li class="cite utility" id="utility cite"><a class="cite-short" href="#" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-cite-button')" title="Cite this page using APA, MLA, Chicago, and Turabian style guides" rel="page,cite" target="_blank" citation="eNo9jc1uwjAQhF%2FF2gdI7ASTsFGFVHrhgEDiCVaO1RiZ2PinHFDfvTFUXFajnflmCCU%2B4nIgmWQ1DBHbDuE8uWxHdqBgLplmYp%2BaETvo0Siy7OiTcfO2hAvovFFFNwv4H3mD1Sm4nZsrF76f3Qg52KLWG4QpJY91fX0x1zfjg1Mvpv4x%2Bl7RHO86xMpPfnvLOpb1%2FdcH56JtZCnrEUgpHaMeYTAo5Lrvedt07eIJgWAppuxHSsVfXhxByFUnN3LFexh%2B%2FwB98VR5">Cite This Page</a> </li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=006145#social" title="Share on Social Media" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-share-on-social-button')">Share on Social Media</a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=002483" title="Volunteers and Interns" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-volunteers-interns-button')">Volunteers / Interns</a></li>
+<li><a href="https://supportprocon.org" title="Support ProCon" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-donate-button')">Join</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-who-we-are-button')">ABOUT US<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="https://www.procon.org/about-us.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-about-us-button')">ABOUT US </a></li>
+<li><a href="https://www.procon.org/faqs.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-how-we-work-button')">HOW WE WORK</a></li>
+<li><a href="https://www.procon.org/view.resource.php?resourceID=5329" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-watch-our-vidoes-button')">WATCH OUR VIDEOS</a></li>
+<li><a href="https://www.procon.org/faqs.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-faqs-button')">FAQS </a></li>
+<li><a href="https://www.procon.org/metrics.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-metrics-button')">METRICS </a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=006772" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-events-button')">EVENTS </a></li>
+<li><a href="https://www.procon.org/traffic.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-traffic-button')">TRAFFIC </a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=5031" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-testimonials-button')">TESTIMONIALS </a></li>
+<li><a href="https://www.supportprocon.org" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-support-button')">JOIN </a></li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=2640" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-donors-sponsors-button')">DONORS & SPONSORS </a></li>
+<li><a href="/contact.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-contact-us-button')">CONTACT US</a></li>
+</ul>
+</li>
+<li><a href="https://www.procon.org/education.php" title="" onClick="__gaTracker('send', 'event', 'mobile-header-links', 'Click', 'mobile-header-teachers-corner-button')">TEACHERS' CORNER</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div align="center" id="wrapperforshade5">
+<div align="center" id="wrapper2">
+<div class="canvas_outer">
+<div class="canvas_inner">
+
+<div class="desktop-header-768">
+<div class="top-nav2-bar2">
+<table cellpadding="0" cellspacing="0" align="left" style="border-collapse2:collapse2; margin-bottom:0px; margin-top:0px;width:100%">
+<tr>
+<td valign="top" align="center" style="padding:5px 0px 0px 0px; background-color: #02314e; border-top:1px solid #FFF; ">
+<div style="text-align:center; margin:0px auto; width:768px;">
+<ul class="sf-menu" id="example" style="font-family: 'Marcellus', serif;">
+<li><a title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-home-button')" href="https://www.procon.org">HOME</a></li>
+<li class="dark-blue-menu-divider">|</li>
+<li><a href="https://www.procon.org/faqs.php" title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-faqs-button')">FAQS</a></li>
+<li class="dark-blue-menu-divider">|</li>
+<li><a href="https://www.procon.org/metrics.php" title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-metrics-button')">METRICS</a></li>
+<li class="dark-blue-menu-divider">|</li>
+<li><a href="https://www.procon.org/traffic.php" title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-traffic-button')">TRAFFIC</a></li>
+<li class="dark-blue-menu-divider">|</li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=5031" title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-testimonials-button')">TESTIMONIALS</a></li>
+<li class="dark-blue-menu-divider">|</li>
+<li><a href="https://www.procon.org/view.background-resource.php?resourceID=2640" title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-donors-sponsors-button')">DONORS & SPONSORS</a></li>
+<li class="dark-blue-menu-divider">|</li>
+<li><a href="/contact.php" title="" onClick="__gaTracker('send', 'event', 'newblue-narrowheader-links', 'Click', 'newblue-narrowheader-contact-us-button')">CONTACT US</a></li>
+</ul> </div>
+</td>
+</tr>
+</table>
+</div>
+<br style="clear:both;" />
+<div class="wide-newblue-dropdown2-header">
+<div class="nav2bar nav2bar-inverse nav2bar-static-top">
+<div class="nav2bar-inner">
+<div class="container2">
+<div class="nav2-collapse2 collapse2">
+<ul class="nav2 ">
+<li style="text-align:center;"><a onClick="__gaTracker('send', 'event', 'newblue-tallheader-links', 'Click', 'newblue-tallheader-procon-hp')" href="https://www.procon.org/"><span class="top-menu-1st-line">MORE</span><br /><span class="top-menu-2nd-line">ISSUES</span></a>
+</li>
+</ul>
+</div>
+<div style=" border-left:1px solid #fff; height:40px;float:left; margin-top:11px;">&nbsp;
+</div>
+<div class="nav2-collapse2 collapse2">
+<ul class="nav2 ">
+<li style="text-align:center;"><a onClick="__gaTracker('send', 'event', 'newblue-tallheader-links', 'Click', 'newblue-tallheader-who-we-are')" href="https://www.procon.org/about-us.php"><span class="top-menu-1st-line">ABOUT</span><br /><span class="top-menu-2nd-line">US</span></a>
+</li>
+</ul>
+</div>
+<div style=" border-left:1px solid #fff; height:40px;float:left; margin-top:11px;">&nbsp;
+</div>
+<div class="nav2-collapse2 collapse2">
+<ul class="nav2">
+<li style="text-align:center;"><a onClick="__gaTracker('send', 'event', 'newblue-tallheader-links', 'Click', 'newblue-tallheader-donate')" href="https://www.supportprocon.org"><span class="top-menu-1st-line">JOIN</span><br /><span class="top-menu-2nd-line"><span style="color:#ff1919;padding:10px"><i class="fas fa-heart"></i></span></span></a>
+ </li>
+</ul>
+</div>
+<div style=" border-left:1px solid #fff; height:40px;float:left; margin-top:11px;">&nbsp;
+</div>
+<div class="nav2-collapse2 collapse2">
+<ul class="nav2 ">
+<li style="text-align:center;"><a onClick="__gaTracker('send', 'event', 'newblue-tallheader-links', 'Click', 'newblue-tallheader-watch-our-videos')" href="https://www.procon.org/view.background-resource.php?resourceID=005329"><span class="top-menu-1st-line">WATCH</span><br /><span class="top-menu-2nd-line">OUR VIDEOS</span></a>
+</li>
+</ul>
+</div>
+<div style=" border-left:1px solid #fff; height:40px;float:left; margin-top:11px;">&nbsp;
+</div>
+<div class="nav2-collapse2 collapse2">
+<ul class="nav2 ">
+<li style="text-align:center;"><a onClick="__gaTracker('send', 'event', 'newblue-tallheader-links', 'Click', 'newblue-tallheader-teachers-corner')" href="https://www.procon.org/education.php"><span class="top-menu-1st-line">TEACHERS'</span><br /><span class="top-menu-2nd-line">CORNER</span></a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<br style="clear:both; text-align:left;" />
+
+<script src="/js/smartmenu/jquery.smartmenus.js" type="text/javascript"></script>
+<script src="/js/smartmenu/jquery.smartmenus.bootstrap.addon.js" type="text/javascript"></script>
+
+
+<script src="/js/jquery.menu-aim.js" type="text/javascript"></script>
+<script src="/js/bootstrap-js/bootstrap-newblue.js" type="text/javascript"></script>
+<script src="/js/bootstrap-js/3.3.5/js/bootstrap.js" type="text/javascript"></script>
+<script>
+
+                                                  var $menu = $(".dropdown2-menu");
+
+                                                  // jQuery-menu-aim: <meaningful part of the example>
+                                                  // Hook up events to be fired on menu row activation.
+                                                  $menu.menuAim({
+                                                      activate: activateSubmenu,
+                                                      deactivate: deactivateSubmenu
+                                                  });
+                                                  // jQuery-menu-aim: </meaningful part of the example>
+
+                                                  // jQuery-menu-aim: the following JS is used to show and hide the submenu
+                                                  // contents. Again, this can be done in any number of ways. jQuery-menu-aim
+                                                  // doesn't care how you do this, it just fires the activate and deactivate
+                                                  // events at the right times so you know when to show and hide your submenus.
+                                                  function activateSubmenu(row) {
+                                                      var $row = $(row),
+                                                          submenuId = $row.data("submenuId"),
+                                                          $submenu = $("#" + submenuId),
+                                                          height = $menu.outerHeight(),
+                                                          width = $menu.outerWidth();
+
+                                                      // Show the submenu
+                                                      $submenu.css({
+                                                          display: "block",
+                                                          top: 0,
+                                                          left: width - 3,  // main should overlay submenu
+                                                          height: height - 4  // padding for main dropdown2's arrow
+                                                      });
+
+                                                      // Keep the currently activated row's highlighted look
+                                                      $row.find("a").addClass("maintainHover");
+                                                  }
+
+                                                  function deactivateSubmenu(row) {
+                                                      var $row = $(row),
+                                                          submenuId = $row.data("submenuId"),
+                                                          $submenu = $("#" + submenuId);
+
+                                                      // Hide the submenu and remove the row's highlighted look
+                                                      $submenu.css("display", "none");
+                                                      $row.find("a").removeClass("maintainHover");
+                                                  }
+
+                                                  // Bootstrap's dropdown2 menus immediately close on document click.
+                                                  // Don't let this event close the menu if a submenu is being clicked.
+                                                  // This event propagation control doesn't belong in the menu-aim plugin
+                                                  // itself because the plugin is agnostic to bootstrap.
+                                                  $(".dropdown2-menu li").click(function(e) {
+                                                      e.stopPropagation();
+                                                  });
+
+                                                  $(document).click(function() {
+                                                      // Simply hide the submenu on any click. Again, this is just a hacked
+                                                      // together menu/submenu structure to show the use of jQuery-menu-aim.
+                                                      $(".popover2").css("display", "none");
+                                                      $("a.maintainHover").removeClass("maintainHover");
+                                                  });
+
+                                              </script>
+
+<div class="below-mobile-menu-space"></div>
+<div class="content-container">
+<div class="responsive-topic-text" style="margin-top:80px;">
+<span style="padding:0px;"><a onClick="__gaTracker('send', 'event', 'newblue-header-issue-link', 'Click', 'medicalmarijuana.procon.org')" href="https://medicalmarijuana.procon.org/" style="font-size:30px; font-weight:bold;">MEDICAL MARIJUANA</a></span> </div>
+<table cellpadding="0" cellspacing="0" style=" border-collapse:collapse; width:100%;">
+<tr>
+<td valign="top" style="padding:0px 10px 0px 10px;"> <div style="display:block; ">
+<span class="lastupdated-newblue" style="float:right;">Last updated on: 1/15/2019 3:36:48 PM PST</span><br />
+<h1 class="title-newblue"><strong style="font-size:36px; color:#333; margin:0px; padding:0px; text-align:left;">Should Marijuana Be a Medical Option?</strong></h1>
+<br />
+<style type="text/css">
+	#section-comments-tabs li {
+		cursor: default; width:250px;
+		
+		
+		
+	background-color: ;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: left top;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+		
+		 
+	}
+	#section-comments-tabs a {
+		color: black;
+	}
+	#section-comments-tabs a:hover {
+		color: black;
+		text-decoration: none;
+	}
+	.current {border-top:2px solid #333;border-left:2px solid #333;border-right:2px solid #333; -webkit-border-radius: 10px 10px 0px 0px; -moz-border-radius: 10px 10px 0px 0px; border-radius: 10px 10px 0px 0px;}
+	 .non-active {border-top:2px solid #999;border-left:2px solid #999;border-right:2px solid #999; -webkit-border-radius: 10px 10px 0px 0px; -moz-border-radius: 10px 10px 0px 0px; border-radius: 10px 10px 0px 0px;}
+	 #section-comments-tabs li.non-active {background-color:#ccc;}
+	 #section-comments-tabs li.non-active a{color:#666; }
+	 #section-comments-tabs li.non-active a:hover{color:#fff; text-decoration:underline; }
+	 #section-comments-tabs li.current {background-color:#333; color:#fff; }
+	 #section-comments-tabs
+{ height: 33px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #333;}
+  .tabs-divider {margin:0px;}
+  .newblue-tabs {display:block; margin-bottom:0px;}
+	@media only screen and (max-width: 700px) 
+		{
+			#section-comments-tabs li {
+		cursor: default; width:140px;
+			}
+	  .current {border-top:2px solid #333;border-left:2px solid #333;border-right:2px solid #333; border-bottom:2px solid #333; -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;}
+	 .non-active {border-top:2px solid #999;border-left:2px solid #999;border-right:2px solid #999;border-bottom:2px solid #999; -webkit-border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; border-radius: 10px 10px 10px 10px;}
+	 #section-comments-tabs { display:block; border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;}
+  .tabs-divider {display:block; width:100%; height:30px; margin:5px;}
+	.newblue-tabs {display:block; margin-bottom:20px;}		
+			
+			}
+
+</style>
+<div class="newblue-tabs">
+<ul id="section-comments-tabs" class="rs_skip">
+<li class="current">Pro &amp; Con Quotes</li><div class="tabs-divider"></div>
+<li class="rs_skip non-active"><a href="view.answers.reader-comments.php?questionID=1325">Readers' Comments (200)</a></li>
+</ul>
+</div>
+<div> </div><br />
+<br />
+<div class="newblue-pro-column">
+<div class="newblue-pro-title"><strong style="font-size:36px;">PRO (yes)</strong></div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-014598"></a>
+<div class="newblue-editortext" style="text-align:left">Chanda Macias, MBA, PhD, Owner and CEO of National Healing Holistic Center, stated the following in her Jan. 14, 2019 article titled "After Medical Marijuana, Broader Legalization Is a Natural Step," published on philly.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Marijuana is medicine. This plant-based treatment should be an accessible and affordable healthcare choice for all patients. Scientific data supports its use to treat specific ailments or conditions — research has shown, for example, that it's an exceptionally effective treatment for seizures and chronic pain.<br />
+<br />
+This plant can be used in many forms of application or ingestion. My professional team at National Holistic Healing Center (NHHC), a medical marijuana dispensary serving over 10,000 patients in the Washington D.C. area, recommends specific strains with known benefits to treat depression, insomnia, ADHD, pain, post-traumatic stress disorder, and many more ailments. Like any medicine, marijuana must be prescribed and dosed properly."</div><br />
+<span>
+Jan. 14, 2019 - <a href="/view.source.php?sourceID=015019" alt="Chanda Macias, MBA, PhD" title="Chanda Macias, MBA, PhD" target="_blank">Chanda Macias, MBA, PhD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-014451"></a>
+<div class="newblue-editortext" style="text-align:left">Pedro Oliveros, MD, Medical Director at the Physical Medicine & Rehab Center of Orlando, stated the following in his Feb. 9, 2018 article titled "Commentary: Medical Marijuana Can Help Reduce Our Opioid Dependency: Physician," available at orlandosentinel.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"As a physician, I have constantly searched for treatment options for my patients' chronic pain. And until the Florida medical marijuana initiative passed with an astonishing 71.3 percent majority in 2016, I realized I had many misconceptions about the drug. With research, though, I learned that marijuana not only has multiple potential medical uses, but it also has fewer side effects compared to other medications...<br />
+<br />
+In addition to pain relief, medical marijuana provides relief to the common conditions associated with chronic pain, such as anxiety/depression and insomnia. With medical marijuana, the pharmacological management for chronic pain can be simplified with lesser need to also prescribe medications for anxiety, depression and insomnia...<br />
+<br />
+The addictive effect of marijuana is slight, and there is no risk of death with marijuana withdrawal."</div><br />
+<span>
+Feb. 9, 2018 - <a href="/view.source.php?sourceID=014707" alt="Pedro Oliveros, MD" title="Pedro Oliveros, MD" target="_blank">Pedro Oliveros, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-014268"></a>
+<div class="newblue-editortext" style="text-align:left">The <em>Herald</em> Editorial Board stated in its Jan. 24, 2017 editorial titled "Legalize Marijuana for Medical Purposes," available at heraldonline.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Medical marijuana shows considerable promise in reducing chronic pain from a widespread number of causes, including cancer, spinal cord injury and disease, severe spasms, post-traumatic stress disorder, nausea, glaucoma, Parkinson's and other debilitating ailments. The drug could prove useful in other applications if patients are allowed to use it.<br />
+<br />
+It is nonsensical to oppose the use of medical marijuana in the midst of what amounts to a nationwide epidemic of opioid addiction. Why not provide patients with a safer option? And why continue to allow doctors to prescribe powerful, addictive opiates but deny them the authority to legally prescribe medical marijuana?<br />
+<br />
+It is illogical and potentially heartless to deny patients with serious health problems a drug that could help mediate pain and discomfort with few, if any, side effects."</div><br />
+<span>
+Jan. 24, 2017 - <a href="/view.source.php?sourceID=014433" alt="Herald Editorial Board" title="Herald Editorial Board" target="_blank">Herald Editorial Board&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-011872"></a>
+<div class="newblue-editortext" style="text-align:left">Sanjay Gupta, MD, Chief Medical Correspondent for CNN, wrote the following in an Aug. 8, 2013 article titled "Why I Changed My Mind on Weed," published on CNN.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I had steadily reviewed the scientific literature on medical marijuana from the United States and thought it was fairly unimpressive. Reading these papers five years ago, it was hard to make a case for medicinal marijuana. I even wrote about this in a TIME magazine article, back in 2009, titled 'Why I would Vote No on Pot.'<br />
+<br />
+Well, I am here to apologize.<br />
+<br />
+I apologize because I didn't look hard enough, until now. I didn't look far enough. I didn't review papers from smaller labs in other countries doing some remarkable research, and I was too dismissive of the loud chorus of legitimate patients whose symptoms improved on cannabis...<br />
+<br />
+I mistakenly believed the Drug Enforcement Agency listed marijuana as a schedule 1 substance because of sound scientific proof. Surely, they must have quality reasoning as to why marijuana is in the category of the most dangerous drugs that have 'no accepted medicinal use and a high potential for abuse.'<br />
+<br />
+They didn't have the science to support that claim, and I now know that when it comes to marijuana neither of those things are true. It doesn't have a high potential for abuse, and there are very legitimate medical applications. In fact, sometimes marijuana is the only thing that works...<br />
+<br />
+We have been terribly and systematically misled for nearly 70 years in the United States, and I apologize for my own role in that." <br />
+<br />
+[<span style="COLOR: rgb(255,0,0)"><strong>Editor's Note:</strong> </span>Prior to Dr. Gupta's <strong>pro</strong> statement on Aug. 8, 2013, he expressed a <strong>con</strong> position as indicated in his Nov. 6, 2006 statement in the opposite column.]</div><br />
+<span>
+Aug. 8, 2013 - <a href="/view.source.php?sourceID=007760" alt="Sanjay Gupta, MD" title="Sanjay Gupta, MD" target="_blank">Sanjay Gupta, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007664"></a>
+<div class="newblue-editortext" style="text-align:left">Joycelyn Elders, MD, former US Surgeon General, wrote the following in a Mar. 26, 2004 article titled "Myths About Medical Marijuana," published in the <i>Providence Journal</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The evidence is overwhelming that marijuana can relieve certain types of pain, nausea, vomiting and other symptoms caused by such illnesses as multiple sclerosis, cancer and AIDS -- or by the harsh drugs sometimes used to treat them. And it can do so with remarkable safety. Indeed, marijuana is less toxic than many of the drugs that physicians prescribe every day."</div><br />
+<span>
+Mar. 26, 2004 - <a href="/view.source.php?sourceID=000133" alt="Joycelyn Elders, MD" title="Joycelyn Elders, MD" target="_blank">Joycelyn Elders, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007875"></a>
+<div class="newblue-editortext" style="text-align:left">The National Organization for the Reform of Marijuana Laws (NORML) stated the following on its page titled "Medical Use," available at norml.org (accessed Mar. 26, 2018):</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Marijuana, or cannabis, as it is more appropriately called,
+has been part of humanity's medicine chest for almost as long as history has
+been recorded...<br />
+<br />
+Modern research suggests that cannabis is a valuable aid in
+the treatment of a wide range of clinical applications. These include pain
+relief -- particularly of neuropathic pain (pain from nerve damage) -- nausea,
+spasticity, glaucoma, and movement disorders. Marijuana is also a powerful
+appetite stimulant, specifically for patients suffering from HIV, the AIDS
+wasting syndrome, or dementia. Emerging research suggests that marijuana's
+medicinal properties may protect the body against some types of malignant
+tumors and are neuroprotective."</div><br />
+<span>
+Mar. 26, 2018 - <a href="/view.source.php?sourceID=000790" alt="National Organization for the Reform of Marijuana Laws (NORML)" title="National Organization for the Reform of Marijuana Laws (NORML)" target="_blank">National Organization for the Reform of Marijuana Laws (NORML)&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007793"></a>
+<div class="newblue-editortext" style="text-align:left">Karen O'Keefe, JD, attorney and Legislative Analyst for Marijuana Policy Project (MPP), wrote the following in a Mar. 28, 2018 email to ProCon.org:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"It is fundamentally wrong to make preserving one's health -- or life -- a crime. Yet federal marijuana laws, along with the laws of many states, do just that. <br />
+<br />
+There is overwhelming evidence that cannabis is one of the safest treatment options. Even the DEA's Chief Administrative Law Judge at the time, Francis Young, came to that conclusion. Research has shown that marijuana alleviates several serious symptoms and conditions including pain, nausea and wasting, Crohn's disease, spasms, and glaucoma. <br />
+<br />
+While around 15,000 Americans die every year from overdoses on prescription opiates, there has never been a medically documented fatal overdose on marijuana. Meanwhile, research has shown that cannabis can allow patients to reduce or eliminate their need for opiates. <br />
+<br />
+It is cruel and senseless to criminalize the doctor-advised use of a safe and effective treatment option."</div><br />
+<span>
+Mar. 28, 2018 - <a href="/view.source.php?sourceID=000702" alt="Karen O&#039;Keefe, JD" title="Karen O&#039;Keefe, JD" target="_blank">Karen O'Keefe, JD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007781"></a>
+<div class="newblue-editortext" style="text-align:left">Ralph Nader, LLB, attorney, author, and consumer advocate, stated the following in an Oct. 8, 2004 interview with the <em>Drug War Chronicle</em>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The criminal prosecution of patients for medical marijuana must end immediately, and marijuana must be treated as a medicine for the seriously ill...<br /> <br /> Research has shown marijuana to be a safe and effective medicine for controlling nausea associated with cancer therapy, reducing the eye pressure for patients with glaucoma, and reducing muscle spasms caused by multiple sclerosis, para- and quadriplegia...<br /> <br /> Physicians must have the right to prescribe this drug to their patients without the fear of the federal government revoking their licenses, and doctor-patient privacy must be protected. The Drug Enforcement Administration should not be practicing medicine."</div><br />
+<span>
+Oct. 8, 2004 - <a href="/view.source.php?sourceID=005420" alt="Ralph Nader, LLB" title="Ralph Nader, LLB" target="_blank">Ralph Nader, LLB&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007866"></a>
+<div class="newblue-editortext" style="text-align:left">Americans for Safe Access (ASA) stated the following in its article "ASA Policy Positions," available at safeaccessnow.org (accessed Mar. 26, 2018):</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Numerous controlled clinical studies have confirmed cannabis's therapeutic benefit in relieving an array of symptoms for people living with cancer, HIV/AIDS, multiple sclerosis, Alzheimer's, hepatitis, arthritis, and chronic pain, among many other conditions...<br />
+<br />
+Medical professionals should have an unrestricted ability to recommend cannabis therapeutics and that should not be impacted by law enforcement's perceptions."</div><br />
+<span>
+Mar. 26, 2018 - <a href="/view.source.php?sourceID=000295" alt="Americans for Safe Access (ASA)" title="Americans for Safe Access (ASA)" target="_blank">Americans for Safe Access (ASA)&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007796"></a>
+<div class="newblue-editortext" style="text-align:left">Ron Paul, MD, Member of the US House of Representatives (R-TX), wrote the following in an Apr. 27, 2005 letter to the US Food and Drug Administration signed by 23 other members of the US House of Representatives:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"After deferring to the DEA, your release reads that, 'FDA is the sole federal agency that approves drug products as safe and effective for intended indications.' Why then has the FDA failed to respond to the 1999 Institute of Medicine (IOM) report which concluded that marijuana's active components are potentially effective in treating pain, nausea, the anorexia of AIDS wasting, and other symptoms, and should be tested rigorously in clinical trials?<br />
+<br />
+It perplexes us that even though the FDA is responsible for protecting public health, the agency has failed to respond adequately to the IOM's findings seven years after the study's publication date. Additionally, this release failed to make note of the FDA's Investigational New Drug (IND) Compassionate Access Program, which allowed patients with certain medical conditions to apply with the FDA to receive federal marijuana. Currently, seven people still enlisted in this program continue to receive marijuana through the federal government.<br />
+<br />
+The existence of this program is an example of how the FDA could allow for the legal use of a drug, such as medical marijuana, without going through the 'well-controlled' series of steps that other drugs have to go through if there is a compassionate need."</div><br />
+<span>
+Apr. 27, 2005 - <a href="/view.source.php?sourceID=001560" alt="Ron Paul, MD" title="Ron Paul, MD" target="_blank">Ron Paul, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007865"></a>
+<div class="newblue-editortext" style="text-align:left">The American Nurses Association (ANA) wrote the following in its 2016 position statement titled "Therapeutic Use of Marijuana and Related Cannabinoids," available on the ANA website:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The purpose of this statement is to reiterate the American Nurses Association's (ANA) support for the review and reclassification of marijuana's status from a federal Schedule I controlled substances to facilitate urgently needed clinical research to inform patients and providers on the efficacy of marijuana and related cannabinoids...<br />
+<br />
+ANA has supported providing safe access to therapeutic marijuana and related cannabinoids for over 20 years... In addition, the ANA House of Delegates has gone on record as supporting nurses' advocacy for patients using marijuana and other related cannabinoids for therapeutic use."<br />
+<br />
+[<span style="font-weight: bold; color:#FF0000;">Editor's Note:</span> Prior to the above Pro statement, the ANA expressed the below Pro position in its Mar. 19, 2004 "Position Statement: Providing Patients Safe Access to Therapeutic Marijuana/Cannabis," available on the ANA website.<br />
+<br />
+"The American Nurses Association (ANA) recognizes that patients should have safe access to therapeutic marijuana/cannabis. Cannabis or marijuana has been used medicinally for centuries. It has been shown to be effective in treating a wide range of symptoms and conditions."]</div><br />
+<span>
+2016 - <a href="/view.source.php?sourceID=001402" alt="American Nurses Association" title="American Nurses Association" target="_blank">American Nurses Association&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007791"></a>
+<div class="newblue-editortext" style="text-align:left">Lyn Nofziger, former Press Secretary to Ronald Reagan, wrote the following in the foreword to the 1999 book <i>Marijuana RX: The Patients' Fight for Medicinal Pot</i>, by Robert C. Randall and Alice M. O'Leary:</div><br />
+ <div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Marijuana clearly has medicinal value. Thousands of seriously ill Americans have been able to determine that for themselves, albeit illegally. Like my own family, these individuals did not wish to break the law but they had no other choice. The numerous attempts to legitimately resolve the issue-via state legislation and federal administrative hearings-have too often been ignored or thwarted by misguided federal agencies. Several states conducted extensive, and expensive, research programs which demonstrated marijuana's medical utility-particularly in the treatment of chemotherapy side-effects. Francis L. Young, the chief administrative law judge of the United States Drug Enforcement Administration, ruled marijuana has legitimate medical applications and should be available to doctors."</div><br />
+<span>
+1999 - <a href="/view.source.php?sourceID=000193" alt="Lyn Nofziger" title="Lyn Nofziger" target="_blank">Lyn Nofziger&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007659"></a>
+<div class="newblue-editortext" style="text-align:left">Philip Denney, MD, co-founder of a medical cannabis evaluation practice, stated the following in his Nov. 17, 2005 testimony to the Arkansas legislature in support of House Bill 1303, <em>An Act to Permit the Medical Use of Marijuana</em>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I have found in my study of these patients that cannabis is really a safe, effective and non-toxic alternative to many standard medications. There is no such thing as an overdose. We have seen very minimal problems with abuse or dependence, which at worst are equivalent to dependence on caffeine. While a substance may have some potential for misuse, in my opinion, that's a poor excuse to deny its use and benefit to everyone else."</div><br />
+<span>
+Nov. 17, 2005 - <a href="/view.source.php?sourceID=000593" alt="Philip Denney, MD" title="Philip Denney, MD" target="_blank">Philip Denney, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007656"></a>
+<div class="newblue-editortext" style="text-align:left">Jay Cavanaugh, PhD, National Director of the American Alliance for Medical Cannabis (AAMC), wrote the following in a 2002 article titled "The Plight of the Chronically Ill," posted on the AAMC website:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Many of the chronically ill have successfully sought relief with the use of medical cannabis, an age-old remedy that now shows real scientific efficacy. Hundreds of thousands of the sick have replaced disabling narcotics and other psychotropic medications with nontoxic and benign cannabis. The anecdotal evidence is overwhelming. Folks with spinal injuries able to give up their walkers, AIDS patients able to gain weight and keep their medications down, cancer patients finding relief from the terrible nausea of chemotherapy, chronic pain patients once again functional with their consciousness restored from narcotic lethargy, and folks once disabled from crippling psychiatric disorders and addictions, returned to sanity and society with the assistance of a nontoxic herb with remarkable healing powers."</div><br />
+<span>
+2002 - <a href="/view.source.php?sourceID=000634" alt="Jay Cavanaugh, PhD" title="Jay Cavanaugh, PhD" target="_blank">Jay Cavanaugh, PhD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007693"></a>
+<div class="newblue-editortext" style="text-align:left">Jerry S. Mandel, PhD, Emeritus Professor of Sociology at Sonoma State University and Harvey W. Feldman, PhD, former Fellow of the Drug Abuse Council, wrote the following in their Apr.-June 1998 article titled "Providing Medical Marijuana: The Importance of Cannabis," published in <i>Journal of Psychoactive Drugs</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The issue of whether marijuana has medicinal benefits no longer seems to be in question. Hundreds of scientific studies and thousands of testimonials from patients have established marijuana's effectiveness in controlling the nausea of cancer patients undergoing chemotherapy and/or radiation; in enhancing appetites for AIDS patients who suffer a wasting syndrome or who have adverse reactions to their HAART (highly active antiretroviral treatment) medications; in reducing intraocular pressure for persons with glaucoma; in giving relief from spasms of muscular dystrophy; and for relieving pain from dozens of other serious diseases."</div><br />
+<span>
+Apr.-June 1998 - <a href="/view.source.php?sourceID=000988" alt="Jerry S. Mandel, PhD" title="Jerry S. Mandel, PhD" target="_blank">Jerry S. Mandel, PhD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007649"></a>
+<div class="newblue-editortext" style="text-align:left">David L. Bearman, MD, physician and medical marijuana expert, stated the following in a Mar. 1, 2006 phone interview with ProCon.org:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I grew up knowing that cannabis could be a medicine... I'm not aware of any proven long-term [harmful] effects from cannabis. People have been trying to find major risks [from marijuana], but I've never seen any documented. We know if you smoke cannabis your chances of getting lung cancer are less than if you don't smoke anything at all."</div><br />
+<span>
+Mar. 1, 2006 - <a href="/view.source.php?sourceID=000594" alt="David L. Bearman, MD" title="David L. Bearman, MD" target="_blank">David L. Bearman, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007672"></a>
+<div class="newblue-editortext" style="text-align:left">Lester Grinspoon, MD, Professor of Psychiatry at Harvard Medical School, stated the following in his Oct. 1, 1997 testimony before the Crime Subcommittee of the Judiciary Committee in the US House of Representatives:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Cannabis is remarkably safe. Although not harmless, it is surely less toxic than most of the conventional medicines it could replace if it were legally available. Despite its use by millions of people over thousands of years, cannabis has never cause an overdose death."</div><br />
+<span>
+Oct. 1, 1997 - <a href="/view.source.php?sourceID=000156" alt="Lester Grinspoon, MD" title="Lester Grinspoon, MD" target="_blank">Lester Grinspoon, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+ </span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007683"></a>
+<div class="newblue-editortext" style="text-align:left">Jerome P. Kassirer, MD, former Editor of the <i>New England Journal of Medicine</i>, wrote the following in a Jan. 30, 1997 editorial titled "Federal Foolishness and Marijuana," published in the <i>New England Journal of Medicine</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I believe that a federal policy that prohibits physicians from alleviating suffering by prescribing marijuana for seriously ill patients is misguided, heavy-handed, and inhumane... Federal authorities should rescind their prohibition of the medicinal use of marijuana for seriously ill patients and allow physicians to decide which patients to treat. The government should change marijuana's status from that of a Schedule 1 drug (considered to be potentially addictive and with no current medical use) to that of a Schedule 2 drug (potentially addictive but with some accepted medical use) and regulate it accordingly."</div><br />
+<span>
+Jan. 30, 1997 - <a href="/view.source.php?sourceID=000173" alt="Jerome P. Kassirer, MD" title="Jerome P. Kassirer, MD" target="_blank">Jerome P. Kassirer, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007857"></a>
+<div class="newblue-editortext" style="text-align:left">Francis L. Young, former Chief Administrative Law Judge at the US Drug Enforcement Administration (DEA), stated the following in his Sep. 6, 1988 ruling in the matter of "Marijuana Rescheduling Petition":</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The evidence in this record [9-6-88 ruling] clearly shows that marijuana has been accepted as capable of relieving the distress of great numbers of very ill people, and doing so with safety under medical supervision. It would be unreasonable, arbitrary and capricious for DEA to continue to stand between those sufferers and the benefits of this substance in light of the evidence in this record."</div><br />
+<span>
+Sep. 6, 1988 - <a href="/view.source.php?sourceID=000191" alt="Francis L. Young" title="Francis L. Young" target="_blank">Francis L. Young&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007856"></a>
+<div class="newblue-editortext" style="text-align:left">Montel Williams, television host, wrote the following in his 2004 book <i>Climbing Higher</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"How dare someone tell me they can prescribe morphine, vicodin, percocet. Make the drugs most addictive, name the most addictive drug, they can give me and I can be a walking member of the society by taking that garbage, but my doctor, who has prescribed it for me, can’t prescribe medicinal marijuana? Why? Because we have an idea everybody who does it sits around smoking. There are 50 different ways to utilize it. You can eat it; you can process it into a liquid; or you can turn it into a pill form. The willow tree was taken apart about 200 years ago and turned into aspirin. And we all take it."</div><br />
+<span>
+2004 - <a href="/view.source.php?sourceID=000516" alt="Montel Williams" title="Montel Williams" target="_blank">Montel Williams&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007772"></a>
+<div class="newblue-editortext" style="text-align:left">Elvy Musikka, a medical marijuana patient in the US Food and Drug Administration's (FDA) Investigational New Drug (IND) Program, wrote the following in a Jan. 13, 1997 letter to President Bill Clinton:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I am patient no. 3 of 8 who today currently receives medical marijuana through the federal government of the United States...<br />
+<br />
+By 1991, I am aware of at least 50 patients who through extensive medical records, reputable doctors, and sometimes through courts -- such as in my case -- were able to convince all three drug-related agencies, FDA, DEA, and NIDA, that for us, marijuana isn't just medicine, it is the most efficient, reliable and safest part of our treatment and sometimes it is our only treatment."</div><br />
+<span>
+Jan. 13, 1997 - <a href="/view.source.php?sourceID=005418" alt="Elvy Musikka" title="Elvy Musikka" target="_blank">Elvy Musikka&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007864"></a>
+<div class="newblue-editortext" style="text-align:left">American College of Physicians (ACP) stated the following in its Feb. 15, 2008 position paper titled "Supporting Research into the Therapeutic Role of Marijuana":</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Position 1: ACP supports programs and funding for rigorous scientific evaluation of the potential therapeutic benefits of medical marijuana and the publication of such findings...<br />
+<br />
+Position 2: ACP encourages the use of nonsmoked forms of THC that have proven therapeutic value...<br />
+<br />
+Position 4: ACP urges review of marijuana's status as a schedule I controlled substance and its reclassification into a more appropriate schedule, given the scientific evidence regarding marijuana's safety and efficacy in some clinical conditions.<br />
+<br />
+Position 5: ACP strongly supports exemption from federal criminal prosecution; civil liability; or professional sanctioning, such as loss of licensure or credentialing, for physicians who prescribe or dispense medical marijuana in accordance with state law. Similarly, ACP strongly urges protection from criminal or civil penalties for patients who use medical marijuana as permitted under state laws."</div><br />
+<span>
+Feb. 15, 2008 - <a href="/view.source.php?sourceID=005408" alt="American College of Physicians (ACP)" title="American College of Physicians (ACP)" target="_blank">American College of Physicians (ACP)&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007867"></a>
+<div class="newblue-editortext" style="text-align:left"><i>Consumer Reports Magazine</i> wrote in a May 1997 article titled "Marijuana as Medicine - How Strong Is the Science?":</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Consumer Reports believes that, for patients with advanced AIDS and terminal cancer, the apparent benefits some derive from smoking marijuana outweigh any substantiated or even suspected risks. In the same spirit the FDA uses to hasten the approval of cancer drugs, federal laws should be relaxed in favor of states' rights to allow physicians to administer marijuana to their patients on a caring and compassionate basis."</div><br />
+<span>
+May 1997  - <a href="/view.source.php?sourceID=000258" alt="Consumer Reports Magazine" title="Consumer Reports Magazine" target="_blank">Consumer Reports Magazine&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007689"></a>
+<div class="newblue-editortext" style="text-align:left">Christopher Largen, author, and George McMahon, author and medical marijuana patient of the US Federal Drug Administration's Investigational New Drug (IND) Program, wrote the following in their 2003 book <i>Prescription Pot: A Leading Advocate's Heroic Battle to Legalize Medical Marijuana</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Ultimately, the issue is not about laws, science or politics, but sick patients. Making no distinction between individuals circumstances of use, the war on drugs has also become a war on suffering people. Legislators are not health care professionals and patients are not criminals, yet health and law become entwined in a needlessly cruel and sometimes deadly dance... I sincerely hope our work will illuminate the irrational injustice of medical marijuana prohibition."</div><br />
+<span>
+2003 - <a href="/view.source.php?sourceID=000872" alt="Christopher Largen" title="Christopher Largen" target="_blank">Christopher Largen&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+<a href="/view.source.php?sourceID=000632" alt="George McMahon" title="George McMahon" target="_blank">George McMahon&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007874"></a>
+<div class="newblue-editortext" style="text-align:left">The Lymphoma Foundation of America stated the following in its Jan. 20, 1997 resolution:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Be it resolved that this organization urges Congress and the President to enact legislation to reschedule marijuana to allow doctors to prescribe smokable marijuana to patients in need; and, Be it further resolved that this organization urges the US Public Health Service to allow limited access to medicinal marijuana by promptly reopening the Investigational New Drug compassionate access program to new applicants."</div><br />
+<span>
+Jan. 20, 1997 - <a href="/view.source.php?sourceID=001130" alt="Lymphoma Foundation of America" title="Lymphoma Foundation of America" target="_blank">Lymphoma Foundation of America&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007843"></a>
+<div class="newblue-editortext" style="text-align:left">Ethan Russo, MD, Senior Medical Advisor at the Cannabinoid Research Institute, et al., wrote the following in the Jan. 2002 paper titled "Chronic Cannabis Use in the Compassionate Investigational New Drug Program: An Examination of Benefits and Adverse Effects of Legal Clinical Cannabis," published in the <I>Journal of Cannabis Therapeutics</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Cannabis smoking, even of a crude, low-grade product, provides effective symptomatic relief of pain, muscle spasms, and intraocular pressure elevations in selected patients failing other modes of treatment...<br />
+<br />
+It is the authors' opinion that the Compassionate IND program should be reopened and extended to other patients in need of clinical cannabis. Failing that, local, state and federal laws might be amended to provide regulated and monitored clinical cannabis to suitable candidates."</div><br />
+<span>
+Jan. 2002 - <a href="/view.source.php?sourceID=000275" alt="Ethan Russo, MD" title="Ethan Russo, MD" target="_blank">Ethan Russo, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007677"></a>
+<div class="newblue-editortext" style="text-align:left">Maurice Hinchey, Member of the US House of Representatives (D-NY), stated the following in a June 28, 2006 press release issued by his office titled "Hinchey Vows to Keep Fighting for Medical Marijuana Amendment":</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"People who are dying and suffering in states where medical marijuana is legal should be able to use the drug under a doctor's supervision to ease their pain without having to worry that the federal government is going to bust down their door and arrest them. It is immoral to deny people access to medicine that can help relieve their pain and suffering."</div><br />
+<span>
+June 28, 2006 - <a href="/view.source.php?sourceID=001241" alt="Maurice Hinchey" title="Maurice Hinchey" target="_blank">Maurice Hinchey&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007844"></a>
+<div class="newblue-editortext" style="text-align:left">Kate Scannell, MD, Co-Director of the Kaiser-Permanente Northern California Ethics Department, wrote the following in a Feb. 16, 2003 article published in the <i>San Francisco Chronicle</I>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"From working with AIDS and cancer patients, I repeatedly saw how marijuana could ameliorate a patient's debilitating fatigue, restore appetite, diminish pain, remedy nausea, cure vomiting and curtail down-to-the-bone weight loss. The federal obsession with a political agenda that keeps marijuana out of the hands of sick and dying people is appalling and irrational. Washington bureaucrats -- far removed from the troubled bedsides of sick and dying patients -- are ignoring what patients and doctors and health care workers are telling them about real world suffering. <br />
+<br />
+The federal refusal to honor public referendums like <a href="https://medicalmarijuana.procon.org/viewresource.asp?resourceID=000881#California">California's voter-approved Medical Marijuana Initiative</a> is as bewildering as it is ominous. Its refusal to listen to doctors groups like the California Medical Association that support compassionate use of medical marijuana is chilling.<br />
+<br />
+In a society that has witnessed extensive positive experiences with medicinal marijuana, as long as it is safe and not proven to be ineffective, why shouldn't seriously ill patients have access to it? Why should an old woman be made to die a horrible death for a hollow political symbol?"</div><br />
+<span>
+Feb. 16, 2003 - <a href="/view.source.php?sourceID=000353" alt="Kate Scannell, MD" title="Kate Scannell, MD" target="_blank">Kate Scannell, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007747"></a>
+<div class="newblue-editortext" style="text-align:left">Mary Lynn Mathre, MSN, RN, Co-founder and President of Patients Out of Time (POT), wrote the following in her Nov.-Dec. 2000 article titled "A Virginia Nurse Takes on a Tough Issue: Medical Marijuana," published in <i>The American Nurse</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"There are sick people out there for whom marijuana has made a world of difference. We give meds that can kill people, or ruin their liver. We put in feeding tubes for people who can't eat. We should be advocating for the rights of a patient to use this medication if it's helping them."</div><br />
+<span>
+Nov.-Dec. 2000 - <a href="/view.source.php?sourceID=001344" alt="Mary Lynn Mathre, MSN, RN" title="Mary Lynn Mathre, MSN, RN" target="_blank">Mary Lynn Mathre, MSN, RN&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<span style="counter-reset:section-pro;"></span>
+<div class="newblue-pro-quote-box"><a name="answer-id-007871"></a>
+<div class="newblue-editortext" style="text-align:left">The Episcopal Church stated the following in a 1982 resolution passed by the 67th Convention of the Episcopal Church:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The Episcopal Church urges the adoption by Congress and all states of statutes providing that the use of marijuana be permitted when deemed medically appropriate by duly liscensed medical practitioners."</div><br />
+<span>
+1982 - <a href="/view.source.php?sourceID=001510" alt="Episcopal Church" title="Episcopal Church" target="_blank">Episcopal Church&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+</div>
+<div id="newblue-con-column">
+<div class="newblue-con-title"><strong style="font-size:36px;">CON (no)</strong></div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-014600"></a>
+<div class="newblue-editortext" style="text-align:left">The Cleveland Clinic, a nonprofit academic medical center, stated the following in a Jan. 10, 2019 article by Paul Terpeluk, DO, Medical Director of Employee Health Services, titled "Should 'Medical Marijuana' Be Recommended for Patients? Why Our Answer Is 'No,'" available at health.clevelandclinic.org:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Q: As more states legalize 'medical marijuana', should it be recommended for patients?<br />
+<br />
+A: At Cleveland Clinic, we believe there are better alternatives.<br />
+<br />
+In the world of healthcare, a medication is a drug that has endured extensive clinical trials, public hearings and approval by the U.S. Food &amp; Drug Administration (FDA). Medications are tested for safety and efficacy. They are closely regulated, from production to distribution. They are accurately dosed, down to the milligram.<br />
+<br />
+Medical marijuana is none of those things...<br />
+<br />
+Patients deserve to know that whatever they are using to control their symptoms is safe and effective. And clinicians need to have confidence that a treatment will work as intended."</div><br />
+<span>
+Jan. 10, 2019 - <a href="/view.source.php?sourceID=000587" alt="Cleveland Clinic" title="Cleveland Clinic" target="_blank">Cleveland Clinic&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-014450"></a>
+<div class="newblue-editortext" style="text-align:left">Scott Gavura, MBA, registered pharmacist and Director of Provincial Drug Reimbursement Programs at Cancer Care Ontario, stated the following in his Jan. 11, 2018 article titled "Medical Marijuana: Where Is the Evidence?," published at sciencebasedmedicine.org:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The use of psychoactive drugs like marijuana is a health issue, particularly when used for medical purposes. Regrettably, there is a lack of high-quality data that shows marijuana for most medical purposes is both safe and effective. What little evidence exists is of poor quality and may not even be representative of the purposes for which medical marijuana is sought. There are significant gaps in information necessary to treat marijuana like other forms of medicine: Dosage standardization and overall quality control may not be in place...<br />
+<br />
+If marijuana is to be treated as medicine, then it needs to meet the same standards of quality, effectiveness, and safety we would expect of any other prescription drug. That standard has not yet been met."</div><br />
+<span>
+Jan. 11, 2018 - <a href="/view.source.php?sourceID=014708" alt="Scott Gavura, MBA" title="Scott Gavura, MBA" target="_blank">Scott Gavura, MBA&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-014599"></a>
+<div class="newblue-editortext" style="text-align:left">Alex Berenson, Novelist and former <em>New York Times</em> reporter, stated the following in his 2019 book titled <em>Tell Your Children: The Truth About Marijuana, Mental Illness, and Violence</em>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Even now, doctors cannot prescribe marijuana, because the FDA has never approved cannabis to treat any medical conditions...<br />
+<br />
+Cannabis's general uselessness as medicine shouldn't surprise anyone who thinks through the issue. The human body is incredibly complicated... Why would a single plant treat conditions as different as dementia, irritable bowel syndrome, and cancer?... We don't pretend that garlic or nightshade cure diseases better than more modern medicines, so why do we do so for marijuana?"</div><br />
+<span>
+2019 - <a href="/view.source.php?sourceID=015018" alt="Alex Berenson" title="Alex Berenson" target="_blank">Alex Berenson&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-013769"></a>
+<div class="newblue-editortext" style="text-align:left">Mary Haag, RN, President & CEO of PreventionFIRST!, stated the following in an interview with reporter Todd Dykes, published in a Feb. 19, 2016 article titled "Should Fate of Medical Marijuana in Ohio Be Left in Hands of Lawmakers, Voters?," available at wlwt.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"We can't really call marijuana medicine. It's not a legitimate medicine. The brain is not fully developed until we're about 25. That's just the way it is, and using any kind of mind-altering substance impacts that development. It needs to go through the FDA process. There is no drug that can or should be smoked, but when we get to potential components of marijuana that might have medicinal benefits, then let's find out what that is. Most of our medicines have come from plants. <br />
+<br />
+They're plant-based, but they've gone through that rigorous process. Because, let's face it, any medicine is a toxin. I don't care if it's penicillin or aspirin or a narcotic. Any of those are toxins to our bodies. And that's why we have the FDA process."</div><br />
+<span>
+Feb. 19, 2016 - <a href="/view.source.php?sourceID=013797" alt="Mary Haag, RN" title="Mary Haag, RN" target="_blank">Mary Haag, RN&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-014449"></a>
+<div class="newblue-editortext" style="text-align:left">Northern Kentucky Regional Drug-Free Communities Coalitions, a group of seven anti-drug organizations, stated the following in its Feb. 15, 2018 article titled "Op-ed: Let's Be More Careful about Legalizing Marijuana," available at wcpo.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"[M]arijuana use should not be legalized in any capacity. The U.S. Food and Drug Administration (FDA) has NOT recognized or approved the use of marijuana as a safe and effective drug for any indication. Marijuana is still a Schedule I drug, and as such, is not able to be effectively researched for medicinal purposes.<br />
+<br />
+Ultimately, the legalization of marijuana will lower the perception of risk.<br />
+<br />
+A lower perception of harm or risk historically leads to an increased usage among youth...<br />
+<br />
+Every state that has now legalized marijuana for 'recreational' use started by legalizing marijuana for 'medical' use.<br />
+<br />
+This is a particularly slippery slope in a region and state already so overwhelmed by substance use and abuse."</div><br />
+<span>
+Feb. 15, 2018 - <a href="/sourcefiles/Northern Kentucky Regional Drug-Free Communities Coalitions.pdf" alt="Northern Kentucky Regional Drug-Free Communities Coalitions  (90KB)" title="Northern Kentucky Regional Drug-Free Communities Coalitions  (90KB)" target="_blank">Northern Kentucky Regional Drug-Free Communities Coalitions (90KB)&nbsp;<img src="/images/pdficon_small.gif" border="0" width="13" height="13" />&nbsp;</a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-014269"></a>
+<div class="newblue-editortext" style="text-align:left">Matt Baker, Representative (R) in the Pennsylvania House of Representatives, stated the following in his June 11, 2017 editorial titled "Why Oppose Legalizing Marijuana," available at sungazette.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"There is a substantial amount of misleading information, causing many to believe that marijuana is harmless and is a panacea and miracle drug for a plethora of medical diseases, when the substantiated medical research that has been conducted up to this point simply does not support these claims. <br />
+<br />
+That's why the leading professional medical organizations do not support legalization of marijuana outside the FDA approval process. <br />
+<br />
+As a lawmaker, it is not my place to do an end run around the FDA and legalize artisanal drugs that people can grow, make products from and then sell for Commonwealth citizens to take, all without approval of the FDA, and outside what current medical practice allows."</div><br />
+<span>
+June 11, 2017 - <a href="/view.source.php?sourceID=014434" alt="Matt Baker" title="Matt Baker" target="_blank">Matt Baker&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007878"></a>
+<div class="newblue-editortext" style="text-align:left">The US Food and Drug Administration (FDA) stated in an Apr. 20, 2006 "Inter-Agency Advisory," posted on its website, www.fda.gov, and confirmed as current position on Apr. 9, 2014:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Marijuana is listed in schedule I of the Controlled Substances Act (CSA), the most restrictive schedule. The Drug Enforcement Administration (DEA), which administers the CSA, continues to support that placement and FDA concurred because marijuana met the three criteria for placement in Schedule I under 21 U.S.C. 812(b)(1) (e.g., marijuana has a high potential for abuse, has no currently accepted medical use in treatment in the United States, and has a lack of accepted safety for use under medical supervision).<br />
+<br />
+Furthermore, there is currently sound evidence that smoked marijuana is harmful. A past evaluation by several Department of Health and Human Services (HHS) agencies, including the Food and Drug Administration (FDA), Substance Abuse and Mental Health Services Administration (SAMHSA) and National Institute for Drug Abuse (NIDA), concluded that no sound scientific studies supported medical use of marijuana for treatment in the United States, and no animal or human data supported the safety or efficacy of marijuana for general medical use."</div><br />
+<span>
+Apr. 9, 2014 - <a href="/view.source.php?sourceID=000153" alt="US Food and Drug Administration (FDA)" title="US Food and Drug Administration (FDA)" target="_blank">US Food and Drug Administration (FDA)&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-013658"></a>
+<div class="newblue-editortext" style="text-align:left">Chuck Rosenberg, JD, Acting Administrator of the Drug Enforcement Administration (DEA), stated the following in a press briefing, as quoted by Paula Reid and Stephanie Condon in their Nov. 4, 2015 article "DEA Chief Says Smoking Marijuana as Medicine 'Is a Joke,'" available at cbsnews.com:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"What really bothers me is the notion that marijuana is also medicinal -- because it's not… We can have an intellectually honest debate about whether we should legalize something that is bad and dangerous, but don't call it medicine -- that is a joke... <br />
+<br />
+There are pieces of marijuana -- extracts or constituents or component parts -- that have great promise. But if you talk about smoking the leaf of marijuana -- which is what people are talking about when they talk about medicinal marijuana -- it has never been shown to be safe or effective as a medicine."</div><br />
+<span>
+Nov. 4, 2015 - <a href="/view.source.php?sourceID=013642" alt="Chuck Rosenberg, JD" title="Chuck Rosenberg, JD" target="_blank">Chuck Rosenberg, JD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007674"></a>
+<div class="newblue-editortext" style="text-align:left">Sanjay Gupta, MD, Chief Medical Correspondent for CNN, wrote the following in a Nov. 6, 2006 article titled "Why I Would Vote No on Pot," published in <i>TIME</i> magazine:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Maybe it's because I was born a couple of months after Woodstock and wasn't around when marijuana was as common as iPods are today, but I'm constantly amazed that after all these years -- and all the wars on drugs and all the public-service announcements -- nearly 15 million Americans still use marijuana at least once a month...<br />
+<br />
+Marijuana isn't really very good for you. True, there are health benefits for some patients. Several recent studies, including a new one from the Scripps Research Institute, show that THC, the chemical in marijuana responsible for the high, can help slow the progress of Alzheimer's disease. (In fact, it seems to block the formation of disease-causing plaques better than several mainstream drugs.) Other studies have shown THC to be a very effective antinausea treatment for people -- cancer patients undergoing chemotherapy, for example -- for whom conventional medications aren't working. And medical cannabis has shown promise relieving pain in patients with multiple sclerosis and reducing intraocular pressure in glaucoma patients...<br />
+<br />
+Frequent marijuana use can seriously affect your short-term memory. It can impair your cognitive ability (why do you think people call it dope?) and lead to long-lasting depression or anxiety. While many people smoke marijuana to relax, it can have the opposite effect on frequent users. And smoking anything, whether it's tobacco or marijuana, can seriously damage your lung tissue...<br />
+<br />
+Despite all the talk about the medical benefits of marijuana, smoking the stuff is not going to do your health any good." <br />
+<br />
+[<strong><span style="COLOR: rgb(255,0,0)">Editor's Note:</span></strong> Sanjay Gupta was categorized as <strong>con</strong> medical marijuana until he made a <strong>pro </strong>statement on Aug. 8, 2013, found in the<strong> pro</strong> column on the left side of this page.]</div><br />
+<span>
+Nov. 6, 2006 - <a href="/view.source.php?sourceID=007760" alt="Sanjay Gupta, MD" title="Sanjay Gupta, MD" target="_blank">Sanjay Gupta, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-012156"></a>
+<div class="newblue-editortext" style="text-align:left">Robert Whitney, MD, public policy chairman for the Erie County Council for the Prevention of Alcohol and Substance Abuse, stated the following in a May 19, 2014 editorial titled "Another Voice: Use of Medical Marijuana Not Supported by Research" and published in the <em>Buffalo News</em>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"There is not an adequate base of research that shows marijuana, in its most common form (smoked), is effective for treating any serious medical condition. <br />
+<br />
+Therefore, no major group of medical experts supports the use of smoked marijuana for treatment of health problems... <br />
+<br />
+We do not have enough information to reliably estimate the safety of marijuana when used long term. Most studies to date have followed patients for very short periods of time, often less than a week. This is not adequate to assess risk of use for indefinite periods of time. We do know that marijuana can contribute to short- and possibly long-term brain impairment, motor vehicle accidents, risk of addiction and an increased risk of long-term psychosis in vulnerable people."</div><br />
+<span>
+May 19, 2014 - <a href="/view.source.php?sourceID=012790" alt="Robert B. Whitney, MD" title="Robert B. Whitney, MD" target="_blank">Robert B. Whitney, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-012095"></a>
+<div class="newblue-editortext" style="text-align:left">Kevin Sabet, PhD, Director of the Drug Policy Institute at the University of Florida, stated the following in his article titled "California Medical Association's Decision Not Based on Public Health," published Oct. 21, 2011 on the <em>Huffington Post</em>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The CMA [California Medical Association] has decided that the solution is completely to legalize marijuana for all purposes, both medical and recreational, and then study it. But this is backwards. With no other modern medication have we taken this approach. Can you imagine if we made some new psychoactive substance -- say Spice, K-2, or 'bath salts'-- fully legal before researching it?...<br /> <br /> Furthermore, the raw marijuana plant material -- itself containing hundreds of unknown components -- has not met FDA's standards of safety and efficacy...<br /> <br /> [W]e don't smoke opium to reap the benefits of morphine, nor do we chew willow bark to receive the effects of aspirin. Similarly, we should not have to smoke marijuana to get potential therapeutic effects from its components.<br /> <br /> [M]edical marijuana as it stands today, in California and many other states, has turned into a sad joke. A recent study found that the average 'patient' was a 32-year-old white male with a history of drug and alcohol abuse and no history of a life-threatening disease...<br /> <br /> Real medications must be fully studied, then approved by the FDA, then made available to patients by prescription."</div><br />
+<span>
+Oct. 21. 2011 - <a href="/view.source.php?sourceID=012712" alt="Kevin Sabet, PhD" title="Kevin Sabet, PhD" target="_blank">Kevin Sabet, PhD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-012104"></a>
+<div class="newblue-editortext" style="text-align:left">Michael Bloomberg, MBA, former Mayor of New York City, stated the following on the May 31, 2013 airing of his WOR 710 radio show <em>The John Gambling Show with Mayor Mike</em>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"There's no 'medical' [marijuana]. This is one of the great hoaxes of all time. The bottom line is, I'm told marijuana is much stronger today than it was 20-30 years ago. I don't have any personal experience, but in terms of today. So that's one problem. And number two, drug dealers have families to feed. If they can't sell marijuana, they'll sell something else. And the something else is gonna be worse. The push to legalize this is just wrong headed. If you think about what they say, 'It's not gonna hurt anybody, it doesn't lead to dependency.' Of course it does... This stuff is very dangerous."</div><br />
+<span>
+May 31, 2013 - <a href="/view.source.php?sourceID=012736" alt="Michael Bloomberg, MBA" title="Michael Bloomberg, MBA" target="_blank">Michael Bloomberg, MBA&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007670"></a>
+<div class="newblue-editortext" style="text-align:left">Rudy Giuliani, JD, former Mayor of New York City, stated the following at an Oct. 3, 2007 town hall meeting in Windham, New Hampshire during his 2008 campaign for US President:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I checked with the FDA [Food and Drug Administration].The FDA says marijuana has no additive medical benefit of any kind, that the illegal trafficking of marijuana is so great that it makes much more sense to keep it illegal. I will keep it illegal."</div><br />
+<span>
+Oct. 3, 2007 - <a href="/view.source.php?sourceID=002441" alt="Rudy Giuliani, JD" title="Rudy Giuliani, JD" target="_blank">Rudy Giuliani, JD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007847"></a>
+<div class="newblue-editortext" style="text-align:left">Mark Souder, Member of the US House of Representatives (R-IN), wrote the following in the "Issues: Medical Marijuana," section of his website, souder.house.gov (accessed Sep. 5, 2007):</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The US Food and Drug Administration (FDA), the agency charged with protecting the health of Americans, has never found smoked marijuana to be a safe and effective drug. In April 2006, following my request, the FDA released an interagency advisory confirming that smoked marijuana is not medicine because: (1) marijuana has a high potential for abuse; (2) it has no currently accepted medical use in treatment in the United States; and (3) it has a lack of accepted safety for use under medical supervision. The advisory also stated: '...there is currently sound evidence that smoked marijuana is harmful.'<br />
+<br />
+The FDA has approved Marinol, however, and I support the availability of this prescription drug, which is currently available to patients. Marinol pills contain synthetic THC, the active ingredient in marijuana."</div><br />
+<span>
+Sep. 4, 2007 - <a href="/view.source.php?sourceID=001135" alt="Mark Souder" title="Mark Souder" target="_blank">Mark Souder&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007748"></a>
+<div class="newblue-editortext" style="text-align:left">John McCain, US Senator (R-AZ) and 2008 Republican Presidential candidate, stated the following during a Sep. 30, 2007 campaign Town Hall meeting in Derry, New Hampshire:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Every medical expert I know of, including the AMA [American Medical Association], says that there are much more effective and much better treatments for pain than medical marijuana... I still would not support medical marijuana because I don't think that the preponderance of medical opinion in America agrees with [the] assertion that it's the most effective way of treating pain."</div><br />
+<span>
+Sep. 30, 2007 - <a href="/view.source.php?sourceID=001348" alt="John McCain" title="John McCain" target="_blank">John McCain&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007770"></a>
+<div class="newblue-editortext" style="text-align:left">Henry Miller, MD, former Director of the Office of Biotechnology at the US Food and Drug Administration (FDA), wrote the following in an Apr. 28, 2006 editorial published in the <i>New York Times</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"In their 1999 report, the Institute of Medicine's panel of experts flatly rejected the idea that herbal (usually smoked) cannabis would ever be considered a safe and effective medicine for widespread use... Smoked marijuana cannot be subjected to careful, well-controlled trials, because it does not come in a standard, reproducible formula or dose, and cannot meet the accepted standards for drug purity, potency and quality. Different strains of cannabis vary radically in their cannabinoid composition and in the contaminants&nbsp;-- fungi, bacteria, pesticides, heavy metals and other substances&nbsp;-- they contain. And smoking is not a precise way of delivering any substance to the bloodstream. Other plant-derived drugs&nbsp;-- morphine, codeine and Taxol, to name a few&nbsp;-- have made it through the F.D.A.'s review process, and there is no reason drugs made from cannabis should not be required to meet the same standards."</div><br />
+<span>
+Apr. 28, 2006 - <a href="/view.source.php?sourceID=001356" alt="Henry Miller, MD" title="Henry Miller, MD" target="_blank">Henry Miller, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007805"></a>
+<div class="newblue-editortext" style="text-align:left">Mitt Romney, JD, former Governor of Massachusetts, stated the following at an Oct. 4, 2007 town hall event in Manchester, New Hampshire:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"I believe marijuana should be illegal in our country. It is the pathway to drug usage by our society, which is a great scourge -- which is one of the great causes of crime in our cities. And I believe that we are at a state where, of course, we are very concerned about people who are suffering pain, and there are various means of providing pain management. And those that have had loved ones that have gone through an end of life with cancer know the nature of real pain. I watched my wife's mom and dad, both in our home, both going through cancer treatment, suffering a great deal of pain. But they didn't have marijuana, and they didn't need marijuana because there were other sources of pain management that worked entirely effectively. I'm told there is even a synthetic marijuana as well that is available. But having legalized marijuana, in my view, is an effort by a very committed few to try and get marijuana out into the public and ultimately legalize marijuana. It's a long way to go. We need less drugs in this society, not more drugs, and I would oppose the legalization of marijuana in the country or legalization of marijuana for medicinal purposes because pain management is available from other sources."</div><br />
+<span>
+Oct. 4, 2007 - <a href="/view.source.php?sourceID=002448" alt="Mitt Romney, JD" title="Mitt Romney, JD" target="_blank">Mitt Romney, JD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007667"></a>
+<div class="newblue-editortext" style="text-align:left">Bill Frist, MD, former US Senator (R-TN), wrote the following in an Oct. 20, 2003 email to ProCon.org:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"As a physician I have sympathy for patients suffering from pain and other medical conditions. Although I understand many believe marijuana is the most effective drug in combating their medical ailments, I would caution against this assumption due to the lack of consistent, repeatable scientific data available to prove marijuana's benefits. Based on current evidence, I believe that marijuana is a dangerous drug and that there are less dangerous medicines offering the same relief from pain and other medical symptoms."</div><br />
+<span>
+Oct. 20, 2003 - <a href="/view.source.php?sourceID=000197" alt="Bill Frist, MD" title="Bill Frist, MD" target="_blank">Bill Frist, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007686"></a>
+<div class="newblue-editortext" style="text-align:left">Mark L. Kraus, MD, former President of the Connecticut Chapter of the American Society of Addiction Medicine, stated the following in his Feb. 26, 2007 testimony to the Judiciary Committee in Hartford, Connecticut:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Proponents of the legalization of medical marijuana create the impression that it is a reasonable alternative to conventional drugs. But unlike conventional drugs, smokable marijuana has not passed the rigorous scrutiny of scientific investigation and has not been found safe and effective in treating pain, nausea and vomiting, or wasting syndrome... It has no credibility. It has not passed the rigors of scientific investigation. It has not demonstrated significant efficacy in symptom relief. And, it causes harm."</div><br />
+<span>
+Feb. 26, 2007 - <a href="/view.source.php?sourceID=003545" alt="Mark L. Kraus, MD" title="Mark L. Kraus, MD" target="_blank">Mark L. Kraus, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007648"></a>
+<div class="newblue-editortext" style="text-align:left">Andrea Barthwell, MD, former Deputy Director at the US Office of National Drug Control Policy, stated the following in a speech given in Belleville, Illinois on Feb. 8, 2005:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"It is not a medicine. You don't know what's in it. If there were compelling scientific and medical data supporting marijuana's medical benefits that would be one thing. But the data is not there."</div><br />
+<span>
+Feb. 8, 2005 - <a href="/view.source.php?sourceID=000199" alt="Andrea Barthwell, MD" title="Andrea Barthwell, MD" target="_blank">Andrea Barthwell, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007795"></a>
+<div class="newblue-editortext" style="text-align:left">Nicholas A. Pace, MD, Clinical Associate Professor of Medicine at New York University Medical Center, wrote the following in an Apr. 26, 2006 "Letter to the Editor," published in the <i>New York Times</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Recent research shows that marijuana has detrimental effects on the brain, lungs, heart and fertility. The THC (the main ingredient in marijuana) content in marijuana used today is twice as strong as 30 years ago.<br />
+<br />
+The false impression that there is a medical need for marijuana confuses and misleads a poorly informed compassionate public in believing that the medical profession is withholding helpful medication from the sick."</div><br />
+<span>
+Apr. 26, 2006 - <a href="/view.source.php?sourceID=001559" alt="Nicholas A. Pace, MD" title="Nicholas A. Pace, MD" target="_blank">Nicholas A. Pace, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007688"></a>
+<div class="newblue-editortext" style="text-align:left">Janet Lapey, MD, Executive Director of Concerned Citizens for Drug Prevention, Inc., stated the following in her Oct. 1, 1997 statement to the Subcommittee on Crime of the Committee on the Judiciary in the House of Representatives:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Marijuana is not the safe drug portrayed by the marijuana lobby. It is addictive; it adversely affects the immune system; leads to the use of other drugs such as cocaine; is linked to cases of cancer; causes respiratory diseases, mental disorders, including psychosis, depression, panic attacks, hallucinations, paranoia, decreased cognitive performance, disconnected thought, delusions, and impaired memory."</div><br />
+<span>
+Oct. 1, 1997 - <a href="/view.source.php?sourceID=003541" alt="Janet Lapey, MD" title="Janet Lapey, MD" target="_blank">Janet Lapey, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007662"></a>
+<div class="newblue-editortext" style="text-align:left">Jerry Dyer, MS, Fresno Chief of Police and President of the California Police Chief's Association, wrote the following in an Apr. 16, 2008 letter to the Deputy Director of the Illinois Association of Chiefs of Police:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Based on the almost 12 years of medical marijuana experience in the state of California it is our observation that it has been destructive to lives and communities. Passage of any form of medical marijuana anywhere in our nation is bad public policy and will cause crime and public safety problems."</div><br />
+<span>
+Apr. 16, 2008 - <a href="/view.source.php?sourceID=006903" alt="Jerry Dyer, MS" title="Jerry Dyer, MS" target="_blank">Jerry Dyer, MS&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007799"></a>
+<div class="newblue-editortext" style="text-align:left">Peter Provet, PhD, President and Chief Executive Officer at the Odyssey House, wrote the following in an Apr. 26, 2006 Letter to the Editor, published in the <i>New York Times</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"As a treatment provider, I support the Food and Drug Administration's dismissal of medical benefit from marijuana.<br />
+<br />
+Regardless of the heated political debate that swirls around this issue, the fact remains that despite the Institute of Medicine's claim to the contrary, for people vulnerable to addictive disease, marijuana is a gateway drug that leads to the use of more dangerous drugs like cocaine and heroin...<br />
+<br />
+Not everyone who smokes marijuana will necessarily become an addict. But why open the gate to increased use for the sake of unproven medical benefits when we already know the harm that marijuana inflicts on millions of Americans?"</div><br />
+<span>
+Apr. 26, 2006 - <a href="/view.source.php?sourceID=001574" alt="Peter Provet, PhD" title="Peter Provet, PhD" target="_blank">Peter Provet, PhD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007851"></a>
+<div class="newblue-editortext" style="text-align:left">Karen P. Tandy, JD, former Administrator of the US Drug Enforcement Administration (DEA), stated the following during her Senate Confirmation hearing, in an Apr. 30, 2003 document titled "Responses of Karen Tandy to Questions Submitted by Senator Durbin":</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The active ingredient in marijuana, THC, has been accepted as having medicinal value when processed into Marinol. Marijuana itself, however, has not been shown to have medical benefits; accodrdingly, I have no basis for believing that marijuana, and smoking marijuana, has any such benefits."</div><br />
+<span>
+Apr. 30, 2003 - <a href="/view.source.php?sourceID=001097" alt="Karen P. Tandy, JD" title="Karen P. Tandy, JD" target="_blank">Karen P. Tandy, JD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007853"></a>
+<div class="newblue-editortext" style="text-align:left">Eric A. Voth, MD, Chairman of the Institute on Global Drug Policy, wrote the following in a Nov. 2001 editorial titled "Guidelines for Prescribing Medical Marijuana," published in the <i>Western Journal of Medicine</i>:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Physicians should remember that marijuana remains a schedule I drug, that it has not been approved as safe and efficacious by the Food and Drug Administration, and that the use of marijuana by patients holds inherent risk. We do not support recommending the medicinal use of marijuana."</div><br />
+<span>
+Nov. 2001 - <a href="/view.source.php?sourceID=000301" alt="Eric A. Voth, MD" title="Eric A. Voth, MD" target="_blank">Eric A. Voth, MD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007868"></a>
+<div class="newblue-editortext" style="text-align:left">The Drug Free America Foundation stated the following in a section on its website titled "Q&A: Marijuana" (accessed Aug. 16, 2007):</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Many who claim to need marijuana medicinally simply want to use it recreationally. In states with marijuana dispensaries, the vast majority of 'patients' are young men between the ages of 18 and 25, not the cancer or AIDS victims used in voter ads to exploit our compassionate nature...<br />
+<br />
+'Medicalizing' this harmful substance has caused truly ill people to refuse proper medical care, thinking that because marijuana makes them feel better they are getting better. Medical practitioners and others who are truly concerned for the sick have higher standards and greater compassion – we want the ill to receive the medicine they need.<br />
+<br />
+The medical excuse marijuana movement has become a device used by special interest groups to exploit the sick and dying and well-meaning voters for their own purposes."</div><br />
+<span>
+Aug. 16, 2007 - <a href="/view.source.php?sourceID=000810" alt="Drug Free America Foundation" title="Drug Free America Foundation" target="_blank">Drug Free America Foundation&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007870"></a>
+<div class="newblue-editortext" style="text-align:left">The Eagle Forum, a conservative interest group, stated the following in an article titled "Facts You Need To Know About ... Marijuana," posted on its website (accessed Mar. 1, 2006):</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"There is no legitimate need for marijuana as medicine. Pills containing THC are already available with a physician's prescription. The legalization of raw marijuana for medicine is merely an indirect means of legalizing pot for recreational use."</div><br />
+<span>
+Mar. 1, 2006 - <a href="/view.source.php?sourceID=000440" alt="Eagle Forum" title="Eagle Forum" target="_blank">Eagle Forum&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-007876"></a>
+<div class="newblue-editortext" style="text-align:left">The Office of National Drug Control Policy (ONDCP) stated the following in the document "National Drug Control Strategy 2001," available on the ONDCP website:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"The Administration is adamantly opposed to the use of marijuana outside of authorized research. However, legitimate medications containing marijuana components have proven effective in relieving the symptoms of some medical conditions… In light of the need for research-based evidence, ONDCP asked the Institute of Medicine (IOM) in January 1997 to review all scientific evidence concerning the medical use of marijuana and its constituent cannabinoids… The IOM study concluded that there is little future in smoked marijuana as medication.<br />
+<br />
+Although marijuana smoke delivers THC and other cannabinoids to the body, it also contains harmful substances, including most of those found in tobacco smoke. The long-term harms from smoking make it a poor drug delivery system, particularly for pregnant women and patients with chronic diseases. In addition, cannabis contains a variable mixture of biologically active compounds. Even in cases where marijuana can provide symptomatic relief, the crude plant does not meet the modern expectation that medicines be of known quality and composition. Nor can smoked tmarijuana guarantee precise dosage. If there is any future for cannabinoid medications, it lies with agents of certain composition and delivery systems that permit controlled doses."</div><br />
+<span>
+2001 - <a href="/view.source.php?sourceID=000166" alt="Office of National Drug Control Policy (ONDCP)" title="Office of National Drug Control Policy (ONDCP)" target="_blank">Office of National Drug Control Policy (ONDCP)&nbsp;<i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+<div class="newblue-con-quote-box"><a name="answer-id-010476"></a>
+<div class="newblue-editortext" style="text-align:left">Robert C. Bonner, JD, stated the following in a letter to the editor of the <i>Los Angeles Times</i> titled "Re: 'On Marijuana, Just the Facts," printed July 15, 2011:</div><br />
+<div class="newblue-quote-indent">
+<div class="newblue-editortext" style="text-align:left">"Marijuana is a Schedule I controlled substance not because it is more dangerous than morphine or cocaine (it isn't) but because it has no scientifically proven medical use. <br />
+<br />
+When I headed the DEA, I adopted the same policy as the Food and Drug Administration for approving a new drug: whether there are scientific studies demonstrating that a drug is safe and effective. At that time, there were no such studies indicating that marijuana was safe and effective for any medical purpose.<br />
+<br />
+If the proponents of medical marijuana would finance some true double-blind studies by impartial researchers, as opposed to funding more medical marijuana initiatives, we would finally know if marijuana is medically effective. Still, one has to wonder how safe a medicine is that is smoked."</div><br />
+<span>
+July 15, 2011 - <a href="/view.source.php?sourceID=011001" alt="Robert C. Bonner, JD" title="Robert C. Bonner, JD" target="_blank">Robert C. Bonner, JD&nbsp;<i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i><i class="fas fa-star pcstar"></i></a><br />
+</span>
+</div>
+<br />
+<br />
+</div><br />
+</div>
+<div></div>
+<br style="clear:both" />
+<div style="display:block;"><br /><div style="WIDTH: 100%; DISPLAY: block">
+<div style="WIDTH: 100%; DISPLAY: block"><br />
+</div></div>
+<style type="text/css">
+<!--
+.related-quotes-img {display:block;margin-right:47px; float:left; width:250px; height:210px; float:left; background-image: url(/files/1-medical-marijuana-images/recommended-square-graphics-top-pro-con-quotes.png); background-repeat: no-repeat; background-position: left top;} .related-arguments-img {display:block;margin-right:47px; float:left; width:250px; height:210px; float:left; background-image: url(/files/1-medical-marijuana-images/recommended-square-graphics-arguments.png?v=3.0.0.2); background-repeat: no-repeat; background-position: left top;}.related-timeline-img {display:block; float:left; width:250px; height:210px; float:left; background-image: url(/files/1-medical-marijuana-images/recommended-square-graphics-timeline.png); background-repeat: no-repeat; background-position: left top;} .related-quotes-img:hover {display:block;margin-right:47px; float:left; width:250px; height:210px; float:left; background-image: url(/files/1-medical-marijuana-images/recommended-square-graphics-top-pro-con-quotes-hover.png); background-repeat: no-repeat; background-position: left top;} .related-arguments-img:hover {display:block;margin-right:47px; float:left; width:250px; height:210px; float:left; background-image: url(/files/1-medical-marijuana-images/recommended-square-graphics-arguments-hover.png?v=3.0.0.2); background-repeat: no-repeat; background-position: left top;} .related-timeline-img:hover {display:block; float:left; width:250px; height:210px; float:left; background-image: url(/files/1-medical-marijuana-images/recommended-square-graphics-timeline-hover.png); background-repeat: no-repeat; background-position: left top;} .newblue-table-people li{margin-left:30px;} @media only screen and (max-width: 800px) { .related-quotes-img {margin:20px auto; float:none;} .related-arguments-img {margin:20px auto; float:none;} .related-timeline-img {margin: 20px auto; float:none;} .related-quotes-img:hover {margin:20px auto; float:none;} .related-arguments-img:hover {margin:20px auto; float:none;} .related-timeline-img:hover {margin: 20px auto; float:none;} .newblue-table-people{width:100%;} }
+-->
+</style>
+<div class="three-boxes"><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'from-mj-hp-answers-to-quotes')" style="FONT-SIZE: 20px; FONT-WEIGHT: bold" href="https://medicalmarijuana.procon.org/view.answers.php?questionID=001325"><span class="related-quotes-img">&nbsp;</span></a><a onclick="__gaTracker('send', 'event', ',mj-hp-answers', 'Click', 'from-mj-hp-answers-to-arguments')" style="FONT-SIZE: 20px; FONT-WEIGHT: bold" href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=000141"><span class="related-arguments-img">&nbsp;</span></a><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'from-mj-hp-answers-to-timeline')" style="FONT-SIZE: 20px; FONT-WEIGHT: bold" href="https://medicalmarijuana.procon.org/view.timeline.php?timelineID=000026"><span class="related-timeline-img">&nbsp;</span></a></div><br style="CLEAR: both" />
+<div class="newblue-table-people" style="MARGIN-TOP: 50px; DISPLAY: block; MARGIN-RIGHT: 2px"><br />
+<table style="WIDTH: 100%">
+<tbody>
+<tr>
+<td style="COLOR: rgb(255,255,255); PADDING-BOTTOM: 10px; TEXT-ALIGN: center; PADDING-TOP: 10px; PADDING-LEFT: 3px; PADDING-RIGHT: 3px; BACKGROUND-COLOR: rgb(12,124,188)"><span style="FONT-SIZE: 24px; FONT-WEIGHT: bold">People who view this page may also like:</span></td>
+</tr>
+<tr>
+<td style="BORDER-RIGHT: rgb(204,204,204) 1px solid; BORDER-BOTTOM: rgb(204,204,204) 1px solid; BACKGROUND-POSITION: 0% 0%; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; BORDER-LEFT: rgb(204,204,204) 1px solid; PADDING-RIGHT: 3px">
+<ol style="MARGIN: 0px" type="1">
+<li style="MARGIN-BOTTOM: 10px"><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'also-viewed-from-mj-hp-answers-to-considering-states')" href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=002481">States Considering Medical Marijuana Legalization</a> </li>
+<li style="MARGIN-BOTTOM: 10px"><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'also-viewed-from-mj-hp-answers-to-states-cannabidiol')" href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=006473">States with Legal Cannabidiol (CBD)</a> </li>
+<li style="MARGIN-BOTTOM: 10px"><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'also-viewed-from-mj-hp-answers-to-pharma-drugs')" href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=000883">Pharmaceutical Drugs Based on Cannabis</a> </li>
+<li style="MARGIN-BOTTOM: 10px"><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'also-viewed-from-mj-hp-answers-to-peer-reviewed-studies')" href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=000884">Peer-Reviewed Studies on Medical Marijuana</a> </li>
+<li style="MARGIN-BOTTOM: 10px"><a onclick="__gaTracker('send', 'event', 'mj-hp-answers', 'Click', 'also-viewed-from-mj-hp-answers-to-recreational-marijuana')" href="https://marijuana.procon.org/">Should recreational marijuana be legal? – Pros &amp; Cons</a> </li>
+</ol></td>
+</tr>
+</tbody>
+</table></div> </div>
+</div>
+</td>
+<td class="newblue-sidbar-cell">
+<style type="text/css">
+.newblue-sidbar-cell {border:0px;}
+.newblue-sidebar-top-topic .fa-home{font-size:30px; float:left; color:#065380; margin-right:10px;}
+.newblue-sidebar-top-topic a{display:block; width:80%; float:left; margin:0px 0px 20px 10px; padding:3px 10px; color:#065380;}
+.newblue-sidebar-top-topic a:hover{float:left; display:block; color:#fff; text-decoration: none; background-color:#d15608; }
+.newblue-sidebar-top-topic:hover{color:#fff;}
+.newblue-election-top {display:block;font-size:24px; font-weight:bold;}
+.newblue-election-top a{color:#056380;}
+.newblue-election-top a:hover{color:#d15608; text-decoration:underline;}
+.newblue-election-top {border-bottom:1px solid #ccc; padding:20px 0px;}
+.section-divider {border-bottom:1px solid #ccc; padding:20px 0px;}
+fieldset {margin:0px;}
+.active{background-color: #fff; }
+</style>
+<script language="javascript" type="text/javascript">function toggleDisplay(elementID){document.getElementById(elementID).style.display=(document.getElementById(elementID).style.display=='none'?'block':'none');}</script>
+
+<div class="publir-right-sidebar-responsive">
+
+<div id='div-gpt-ad-1557328928005-0'>
+<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1557328928005-0'); });</script>
+</div>
+</div>
+
+<br />
+<div class="left-navigation-responsive" style="float:right; position: relative; border:1px solid #ccc; padding:0px; margin-bottom:20px;">
+<div style="height:10px; background-color:#02314e;">
+</div>
+<div style="height:57px; width:90%; margin:22px auto 20px auto; text-align:center; border-bottom:1px solid #ccc;" class="newblue-sidebar-top-topic">
+<i class="fa fa-home"></i> <a onClick="__gaTracker('send', 'event', 'right-nav-election', 'Click-election-home', 'righ-nav-home')" href="https://medicalmarijuana.procon.org/">Medical Marijuana Homepage</a>
+</div>
+<div id="navigation-right">
+<table class="menutablebackgrounds" style="border-collapse:collapse;margin-bottom:15px;" cellpadding="0" cellspacing="0">
+<tr>
+<td style="padding-bottom:0px; text-align:center;" class="bloc item active">
+<div class="newblue-election-top" style=" ">
+<a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-get-started', 'newblue-get-started-http://medicalmarijuana.procon.org/view.answers.php?questionID=001325')" href="https://medicalmarijuana.procon.org/view.answers.php?questionID=001325"><div style="margin:0px auto; border:0px;"><img src="/files/1-procon-images/quote-icons-green.png" alt="Top Pro & Con Quotes" title="Top Pro & Con Quotes" /></div> Top Pro & Con Quotes</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:0px; text-align:center;" class="bloc item">
+<div class="newblue-election-top" style=" ">
+<a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-get-started', 'newblue-get-started-/view.resource.php?resourceID=000141')" href="/view.resource.php?resourceID=000141"><div style="margin:0px auto; border:0px;"><img src="/files/1-procon-images/Debate-Icon-blue-2.png" alt="Pro & Con Arguments" title="Pro & Con Arguments" /></div> Top 10 Pro & Con Arguments</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:0px; text-align:center;" class="bloc item">
+<div class="newblue-election-top" style=" ">
+<a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-get-started', 'newblue-get-started-http://medicalmarijuana.procon.org/view.timeline.php?timelineID=000026')" href="https://medicalmarijuana.procon.org/view.timeline.php?timelineID=000026"> <div style="margin:0px auto; border:0px;"><img src="/files/1-procon-images/historic-timline-icon-red.png" alt="Historic timeline" title="Historic timeline" /></div> Historical Timeline</a>
+</div>
+</td>
+</tr>
+</table>
+<table cellspacing="0" style="margin-top:-10px;">
+<tr>
+<td style="font-size:22px; font-weight:bold; color:#333333; text-align:left;border-top:0px solid #0c7cbc;padding-top:20px; " class="block subject">RECOMMENDED to you...
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">1 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=000091')" href="/view.resource.php?resourceID=000091">Did You Know?</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">2 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-#spot-comments')" href="#spot-comments">Readers' Comments</a>
+</div>
+</td>
+</tr>
+ <tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">3 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=000881')" href="/view.resource.php?resourceID=000881"><img src="/images/site/resources/highlights/hot.gif" alt="" title="" />33 Legal Medical Marijuana States and DC</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">4 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=006473')" href="/view.resource.php?resourceID=006473">17 States with Legal Cannabidiol (CBD)</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">5 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=000145')" href="/view.resource.php?resourceID=000145">Deaths from Marijuana vs. 17 FDA-Approved Drugs</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">6 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=000884')" href="/view.resource.php?resourceID=000884">60 Peer-Reviewed Studies on Medical Marijuana</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">7 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=005889')" href="/view.resource.php?resourceID=005889">Number of Legal Medical Marijuana Patients</a>
+</div>
+ </td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">8 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=000883')" href="/view.resource.php?resourceID=000883">10 Pharmaceutical Drugs Based on Cannabis</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">9 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-https://medicalmarijuana.procon.org/view.background-resource.php?resourceID=000149')" href="https://medicalmarijuana.procon.org/view.background-resource.php?resourceID=000149">Opinion Polls/Surveys</a>
+</div>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:15px;" class="block item">
+<div style="float:left;font-size:10px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff; background-color:#065380; border-radius:15px;">10 </div>
+<div style="float:right; display:block; width: 88%; "><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-recommended', 'newblue-recommended-/view.resource.php?resourceID=004872')" href="/view.resource.php?resourceID=004872">10 US Surgeons General and Their Views on Medical Marijuana</a>
+</div>
+</td>
+</tr>
+</table>
+<table cellspacing="0" style="margin:0px;">
+<tr>
+<td style="font-size:20px; font-weight:bold; text-align:left;" class="block subject expando"><a style="padding:10px 0px;" class="expander" href="#"><span class="indicator" style="color:#000;">-</span> PROS &amp; CONS BY CATEGORY</a>
+<div>
+<table cellspacing="0" style="font-weight:normal">
+<tr>
+<td class="block item active"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-pros-cons', 'newblue-pros-cons-/view.subissues.php?issueID=000246')" href="/view.subissues.php?issueID=000246">CORE QUESTION</a>
+</td>
+</tr>
+<tr>
+<td class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-pros-cons', 'newblue-pros-cons-/view.subissues.php?issueID=000029')" href="/view.subissues.php?issueID=000029">Diseases / Conditions</a>
+</td>
+</tr>
+<tr>
+<td class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-pros-cons', 'newblue-pros-cons-/view.subissues.php?issueID=000030')" href="/view.subissues.php?issueID=000030">Non-Smoked Marijuana</a>
+</td>
+</tr>
+<tr>
+<td class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-pros-cons', 'newblue-pros-cons-/view.subissues.php?issueID=000032')" href="/view.subissues.php?issueID=000032">Risks</a>
+</td>
+</tr>
+<tr>
+<td class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-pros-cons', 'newblue-pros-cons-/view.subissues.php?issueID=000033')" href="/view.subissues.php?issueID=000033">US Government and Medical Marijuana</a>
+</td>
+</tr>
+<tr>
+<td class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-pros-cons', 'newblue-pros-cons-/view.subissues.php?issueID=000036')" href="/view.subissues.php?issueID=000036">Chemical Composition of Marijuana</a>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table cellspacing="0" style="margin:10px 0px 20px 0px;">
+<tr>
+<td style="font-size:20px; font-weight:bold; text-align:left; " class="block subject expando"><a style="padding:0px 0px;" class="expander exempt" href="/view.additional-resources.php"><span class="indicator" style="color:#065380; margin-right:16px;">+</span> DIG DEEPER...</a>
+<div style="display:none">
+<table cellspacing="0" style="font-weight:normal; margin-left:10px;">
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-http://medicalmarijuana.procon.org/source-biographies.php')" href="https://medicalmarijuana.procon.org/source-biographies.php">Source Biographies</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-http://medicalmarijuana.procon.org/sitemap.php')" href="https://medicalmarijuana.procon.org/sitemap.php">Site Map</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-http://medicalmarijuana.procon.org/news.archive.php')" href="https://medicalmarijuana.procon.org/news.archive.php">Notices Archive</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000161')" href="/view.additional-resource.php?resourceID=000161">Glossary</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000191')" href="/view.additional-resource.php?resourceID=000191">Average Marijuana Potency by Year, 1975-2003</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000159')" href="/view.additional-resource.php?resourceID=000159">Major Court Cases (and Related Docs)</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000157')" href="/view.additional-resource.php?resourceID=000157">Drug Tests - Methods of Detecting Cannabis Use</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=004477')" href="/view.additional-resource.php?resourceID=004477">Ranking 20 Drugs and Alcohol by Overall Harm</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-http://2016election.procon.org/view.answers.election.php?questionID=002020')" href="http://2016election.procon.org/view.answers.election.php?questionID=002020">2016 Presidential Candidates' Positions on Medical Marijuana</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-http://2012election.procon.org/view.answers.election.php?questionID=1711')" href="http://2012election.procon.org/view.answers.election.php?questionID=1711">2012 Presidential Candidates' Positions on Medical Marijuana</a>
+</td>
+</tr>
+ <tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000882')" href="/view.additional-resource.php?resourceID=000882">2008 Presidential Candidates on Medical Marijuana</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000885')" href="/view.additional-resource.php?resourceID=000885">2008 Presidential Candidates on Marijuana Raids</a>
+</td>
+</tr>
+<tr><td style="color:#D15608;padding:13px 0px 0px 0px;"><i class="fa fa-angle-double-right"></i></td>
+<td style="padding-top:10px;" class="block item"><a onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-additional', 'newblue-additional-/view.additional-resource.php?resourceID=000155')" href="/view.additional-resource.php?resourceID=000155">US Government Reports on Medical Marijuana</a>
+</td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td style="padding:0px;">
+</td>
+</tr>
+<tr>
+<td style="text-align:center;padding:20px 0px;"><img style="float:left;margin:10px 25px 0px 10px;" src="/files/2-cross-site-images/cite-icon-right-menu.png" />
+<style type="text/css">
+                    .cite-this-page {width:280px; padding: 10px; font-size: 18px; display:block; text-align:left; margin:0px auto;}
+					.cite-this-page a{text-decoration:none; font-weight:bold; color:#065380;}
+					.cite-this-page a:hover{text-decoration: underline; }
+					.cite-this-page:hover{}
+					.indicator {float:left;font-size:20px; margin:0px 0px 0px 0px; font-weight:bold; padding:0px 10px;color:#fff;}
+                    </style>
+<div class="cite-this-page"><span class="cite utility" id="utility cite"><a class="cite-short" href="#" onClick="__gaTracker('send', 'event', 'newblue-right-sidebar-medicalmarijuana.procon.org', 'Click-cite', 'newblue-right-menu-cite-')" title="Cite this page using APA, MLA, Chicago, and Turabian style guides" rel="page,cite" target="_blank" citation="eNo9jc1uwjAQhF%2FF2gdI7ASTsFGFVHrhgEDiCVaO1RiZ2PinHFDfvTFUXFajnflmCCU%2B4nIgmWQ1DBHbDuE8uWxHdqBgLplmYp%2BaETvo0Siy7OiTcfO2hAvovFFFNwv4H3mD1Sm4nZsrF76f3Qg52KLWG4QpJY91fX0x1zfjg1Mvpv4x%2Bl7RHO86xMpPfnvLOpb1%2FdcH56JtZCnrEUgpHaMeYTAo5Lrvedt07eIJgWAppuxHSsVfXhxByFUnN3LFexh%2B%2FwB98VR5">CITE THIS PAGE</a><br /><span style="color:#333; font-size:0.8em;">Who is the author?</span></span></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="text-align:center; padding:20px 0px;"><span style="font-size:18px; color:#333; font-weight:bold;">SHARE</span>
+
+<style type="text/css">
+.right-column-share-icons { list-style:none;}
+.right-column-share-icons li{display:block; float:left;margin-right:5px;width:47px; height:47px;}
+.right-column-facebook-icon {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-facebook.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+.right-column-facebook-icon:hover {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-facebook-bw.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+.right-column-twitter-icon {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-twitter.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+.right-column-twitter-icon:hover {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-twitter-bw.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+.right-column-googleplus-icon {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-googleplus.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+.right-column-googleplus-icon:hover {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-googleplus-bw.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+
+
+.right-column-email-icon {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-email-bw.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+
+.right-column-email-icon:hover {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-email.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+
+.right-column-print-icon {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-print-bw.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+
+.right-column-print-icon:hover {
+	background-image: url(/files/2-cross-site-images/social-share-right-column-print.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	height: 47px;
+	width: 47px;
+}
+
+</style>
+<div class="right-column-share-container" style="text-align:center;">
+<ul class="right-column-share-icons" style="margin:0px 0px 0px 30px;">
+<li class="facebook">
+<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fmedicalmarijuana.procon.org%2Fview.answers.php%3FquestionID%3D001325" class="popup" title="Share on Facebook" target="_blank" onClick="__gaTracker('send', 'event', 'share-buttons', 'Click', 'facebook-share')"><div class="right-column-facebook-icon"></div>
+</a>
+</li>
+<li class="twitter">
+<a href="https://twitter.com/home?status= http%3A%2F%2Fmedicalmarijuana.procon.org%2Fview.answers.php%3FquestionID%3D001325 via @procon_org" class="popup" title="Share on Twitter" target="_blank" onClick="__gaTracker('send', 'event', 'share-buttons', 'Click', 'twitter-share')"><div class="right-column-twitter-icon"></div>
+</a>
+</li>
+<li class="email utility" id="utility email">
+<a class="email-short" href="#" onClick="__gaTracker('send', 'event', 'share-buttons', 'Click', 'email-share')" title="Email this page" rel="page,email" target="_blank">
+<div class="right-column-email-icon"></div>
+</a>
+</li>
+<li class="print utility" id="utility print">
+<a class="print-short" href="javascript:window.print()" onClick="__gaTracker('send', 'event', 'share-buttons', 'Click', 'print-share')"><div class="right-column-print-icon"></div>
+</a>
+</li>
+</ul>
+</div> 
+</td>
+</tr>
+<div class="newblue-sidebar-graphics">
+ <tr>
+<td valign="top" style="padding:30px 0px 10px 0px;text-align:center">
+<a href="https://marijuana.procon.org/" onClick="__gaTracker('send', 'event', 'right-column-mj-related-graphics', 'Click', 'graphic-from-mj-to-recreational-mj')"><img alt="Recreational Marijuana - Pros & Cons" title="Recreational Marijuana - Pros & Cons" border="0" src="/files/1-medical-marijuana-images/recreational-marijuana-pros-cons.png" /></a> <br />
+<br />
+<a href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=000881" onClick="__gaTracker('send', 'event', 'right-column-mj-related-graphics', 'Click', 'graphic-from-mj-to-mj-states')"><img alt="Legal Medical Marijuana States and DC" title="25 Legal Medical Marijuana States and DC" border="0" src="/files/1-medical-marijuana-images/medical-marijuana-to-mj-states.png" /></a> <br />
+<br />
+<a href="https://medicalmarijuana.procon.org/view.resource.php?resourceID=000145" onClick="__gaTracker('send', 'event', 'right-column-mj-related-graphics', 'Click', 'graphic-from-mj-to-deaths-from-marijuana')"><img alt="Deaths from Marijuana v. 17 FDA-Approved Drugs" title="Deaths from Marijuana v. 17 FDA-Approved Drugs" border="0" src="/files/1-medical-marijuana-images/medical-marijuana-to-deaths-from-marijuana.png" /></a> <br />
+<br />
+<div data-owo-type="widget" data-owo-code="f4f28c5e-b51f-4009-9f99-d1ef6a6187bf" data-owo-mode="smart3"></div> <script src="//frontend.1worldonline.com/poller-constructor.js?ncu=%%CLICK_URL_ESC%%" type="text/javascript" async></script> <br />
+<br />
+</td>
+</tr>
+</div>
+</table>
+</div>
+<script type="text/javascript">
+jQuery(document).ready(
+	function () {
+		jQuery('div.ajax-newsletter').each(
+			function () {
+				if (jQuery('form', this).length == 0) {
+					return;
+				}
+
+				var container = this;
+				var signups = 0;
+				jQuery('input[type="button"]', container).bind('click',
+					function () {
+						if (jQuery(container).data('getJSON') === true) {
+							return;
+						}
+
+						var email = jQuery('input[name="email"]', container).val();
+						var failed = !/^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email);
+						jQuery('label[for="email"]', container).css('color',(failed ? 'red' : ''));
+						if (!failed) {
+							jQuery(container).data('getJSON', true);
+							jQuery.getJSON(
+								'/ajax/newsletter.php',
+								{	'action':	'signup',
+									'email':	email,
+									'source':	jQuery('input[name="source"]', container).val()
+								},
+								function (data) {
+									if (data && data.success) {
+
+										jQuery('form', container).fadeOut(
+											function () {
+												jQuery('label', container).text('THANK YOU!' );
+												jQuery('label', container).css('padding-top', '20px' );
+
+										jQuery('input[name="email"]', container).css('display', 'none');
+												jQuery('input[name="signup-submit"]', container).css('display', 'none');
+												jQuery('p:first,form', container).show();
+											}
+										);
+									} else {
+										jQuery('label[for="email"]', container).css('color','red');
+									}
+									container = null;
+								}
+							);
+						}
+					}
+				);
+			}
+		);
+	}
+);
+(function(){var c=new Object;c.toggle=function(){if($(this).hasClass('exempt')){return true;}this.blur();var a=jQuery(this).find('span.indicator');var b=jQuery(this.parentNode).find('div:eq(0)');a.html((a.html()=='+'?'-':'+'));b.css('display',(a.html()=='+'?'none':'block'));a=null;b=null;return false};c.init=function(){jQuery('#navigation-right .expando').each(function(){jQuery(this).find('.expander').bind('click',c.toggle)})};jQuery(document).ready(c.init)}());
+			</script>
+</div>
+
+<div class="publir-right-sidebar-responsive">
+
+<div id='div-gpt-ad-1557413457800-0'>
+<script>googletag.cmd.push(function() { googletag.display('div-gpt-ad-1557413457800-0'); });</script>
+</div>
+</div>
+ </td>
+</tr>
+</table>
+</div>
+<table style="margin-top:20px;clear:both;width:100%; border-collapse:collapse;">
+<tr>
+<td style="background-color:#02314e; color:#FFF; height:36px; color:#fff;">
+<div class="footer-top-responsive-newblue">
+<div class="footer-top-1"> <a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-home')" href="http://www.procon.org/"><i class="fas fa-home"></i> HOME
+</a></div>
+<div class="footer-top-1"><span class="cite utility" id="utility cite"><a class="cite-short" href="#" onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-cite')" title="Cite this page using APA, MLA, Chicago, and Turabian style guides" rel="page,cite" target="_blank" citation="eNo9jc1uwjAQhF%2FF2gdI7ASTsFGFVHrhgEDiCVaO1RiZ2PinHFDfvTFUXFajnflmCCU%2B4nIgmWQ1DBHbDuE8uWxHdqBgLplmYp%2BaETvo0Siy7OiTcfO2hAvovFFFNwv4H3mD1Sm4nZsrF76f3Qg52KLWG4QpJY91fX0x1zfjg1Mvpv4x%2Bl7RHO86xMpPfnvLOpb1%2FdcH56JtZCnrEUgpHaMeYTAo5Lrvedt07eIJgWAppuxHSsVfXhxByFUnN3LFexh%2B%2FwB98VR5">CITE THIS PAGE</a></span></div>
+<div class="footer-top-1"><a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-reprinting-policy')" href="http://www.procon.org/terms-of-use.php">REPRINTING POLICY</a>
+</div>
+<div class="footer-top-1"><a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-privacy-policy')" href="http://www.procon.org/view.background-resource.php?resourceID=6259#privacy-policy">PRIVACY POLICY</a></div>
+<div class="footer-top-1"><a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-disclaimer')" href="http://www.procon.org/view.background-resource.php?resourceID=6259#disclaimer">DISCLAIMER</a></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="background-color:#065380;">
+<div class="footer-responsive-newblue">
+<div class="footer-left-column">
+<span style="font-size:30px; color:#ffffff; ">READER FAVORITES</span><br /><br />
+<div class="footer-left-column-links"> <a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-state-laws')" href="http://www.procon.org/state-laws-and-state-data-on.php"><i class="fas fa-caret-right"></i> State Laws</a></div>
+<div class="footer-left-column-links">
+<a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-debate-topics')" href="http://www.procon.org/debate-topics.php"><i class="fas fa-caret-right"></i> Debate Topics</a></div>
+<div class="footer-left-column-links"><a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-quotes')" href="http://www.procon.org/view.resource.php?resourceID=001926"><i class="fas fa-caret-right"></i> Critical Thinking Quotes</a></div>
+<div class="footer-left-column-links">
+<a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-teaching-controversial-issues')" href="http://www.procon.org/education.php"><i class="fas fa-caret-right"></i> Teaching Controversial Issues</a><br />
+</div>
+<div class="footer-left-column-links">
+<a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-history-of')" href="http://www.procon.org/history-of.php"><i class="fas fa-caret-right"></i> History Of...</a></div>
+<div style="margin-top:20px; padding-top:20px; border-top:1px solid #fff;">
+<div style="display:block; float:left;margin-right:10px; "><img src="/files/2-cross-site-images/translate-icon-right-menu.png" style="width:70px;" /></div><div style="display:inline-block; width:200px;"><span style="font-size:18px; color:#fff; font-weight:bold;">TRANSLATE</span><br />
+<span style="font-size:12px; color:#fff;">into 100+ Languages and Dialects</span><br />
+<div id="google_translate_element" style="width:100%; color:#fff;"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', gaTrack: true, gaId: 'UA-132545-48'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<style type="text/css">select, textarea, .ajax-newsletter input[type="button"] { background-color:#fff;border:1px solid #ccc; color:#666;} .goog-te-gadget {color:#fff;}#google_translate_element a{color:#fff; background-color:#065380;} .goog-logo-link, .goog-logo-link:link, .goog-logo-link:visited, .goog-logo-link:hover, .goog-logo-link:active {font-weight:normal; font-size:11px;}</style>
+</div></div>
+</div>
+<div class="footer-right-column">
+<div class="footer-right-column-left-field"><span style="font-size:30px; color:#ffffff; ">LET'S GET SOCIAL!</span><br />
+<div class="newblue-footer-social-accounts-section">
+<div class="newblue-footer-social-account-twitter">
+<a href="https://twitter.com/procon_org" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-twitter-follow-us')" rel="nofollow" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+</div>
+<div class="newblue-footer-social-account-facebook">
+<a href="https://www.facebook.com/ProCon.org" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-facebook-follow-us')" rel="nofollow" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+</div>
+<div class="newblue-footer-social-account-instagram">
+<a href="https://www.instagram.com/procon_org/" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-instagram-follow-us')" rel=”author” target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+<div class="newblue-footer-social-account-tumblr">
+<a href="http://proconorg.tumblr.com/" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-tumblr-follow-us')" rel="nofollow" target="_blank" title="tumblr."><i class="fab fa-tumblr"></i></a>
+</div>
+<div class="newblue-footer-social-account-youtube">
+<a href="https://www.youtube.com/proconorg" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-youtube-follow-us')" rel="nofollow" target="_blank" title="YouTube"><i class="fab fa-youtube"></i></a>
+</div>
+ <div class="newblue-footer-social-account-linkedin">
+<a href="https://www.linkedin.com/company/procon.org" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-linkedin-follow-us')" rel="nofollow" target="_blank" title="Linkedin"><i class="fab fa-linkedin"></i></a>
+</div>
+<div class="newblue-footer-social-account-rss">
+<a href="http://www.procon.org/view.background-resource.php?resourceID=006145" onClick="__gaTracker('send', 'event', 'newblue-footer-follow-buttons', 'Click-Medical Marijuana', 'newblue-footer-rss-follow-us')" rel="nofollow" target="_blank" title="RSS"><i class="fas fa-rss-square"></i></a>
+</div>
+</div>
+</div>
+<div class="footer-right-column-right-field"><div class="footer-donate-title"><a onClick="__gaTracker('send', 'event', 'newblue-footer', 'Click-Medical Marijuana', 'newblue-footer-donate')" href="http://www.supportprocon.org"><i class="fas fa-heart"></i> BECOME A MEMBER</a></div>
+<br /><br />
+<div style="color:#fff;float:left; margin-right:10px; font-size:14px;">ProCon.org is a 501(c)(3) nonprofit <br />
+public charity supported by your donations.</div>
+<br style="clear:both;" /><br />
+<div style="color:#fff;float:left; margin-right:10px;"><i class="fas fa-map-marker-alt"></i></div><div style="color:#fff;float:left;">
+233 Wilshire Blvd., Suite 200<br />
+Santa Monica, CA 90401</div>
+<br style="clear:both;" /><br />
+<div style="color:#fff;float:left; margin-right:10px;"><i class="fas fa-phone"></i>
+</div><div style="color:#fff;float:left;">310-451-9596</div>
+<br style="clear:both;" /><br />
+<div style="color:#fff;float:left; margin-right:10px;"><i class="far fa-envelope"></i>
+</div><div style="color:#fff;float:left;"><a style="color:#fff;font-size:16px;" href="mailto:info@procon.org">info@procon.org</a></div>
+<br style="clear:both;" /><br />
+<div class="footer-bottom-1" style="color:#fff;">© 2019 ProCon.org<br />
+All rights reserved</div>
+</div>
+</div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="background-color:#065380; height:40px;">
+</td>
+</tr>
+</table>
+</div></div></div></div>
+<script async src="https://feeds.feedburner.com/~s/rss/proconrss" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+var _qevents = _qevents || [];
+
+(function() {
+var elem = document.createElement('script');
+elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+elem.async = true;
+elem.type = "text/javascript";
+var scpt = document.getElementsByTagName('script')[0];
+scpt.parentNode.insertBefore(elem, scpt);
+})();
+
+_qevents.push({
+qacct:"p-Lw4GrSLNPLJMX"
+});
+</script>
+<noscript>
+<div style="display:none;">
+<img src="//pixel.quantserve.com/pixel/p-Lw4GrSLNPLJMX.gif" border="0" height="1" width="1" alt="Quantcast"/>
+</div>
+</noscript>
+
+</body>
+</html>
+
+[]
