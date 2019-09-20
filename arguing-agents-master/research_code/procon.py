@@ -4,7 +4,7 @@ import requests
 
 from sys import argv
 
-class ProCon:
+class Procon:
 	def __init__(self, settings):
 		if 'mode' not in settings:
 			print("Procon: Provide mode!")
@@ -142,17 +142,17 @@ class ProCon:
 #	#print("___Background", i, "___\n", bacs[i], "\n")
 
 
-pc = ProCon({'mode': 'find', 'topic': argv[1]})
+#pc = Procon({'mode': 'find', 'topic': argv[1]})
 
-for i in range(len(pc.pros)):
-	print("___Pro Argument", i, "___\n", pc.pros[i], "\n")
+#for i in range(len(pc.pros)):
+#	print("___Pro Argument", i, "___\n", pc.pros[i], "\n")
 
-for i in range(len(pc.cons)):
-	print("___Con Argument", i, "___\n", pc.cons[i], "\n")
+#for i in range(len(pc.cons)):
+#	print("___Con Argument", i, "___\n", pc.cons[i], "\n")
 
-print(pc.background)
-print(pc.background_url)
-print(pc.argument_url)
+#print(pc.background)
+#print(pc.background_url)
+#print(pc.argument_url)
 #print(pc.pros)
 
 #pc.find("medical marijuana")

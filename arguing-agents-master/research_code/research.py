@@ -6,9 +6,4 @@ class Research:
         json_str = f.read()
         settings = json.loads(json_str)
 
-        load_comments()
-
-    def load_comments():
-        self.comments = []
-
-        if self.mode == "search":
+        

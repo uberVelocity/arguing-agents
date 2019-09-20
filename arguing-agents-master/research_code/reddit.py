@@ -31,8 +31,20 @@ class Reddit:
                 sortby = 'hot'
 
             self.submissions = list(self.reddit.subreddit('ChangeMyView').search(topic, sortby))[:amount]
+        elif mode == 'url':
+            if 'submission_urls' not in reddit_settings:
+                print('Reddit: provide submission_urls!')
+                exit(-12031)
+            
+            submission_urls = reddit_settings['submission_urls']
 
-reddit = Reddit({'mode': 'find', 'topic': 'gun control', 'amount': 100, 'sortby': 'new'})
+            self.submissions = [] 
+
+            for submission_url in submission_urls:
+                submission = praw.models.Submission(self.reddit, url=submission_url)
+                self.submissions.append(submission)
+
+reddit = Reddit({'mode': 'url', 'submission_urls': ['https://www.reddit.com/r/changemyview/comments/d6f6xz/cmv_there_needs_to_be_8_chuggas_before_a_choo_choo/'], 'amount': 100, 'sortby': 'new'})
 
 for s in reddit.submissions:
     print(s.title)
