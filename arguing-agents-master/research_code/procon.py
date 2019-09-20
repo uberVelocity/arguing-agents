@@ -45,12 +45,12 @@ class ProCon:
 
 	def find(self, string):
 		url = "https://duckduckgo.com/?q=procon.org"
+
 		for word in string.split(" "):
 			url += "+" + word
 		
 		url += "&t=h_&ia=web"
 
-		print(url)
 		website_string = requests.get(url).text
 
 		session = dryscrape.Session()
@@ -59,7 +59,6 @@ class ProCon:
 
 		search_results = re.findall('<span class="result__url__domain">(.*?)</span>', website_string, flags=re.DOTALL)
 		base_url = search_results[0]
-		print(base_url)
 		
 		links = re.findall("<a.*?newblue-get-started-(.*?)'", requests.get(base_url).text)
 
@@ -87,11 +86,11 @@ class ProCon:
 		return self.clean_str(background)
 
 	def clean_str(self, string):
-		cleaned_str = re.sub("<.*?>", " ", string)
-		cleaned_str = re.sub("\[.*?\]", " ", cleaned_str)
-		cleaned_str = re.sub("&.*?\;", " ", cleaned_str)
-		cleaned_str = re.sub(" +", " ", cleaned_str)
-		cleaned_str = re.sub("\n+", "\n", cleaned_str)
+		cleaned_str = re.sub(r"<.*?>", " ", string)
+		cleaned_str = re.sub(r"\[.*?\]", " ", cleaned_str)
+		cleaned_str = re.sub(r"&.*?\;", " ", cleaned_str)
+		cleaned_str = re.sub(r" +", " ", cleaned_str)
+		cleaned_str = re.sub(r"\n+", "\n", cleaned_str)
 		cleaned_str.strip()
 		return cleaned_str
 		
@@ -115,7 +114,6 @@ class ProCon:
 		cleaned_arguments = []
 
 		for arg in arguments:
-			##print(arg)
 			cleaned_arg = self.clean_str(arg)
 			cleaned_arguments.append(cleaned_arg)
 
