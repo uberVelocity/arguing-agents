@@ -3,6 +3,9 @@ from Parsers import lstm_new
 from Parsers import araucaria_new
 
 
+path_to_corpus = os.getcwd() + '/complete'
+
+
 arConstObj = araucaria_new.ConstDataSet()
 
 arConstObj.readFile("2",  path_to_corpus)
