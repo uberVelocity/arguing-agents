@@ -68,8 +68,10 @@ class ConstWord2Vec(object):
                     self.lexicon += list(word_splits)
                     if each_train[5] == 'NoArgument':
                         self.output.append('0')
-                    else:
+                    elif each_train[5] == 'Argument_for': 
                         self.output.append('1')
+                    elif each_train[5] == 'Argument_against':
+                        self.output.append('2')
         
         self.lexicon = [word_lem.lemmatize(i) for i in self.lexicon]
         self.lexicon = [word_lem.lemmatize(i, pos='v') for i in self.lexicon]
@@ -99,13 +101,13 @@ class ConstWord2Vec(object):
         model = Sequential()
         model.add(Embedding(len(self.new_lexicon)+1, 1, input_length=len(self.new_lexicon)))
         model.add(LSTM(max_length, dropout_U = 0.2, dropout_W = 0.2))
-        model.add(Dense(2,activation='softmax'))
+        model.add(Dense(3,activation='softmax'))
         model.compile(loss = 'categorical_crossentropy', optimizer= sgd,metrics = ['accuracy'])
         print(model.summary())
         self.output = pd.get_dummies(self.output).values
         X_train, X_valid, Y_train, Y_valid = train_test_split(padded_sens,self.output, test_size = 0.20, random_state = 36)
         #Here we train the Network.
-        model.fit(X_train, Y_train, batch_size =batch_size, nb_epoch = 5,  verbose = 5)
+        model.fit(X_train, Y_train, batch_size =batch_size, nb_epoch = 2,  verbose = 5) # orinal 5 
         
         score,acc = model.evaluate(X_valid, Y_valid, verbose = 2, batch_size = batch_size)
         print("validation accuracy ",acc)
@@ -122,12 +124,12 @@ class ConstWord2Vec(object):
         max_length = 150
         batch_size = 32
         tokenizer = ''
-        json_file = open('model_best.json', 'r')
+        json_file = open('model.json', 'r')
         loaded_model_json = json_file.read()
         json_file.close()
         loaded_model = model_from_json(loaded_model_json)
         # load weights into new model
-        loaded_model.load_weights("model_best.h5")
+        loaded_model.load_weights("model.h5")
         print("Loaded model from disk")
         sgd = optimizers.SGD(lr=0.01, clipvalue=0.5)
         loaded_model.compile(loss = 'categorical_crossentropy', optimizer= sgd,metrics = ['accuracy'])
@@ -137,24 +139,19 @@ class ConstWord2Vec(object):
         word_splits = [word_lem.lemmatize(i) for i in word_splits]
         dict_list = np.load("dict_list.npy").tolist()
         features = np.zeros(len(dict_list),dtype=int)
-        print("hiiiiiii")
-        print(dict_list.index('because'))
+        #print(dict_list.index('because'))
+        #num = dict_list.index('because')
         for word in word_splits:
             if word in dict_list:
                 print("inside dicttt ")
                 index_value = dict_list.index(word)
                 features[index_value] += 1
             features = list(features)
-        print(features[14])   
+        #print(features[num])   
         print("after text to sequence")
         padded_sens = pad_sequences([features], maxlen=len(dict_list), padding='post')
         print("hello")
         print(loaded_model.predict(padded_sens))
         score,acc = loaded_model.evaluate(padded_sens, np.array(output), verbose = 2, batch_size = batch_size)
         print("validation accuracy ",acc)
-        
-        
-        
-       
-        
         
