@@ -107,7 +107,7 @@ class ConstWord2Vec(object):
         self.output = pd.get_dummies(self.output).values
         X_train, X_valid, Y_train, Y_valid = train_test_split(padded_sens,self.output, test_size = 0.20, random_state = 36)
         #Here we train the Network.
-        model.fit(X_train, Y_train, batch_size =batch_size, nb_epoch = 2,  verbose = 5) # orinal 5 
+        model.fit(X_train, Y_train, batch_size =batch_size, nb_epoch = 10,  verbose = 5) # orinal 5 
         
         score,acc = model.evaluate(X_valid, Y_valid, verbose = 2, batch_size = batch_size)
         print("validation accuracy ",acc)
