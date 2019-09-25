@@ -143,14 +143,14 @@ class ConstWord2Vec(object):
         #num = dict_list.index('because')
         for word in word_splits:
             if word in dict_list:
-                print("inside dicttt ")
+                print("inside dict_list ")
                 index_value = dict_list.index(word)
                 features[index_value] += 1
             features = list(features)
         #print(features[num])   
         print("after text to sequence")
         padded_sens = pad_sequences([features], maxlen=len(dict_list), padding='post')
-        print("hello")
+        print("Predicition:")
         print(loaded_model.predict(padded_sens))
         score,acc = loaded_model.evaluate(padded_sens, np.array(output), verbose = 2, batch_size = batch_size)
         print("validation accuracy ",acc)
