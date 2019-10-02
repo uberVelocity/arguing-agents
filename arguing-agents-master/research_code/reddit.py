@@ -1,4 +1,5 @@
 import praw
+from submission import Submission
 
 class Reddit:
     def __init__(self, reddit_settings):
@@ -30,7 +31,13 @@ class Reddit:
             else:
                 sortby = 'hot'
 
-            self.submissions = list(self.reddit.subreddit('ChangeMyView').search(topic, sortby))[:amount]
+            praw_submissions = list(self.reddit.subreddit('ChangeMyView').search(topic, sortby))[:amount]
+
+            self.submissions = []
+
+            for praw_submission in praw_submissions:
+                submission = Submission(praw_submission)
+                self.submissions.append(submission)
         elif mode == 'url':
             if 'submission_urls' not in reddit_settings:
                 print('Reddit: provide submission_urls!')
@@ -41,6 +48,6 @@ class Reddit:
             self.submissions = [] 
 
             for submission_url in submission_urls:
-                submission = praw.models.Submission(self.reddit, url=submission_url)
+                submission = Submission(praw.models.Submission(self.reddit, url=submission_url))
                 self.submissions.append(submission)
             
