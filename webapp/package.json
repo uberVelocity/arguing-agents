@@ -1,0 +1,11 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "Web application that lists and compares pros and cons found from Procon to pros and cons extracted from reddit using Support-Vector Machines",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mihai Popescu",
+  "license": "MIT"
+}
