@@ -4,7 +4,7 @@ class Comment:
     def __init__(self, praw_comment, depth):
         self.src = praw_comment
 
-        self.body = praw_comment.body
+        self.text = praw_comment.body
         self.depth = depth
         self.author = praw_comment.author
         print(self.author, praw_comment.author_flair_text)

@@ -5,7 +5,7 @@ class Submission:
     def __init__(self, praw_submission):
         self.src = praw_submission
         
-        print("++++++++++++++====", praw_submission.title)
+        print("-", praw_submission.title)
         self.retrieveComments()
 
     def retrieveComments(self):
@@ -16,6 +16,7 @@ class Submission:
         for praw_comment in list(praw_comment_forest):
             if isinstance(praw_comment, praw.models.MoreComments):
                 continue
+
             comment = Comment(praw_comment, depth)
             self.addComment(comment)
 

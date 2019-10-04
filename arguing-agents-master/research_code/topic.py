@@ -7,7 +7,7 @@ class Topic:
             print("Topic: Provide a topic name")
             exit(-12312)
         
-        topic = topic_settings['topic-name']
+        self.topic_name = topic_settings['topic-name']
 
         if 'procon' not in topic_settings:
             print('Topic: Provide procon settings')
@@ -21,8 +21,8 @@ class Topic:
 
         reddit_settings = topic_settings['reddit']
         
-        procon_settings['topic'] = topic
-        reddit_settings['topic'] = topic
+        procon_settings['topic'] = self.topic_name
+        reddit_settings['topic'] = self.topic_name
 
         self.procon = Procon(procon_settings)
         self.reddit = Reddit(reddit_settings)
