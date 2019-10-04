@@ -1,7 +1,7 @@
 
 import pandas as pd
 import numpy as np
-import os,csv, time
+import os, csv, time
 import spacy # has pos tagger, word vector stuff and a bunch of other tools, very fast as well
 from keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import train_test_split
@@ -97,17 +97,17 @@ print("Size of training data: {}".format(len(X_train)))
 # initialize model
 print("Initializing Keras Model")
 model = Sequential()
-model.add(Embedding(vocab_len,300,weights=[nlp.vocab.vectors.data],input_length=max_len,trainable=False))
+model.add(Embedding(vocab_len, 300, weights = [nlp.vocab.vectors.data], input_length = max_len, trainable = False))
 #model.add(Dropout(0.4))
-model.add(LSTM(max_len,dropout=0.2,recurrent_dropout=0.2,use_bias=True))
-model.add(Dense(3,activation='softmax'))
-model.compile(loss = 'categorical_crossentropy', optimizer='adam',metrics = ['accuracy'])
+model.add(LSTM(max_len, dropout = 0.2, recurrent_dropout = 0.2, use_bias = True))
+model.add(Dense(3, activation = 'softmax'))
+model.compile(loss = 'categorical_crossentropy', optimizer = 'adam', metrics = ['accuracy'])
 print(model.summary())
 # train the model
 print("Training model")
 model_timing = time.time()
-model.fit(X_train, Y_train, batch_size =batch_size, epochs = 3,  verbose = 2) # defalut epoch = 30, Changed for testing puropse now. 
-print("Model Trained. Time elapsed: {}".format(time.time()-model_timing))
+model.fit(X_train, Y_train, batch_size = batch_size, epochs = 3, verbose = 2) # defalut epoch = 30, Changed for testing puropse now. 
+print("Model Trained. Time elapsed: {}".format(time.time() - model_timing))
 
 # score model
 score,acc = model.evaluate(X_test, Y_test, verbose = 2, batch_size = batch_size)
