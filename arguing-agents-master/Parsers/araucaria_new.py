@@ -205,7 +205,6 @@ class ConstDataSet(object):
 
     def buildSvm(self):
         svm_model = svm.SVC(gamma='scale')
-        # Reducing the dimensions
 
         X_train, X_test, y_train, y_test = sklearn.model_selection.train_test_split(
             self.input_arr, self.output_label_arr, test_size=0.20, random_state=42)
