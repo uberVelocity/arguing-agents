@@ -6,3 +6,13 @@ arguing-agents-master/Inspiration/Corpora/complete.zip
 arguing-agents-master/gunControl
 .DS_Store
 .DS_Store
+
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+public/
+.deploy*/
+src/_drafts
+package-lock.json
