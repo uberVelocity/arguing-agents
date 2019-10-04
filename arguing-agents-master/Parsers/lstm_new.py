@@ -92,7 +92,8 @@ class ConstWord2Vec(object):
                     features[index_value] += 1
             features = list(features)
             self.train_features.append(features)
-        
+        print("features:")
+        print(self.train_features) 
         np.save("dict_list", self.new_lexicon)
         max_length = 150
         batch_size = 32
@@ -143,7 +144,7 @@ class ConstWord2Vec(object):
         #num = dict_list.index('because')
         for word in word_splits:
             if word in dict_list:
-                print("inside dict_list ")
+                print("inside dict_list")
                 index_value = dict_list.index(word)
                 features[index_value] += 1
             features = list(features)
