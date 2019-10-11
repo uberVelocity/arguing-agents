@@ -8,15 +8,6 @@
             "reddit": {
                 "mode": "find"
             }
-        },
-        {
-            "topic-name": "video games",
-            "procon": {
-                "mode": "find"
-            },
-            "reddit": {
-                "mode": "find"
-            }
         }
     ]
 }
