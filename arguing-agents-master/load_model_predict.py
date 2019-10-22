@@ -1,8 +1,19 @@
 import os
 from Parsers import lstm_new
 from Parsers import araucaria_new
+#TESTING: will be intergraded into Main function...
+#Pipeline: SVM predicts if given argument is an argument or not LSTM predicts if the argument is AGAINST or FOR
 
 path_to_corpus = os.getcwd() + '/complete' 
+
+svm = araucaria_new.ConstDataSet()
+svm.load_svm()
+#read input
+input = ["Education Is The Answer More harsh gun control laws are not needed .","By Educating all interested individuals on the importance of properly and safely handling firearms ."]
+svm.peridct_svm(input)
+
+
+# only valid argument will be in the next step 
 
 word2vec = lstm_new.ConstWord2Vec()
 

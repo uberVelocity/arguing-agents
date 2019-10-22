@@ -23,6 +23,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.decomposition import SparsePCA
 from sklearn.svm import SVC
+from sklearn.externals import joblib
 from nltk.tokenize import sent_tokenize
 from scipy import sparse
 from collections import Counter
@@ -31,9 +32,10 @@ path_to_corpus = os.getcwd() + '/Corpora/araucaria/'
 
 class ConstDataSet(object):
     def __init__(self):
+        self.file_name = "svm.sav"
         self.dataset = pd.DataFrame(columns=['Input', 'Output'])
         self.tagDataSet = pd.DataFrame(columns=['Input', 'Output'])
-
+        self.input_strg= []
         self.input_arr = []
         self.output_label_arr = []
 
@@ -51,6 +53,8 @@ class ConstDataSet(object):
             "1": self.readTxtFileAndConstructDataset,
             "2": self.readTsvFileAndConstructDataset
         }
+
+        self.model = svm.SVC(gamma='scale')
 
     def readJsonFileAndConstructDataset(self, path_to_json):
         json_files = [pos_json for pos_json in os.listdir(
@@ -138,14 +142,11 @@ class ConstDataSet(object):
                     if len(word_splits) > 3:
                         self.training_datafr.loc[datafr_index] = [
                             recon_sen, '0']
-                elif each_train[5] == 'Argument_for':
+                else:
                     if len(word_splits) > 3:
                         self.training_datafr.loc[datafr_index] = [
                             recon_sen, '1']
-                elif each_train[5] == 'Argument_against':
-                    if len(word_splits) > 3:
-                        self.training_datafr.loc[datafr_index] = [
-                            recon_sen, '2']
+
 
                 datafr_index += 1
 
@@ -156,8 +157,6 @@ class ConstDataSet(object):
             frac=1).reset_index(drop=True)
 
         print("--------------------")
-        print(
-            len(self.training_datafr.loc[self.training_datafr['Output'] == '2']))
         print(
             len(self.training_datafr.loc[self.training_datafr['Output'] == '1']))
         print(
@@ -220,10 +219,12 @@ class ConstDataSet(object):
         svm_model.fit(X_train, y_train)
 
         SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0, decision_function_shape='ovr', degree=3, gamma='scale', kernel='rbf',
-            max_iter=-1, probability=False, random_state=None, shrinking=True,
+            max_iter=-1, probability=True, random_state=None, shrinking=True,
             tol=0.001, verbose=False)
-
+            
+        file_name = "svm.sav"
         y_predict = svm_model.predict(X_test)
+        joblib.dump(svm_model, file_name)
 
         print("Predicted Accuracies for Dataset of length ", len(X_test))
         print("The predicted accuracy is ", sklearn.metrics.accuracy_score(
@@ -235,3 +236,54 @@ class ConstDataSet(object):
 
         # Execute the function
         func(path)
+
+    def load_svm(self):
+        self.model = joblib.load(self.file_name)
+        print("Model loaded")
+
+    def peridct_svm(self, input_strg):
+		self.model.perdict() 
+		for item in input_strg: 
+			sen_tok = sen_tok = nltk.word_tokenize(item) 
+			
+			sen_tags = nltk.pos_tag(sen_tok)
+			tag_counts = Counter(tag for word, tag in sen_tags) 
+			total_tag_count = sum(tag_counts.values())
+			avg_tag_counts = dict((word, float(count) / total_tag_count) for word, count in tag_counts.items())
+			
+            VB_count = avg_tag_counts.get('VB', 0)
+            Adv_count = avg_tag_counts.get('RB', 0)
+            Mod_count = avg_tag_counts.get('MD', 0)
+            
+            if any(word in input_strg for word in self.discourse_marker_list):
+                Aux_val= 1 
+			
+            words = item.split() 
+            
+			
+			##########
+			for index, row in self.training_datafr.iterrows():
+            sen_tok = nltk.word_tokenize(row['Input'])
+
+            sen_tags = nltk.pos_tag(sen_tok)
+            tag_counts = Counter(tag for word, tag in sen_tags)
+            total_tag_count = sum(tag_counts.values())
+            avg_tag_counts = dict((word, float(count)/total_tag_count)
+                                  for word, count in tag_counts.items())
+
+            VB_count = avg_tag_counts.get('VB', 0)
+            Adv_count = avg_tag_counts.get('RB', 0)
+            Mod_count = avg_tag_counts.get('MD', 0)
+
+            Aux_val = 0
+            
+            if any(word in row['Input'] for word in self.discourse_markers_list):
+                Aux_val = 1
+
+            words = row['Input'].split()
+            avg_word_len = sum(len(word) for word in words) / len(words)
+            sen_len = len(row['Input'])
+
+            self.input_arr.append(np.append(tfidf_vector[index], [
+                                  VB_count, Adv_count, Mod_count, Aux_val, avg_word_len, sen_len]))
+            self.output_label_arr.append(row['Output'])
