@@ -24,7 +24,7 @@ class Reddit:
             if 'amount' in reddit_settings:   
                 amount = reddit_settings['amount']
             else:
-                amount = 10
+                amount = 2
 
             if 'sortby' in reddit_settings:
                 sortby = reddit_settings['sortby']
@@ -52,4 +52,4 @@ class Reddit:
                 self.submissions.append(submission)
             
     def getAllComments(self):
-        return [comment for comment in submission.comments for submission in self.submissions]
+        return [comment for submission in self.submissions for comment in submission.comments]

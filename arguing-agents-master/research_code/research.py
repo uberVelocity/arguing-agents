@@ -20,7 +20,9 @@ class Research:
             self.topics.append(topic)
 
         for topic in self.topics:
-            compare_noun_synsets.match(topic.getAllComments(), topic.getPros(), topic.getCons())
+            print(compare_noun_synsets.match(topic.getAllComments(), topic.getPros(), topic.getCons()))
+
+        exit(0)
                         
         #f = open("tsv_file.tsv", "w")
         #f.write(self.getTSV())

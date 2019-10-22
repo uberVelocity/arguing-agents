@@ -62,7 +62,7 @@ def match_comments_and_arguments(pro_texts, con_texts, comment_texts, scoring_fu
     for comment_idx in range(len(comment_texts)):
         comment = comment_texts[comment_idx]
 
-        matched_argument_idx, score, shared_synset_counts, comment_synset_count = match_comment_to_argument(comment, argument_synset_counts, scoring_function)
+        matched_argument_idx, score, shared_synset_counts, comment_synset_count = match_comment_to_argument(comment.text, argument_synset_counts, scoring_function)
 
         if matched_argument_idx < len(pro_texts):
             polarity = 'pro'
