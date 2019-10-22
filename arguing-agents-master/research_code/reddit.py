@@ -51,3 +51,5 @@ class Reddit:
                 submission = Submission(praw.models.Submission(self.reddit, url=submission_url))
                 self.submissions.append(submission)
             
+    def getAllComments(self):
+        return [comment for comment in submission.comments for submission in self.submissions]

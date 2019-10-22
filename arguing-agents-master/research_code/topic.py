@@ -27,5 +27,14 @@ class Topic:
         self.procon = Procon(procon_settings)
         self.reddit = Reddit(reddit_settings)
 
+    def getAllComments(self):
+        return self.reddit.getAllComments()
+
+    def getPros(self):
+        return self.procon.pros
+
+    def getCons(self):
+        return self.procon.cons
+
 #topic = Topic({'topic-name': 'medical marijuana', 'procon': {'mode': 'find'}, 'reddit': {'mode': 'find'}})
 #print(topic.procon.background)

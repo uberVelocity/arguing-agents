@@ -1,0 +1,5 @@
+Create a comparison function
+
+Call main function match, with comment_texts, pro_texts, con_texts, and scoring function as input. Or change this if you have a better idea?
+
+Output a matching dictionary containing two values ("matched_to_argument", "matched_to_comment"), one is a list of comment indices for each argument and the other an argument for each comment
