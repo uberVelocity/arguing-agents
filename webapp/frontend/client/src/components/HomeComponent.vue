@@ -32,13 +32,15 @@
                   v-bind:key="ourPro"
                 >
                   <div class="iter-arg">
-                    -- Argument {{index+1}} --<br>
+                    -- Argument {{index+1}} --
+                    <br />
                   </div>
-                {{ourPro}}<br>
+                  {{ourPro}}
+                  <br />
                 </div>
               </div>
               <div class="col s6">
-              <p class="header-list-cons">CONS</p>
+                <p class="header-list-cons">CONS</p>
                 <div
                   class="argument"
                   v-for="(ourCon, index) in ourCons"
@@ -46,10 +48,12 @@
                   v-bind:index="index"
                   v-bind:key="ourCon"
                 >
-                <div class="iter-arg">
-                    -- Argument {{index+1}} --<br>
+                  <div class="iter-arg">
+                    -- Argument {{index+1}} --
+                    <br />
                   </div>
-                >{{ourCon}}
+                  {{ourCon}}
+                  <br />
                 </div>
               </div>
             </div>
@@ -66,14 +70,16 @@
                   v-bind:index="index"
                   v-bind:key="proconPro"
                 >
-                <div class="iter-arg">
-                    -- Argument {{index+1}} --<br>
+                  <div class="iter-arg">
+                    -- Argument {{index+1}} --
+                    <br />
                   </div>
-                {{proconPro}}<br>
+                  {{proconPro}}
+                  <br />
                 </div>
               </div>
               <div class="col s6">
-                <div class="header-list-cons">CONS</div>
+                <p class="header-list-cons">CONS</p>
                 <div
                   class="argument"
                   v-for="(proconCon, index) in proconCons"
@@ -81,10 +87,12 @@
                   v-bind:index="index"
                   v-bind:key="proconCon"
                 >
-                 <div class="iter-arg">
-                    -- Argument {{index+1}} --<br>
+                  <div class="iter-arg">
+                    -- Argument {{index+1}} --
+                    <br />
                   </div>
-                  {{proconCon}}<br>
+                  {{proconCon}}
+                  <br />
                 </div>
               </div>
             </div>
@@ -96,18 +104,20 @@
 </template>
 
 <script>
-import BackendService from '../services/BackendService';
+import BackendService from "../services/BackendService";
 
 export default {
   data() {
     return {
       nTopics: 3,
-      topic: '',
-      debugResponse: 'noResponse',
+      topic: "",
+      debugResponse: "noResponse",
       ourPros: [],
       ourCons: [],
       proconPros: [],
-      proconCons: []
+      proconCons: [],
+      nRequests: 0,
+      nResponses: 0
     };
   },
   // Relevance indicated from the OP getting his view changed
@@ -121,11 +131,13 @@ export default {
   // Use Google Scholar to get papers on argument mining
   // Connect the properties to the literature!!!!!!!
   // Talk about the paper in a balanced way (not expected unless master thesis)-
- methods: {
+  methods: {
     async submitForm() {
+      this.nRequests += 1;
       const response = await BackendService.processTopic(this.topic);
       this.debugResponse = response.data;
-      
+      this.nResponses += 1;
+
       this.ourPros = response.data.prosReddit;
       this.ourCons = response.data.consReddit;
       this.proconPros = response.data.prosProcon;
