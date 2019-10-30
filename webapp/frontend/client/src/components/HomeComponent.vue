@@ -42,7 +42,7 @@
                 <div
                   class="argument"
                   v-for="(ourCon, index) in ourCons"
-                  v-bind:item="ourCons"
+                  v-bind:item="ourCon"
                   v-bind:index="index"
                   v-bind:key="ourCon"
                 >
@@ -77,7 +77,7 @@
                 <div
                   class="argument"
                   v-for="(proconCon, index) in proconCons"
-                  v-bind:item="proconCons"
+                  v-bind:item="proconCon"
                   v-bind:index="index"
                   v-bind:key="proconCon"
                 >
