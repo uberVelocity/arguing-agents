@@ -1,0 +1,39 @@
+{
+    "topics": [
+        {
+            "topic-name": "abortion",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        },{
+            "topic-name": "medical marijuana",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        },
+        {
+            "topic-name": "gun control",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        },
+        {
+            "topic-name": "school uniforms",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        }
+    ]
+}

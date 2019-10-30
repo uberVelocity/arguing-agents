@@ -51,17 +51,11 @@ class Procon:
 		
 		url += "&t=h_&ia=web"
 
-		print(url)
-
-		website_string = requests.get(url).text
-
 		session = dryscrape.Session()
 		session.visit(url)
 		website_string = session.body()
-		print("\n\n\n")
-		#print(website_string)
+
 		search_results = re.findall('<a class="result__a" rel="noopener" href="(.*?)">', website_string, flags=re.DOTALL)
-		#search_results = re.findall('<span class="result__url__domain">(.*?)</span>', website_string, flags=re.DOTALL)
 		base_url = search_results[0]
 		
 		links = re.findall("<a.*?newblue-get-started-(.*?)'", requests.get(base_url).text)
@@ -79,6 +73,7 @@ class Procon:
 		url = self.background_url
 		web_page_string = requests.get(url).text
 		backgrounds = re.findall('<div style="display:block;">(.*?)</div>', web_page_string, flags=re.DOTALL)
+		
 		if backgrounds == []:
 			backgrounds = re.findall('<div class="entry-content">(.*?)<h3 class="top-pca">', web_page_string, flags = re.DOTALL)
 

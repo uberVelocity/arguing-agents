@@ -12,9 +12,9 @@
       <h3> {{debugResponse}} </h3>
       <div class="topic-select">
         <select v-model="topic">
-          <option value="abort">Abortion</option>
-          <option value="gun">Gun Control</option>
-          <option value="uniform">School uniforms</option>
+          <option value="abortion">Abortion</option>
+          <option value="gun control">Gun Control</option>
+          <option value="school uniforms">School uniforms</option>
         </select>
         <button class="green fwaves-effect waves-light btn" @click="submitForm">Submit</button>
       </div>
