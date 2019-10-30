@@ -80,18 +80,28 @@ def processTopic():
         cReddit = [comment.text for comment in topic.getAllComments()][1::2]#'conListReddit'
 
         for comment in topic.getAllComments()[0:10]:
-            print(comment.text.replace('\n', ' ').replace('\t', ' ')[:20])
+            print(comment.text.replace('\n', ' ').replace('\t', ' ')[:30])
         
+        print("\n")
+
+        for comment in topic.getCons()[0:10]:
+            print(comment.replace('\n', ' ').replace('\t', ' ')[:30])
         # pProcon = research.topics[0].getPros()#'proListProcon'
         # cProcon = research.topics[0].getCons()#'conListProcon'
         # pReddit = [comment.text for comment in research.topics[0].getAllComments()][0:2:]#'proListReddit'
         # cReddit = [comment.text for comment in research.topics[0].getAllComments()][1:2:]#'conListReddit'
 
         response = {
-            'prosProcon': pProcon,
-            'consProcon': cProcon,
-            'prosReddit': pReddit,
-            'consReddit': cReddit
+            'prosProcon': pProcon[:3],
+            'consProcon': cProcon[:3],
+            'prosReddit': pReddit[:3],
+            'consReddit': cReddit[:3]
         }
+
+        for comment in response['consProcon'][0:10]:
+            print(comment.replace('\n', ' ').replace('\t', ' ')[:30])
+        
+        j = jsonify(response)
+        print(j)
 
         return jsonify(response)

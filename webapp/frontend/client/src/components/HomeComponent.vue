@@ -42,14 +42,14 @@
                 <div
                   class="argument"
                   v-for="(ourCon, index) in ourCons"
-                  v-bind:item="ourCons"
+                  v-bind:item="ourCon"
                   v-bind:index="index"
                   v-bind:key="ourCon"
                 >
                 <div class="iter-arg">
                     -- Argument {{index+1}} --<br>
-                  </div>
-                >{{ourCon}}
+                </div>
+                {{ourCon}}
                 </div>
               </div>
             </div>
@@ -73,15 +73,15 @@
                 </div>
               </div>
               <div class="col s6">
-                <div class="header-list-cons">CONS</div>
+                <p class="header-list-cons">CONS</p>
                 <div
                   class="argument"
                   v-for="(proconCon, index) in proconCons"
-                  v-bind:item="proconCons"
+                  v-bind:item="proconCon"
                   v-bind:index="index"
                   v-bind:key="proconCon"
                 >
-                 <div class="iter-arg">
+                  <div class="iter-arg">
                     -- Argument {{index+1}} --<br>
                   </div>
                   {{proconCon}}<br>
