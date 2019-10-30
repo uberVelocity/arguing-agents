@@ -10,6 +10,8 @@ from flask import request
 
 from research import Research
 
+import re
+
 f = open("settings.json")
 json_str = f.read()
 settings = json.loads(json_str)
@@ -19,6 +21,12 @@ research = Research(settings)
 
 app = Flask(__name__)
 CORS(app)
+
+def htmlify(string):
+    return re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', string)
+
+def htmlifyList(list_of_strings):
+    return [htmlify(string) for string in list_of_strings]
 
 @app.route('/')
 def hello():
@@ -67,6 +75,9 @@ def processTopic():
         cProcon = topic.getCons()#'conListProcon'
         pReddit = [comment.text for comment in topic.getAllComments()][0:2:]#'proListReddit'
         cReddit = [comment.text for comment in topic.getAllComments()][1:2:]#'conListReddit'
+
+        for comment in topic.getAllComments():
+            print(comment.text.replace('\n', ' ').replace('\t', ' ')[:20])
         
         # pProcon = research.topics[0].getPros()#'proListProcon'
         # cProcon = research.topics[0].getCons()#'conListProcon'
@@ -74,10 +85,10 @@ def processTopic():
         # cReddit = [comment.text for comment in research.topics[0].getAllComments()][1:2:]#'conListReddit'
 
         response = {
-            'prosProcon': pProcon,
-            'consProcon': cProcon,
-            'prosReddit': pReddit,
-            'consReddit': cReddit
+            'prosProcon': htmlifyList(pProcon),
+            'consProcon': htmlifyList(cProcon),
+            'prosReddit': htmlifyList(pReddit),
+            'consReddit': htmlifyList(cReddit)
         }
 
         return jsonify(response)
