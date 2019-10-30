@@ -9,14 +9,13 @@
           of pros and cons. The program compares its lists of pros and cons with pros and cons taken from www.procon.org.
         </p>
       </div>
-      <h3> {{debugResponse}} </h3>
       <div class="topic-select">
         <select v-model="topic">
           <option value="abortion">Abortion</option>
           <option value="gun control">Gun Control</option>
           <option value="school uniforms">School uniforms</option>
         </select>
-        <button class="green fwaves-effect waves-light btn" @click="submitForm">Submit</button>
+        <button class="green waves-effect waves-light btn" @click="submitForm">Submit</button>
       </div>
       <div class="row">
         <div class="lists-container">
@@ -24,14 +23,34 @@
             <div class="row">
               <h4>Generated list</h4>
               <div class="col s6">
+                <p class="header-list-pros">PROS</p>
                 <div
-                  class="pros"
-                >{{ourPros}}</div>
+                  class="argument"
+                  v-for="(ourPro, index) in ourPros"
+                  v-bind:item="ourPro"
+                  v-bind:index="index"
+                  v-bind:key="ourPro"
+                >
+                  <div class="iter-arg">
+                    -- Argument {{index+1}} --<br>
+                  </div>
+                {{ourPro}}<br>
+                </div>
               </div>
               <div class="col s6">
+              <p class="header-list-cons">CONS</p>
                 <div
-                  class="cons"
-                >{{ourCons}}</div>
+                  class="argument"
+                  v-for="(ourCon, index) in ourCons"
+                  v-bind:item="ourCons"
+                  v-bind:index="index"
+                  v-bind:key="ourCon"
+                >
+                <div class="iter-arg">
+                    -- Argument {{index+1}} --<br>
+                  </div>
+                >{{ourCon}}
+                </div>
               </div>
             </div>
           </div>
@@ -39,14 +58,34 @@
             <div class="row">
               <h4>Procon list</h4>
               <div class="col s6">
+                <p class="header-list-pros">PROS</p>
                 <div
-                  class="proconPros"
-                >{{proconPros}}</div>
+                  class="argument"
+                  v-for="(proconPro, index) in proconPros"
+                  v-bind:item="proconPro"
+                  v-bind:index="index"
+                  v-bind:key="proconPro"
+                >
+                <div class="iter-arg">
+                    -- Argument {{index+1}} --<br>
+                  </div>
+                {{proconPro}}<br>
+                </div>
               </div>
               <div class="col s6">
+                <div class="header-list-cons">CONS</div>
                 <div
-                  class="proconCons"
-                >{{proconCons}}</div>
+                  class="argument"
+                  v-for="(proconCon, index) in proconCons"
+                  v-bind:item="proconCons"
+                  v-bind:index="index"
+                  v-bind:key="proconCon"
+                >
+                 <div class="iter-arg">
+                    -- Argument {{index+1}} --<br>
+                  </div>
+                  {{proconCon}}<br>
+                </div>
               </div>
             </div>
           </div>
@@ -103,6 +142,26 @@ export default {
 
 .btn {
   margin: 100px 0px;
+}
+
+.header-list-pros {
+  color: #4caf50;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header-list-cons {
+  color: #f44336;
+  text-align: center;
+  font-size: 30px;
+}
+
+.argument {
+  text-align: justify;
+}
+
+.iter-arg {
+  font-weight: bold;
 }
 
 select {
