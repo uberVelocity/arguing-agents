@@ -68,15 +68,18 @@ def processTopic():
                 topic = t
                 break
 
+        print(t.topic_name)
+        print(topic.topic_name)
+
         if topic == None:
             print("Tried to parse an unknown topic", data["topic"])
 
         pProcon = topic.getPros()#'proListProcon'
         cProcon = topic.getCons()#'conListProcon'
-        pReddit = [comment.text for comment in topic.getAllComments()][0:2:]#'proListReddit'
-        cReddit = [comment.text for comment in topic.getAllComments()][1:2:]#'conListReddit'
+        pReddit = [comment.text for comment in topic.getAllComments()][0::2]#'proListReddit'
+        cReddit = [comment.text for comment in topic.getAllComments()][1::2]#'conListReddit'
 
-        for comment in topic.getAllComments():
+        for comment in topic.getAllComments()[0:10]:
             print(comment.text.replace('\n', ' ').replace('\t', ' ')[:20])
         
         # pProcon = research.topics[0].getPros()#'proListProcon'
@@ -85,10 +88,10 @@ def processTopic():
         # cReddit = [comment.text for comment in research.topics[0].getAllComments()][1:2:]#'conListReddit'
 
         response = {
-            'prosProcon': htmlifyList(pProcon),
-            'consProcon': htmlifyList(cProcon),
-            'prosReddit': htmlifyList(pReddit),
-            'consReddit': htmlifyList(cReddit)
+            'prosProcon': pProcon,
+            'consProcon': cProcon,
+            'prosReddit': pReddit,
+            'consReddit': cReddit
         }
 
         return jsonify(response)
