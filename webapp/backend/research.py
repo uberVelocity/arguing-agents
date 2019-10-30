@@ -18,6 +18,9 @@ class Research:
         for topic_settings in topics:
             topic = Topic(topic_settings)
             self.topics.append(topic)
+        
+        self.counter = 0
+        
 
         # for topic in self.topics:
         #     print(compare_noun_synsets.match(topic.getAllComments(), topic.getPros(), topic.getCons()))

@@ -22,6 +22,8 @@ research = Research(settings)
 app = Flask(__name__)
 CORS(app)
 
+counter = 0
+
 def htmlify(string):
     return re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', string)
 
@@ -86,22 +88,20 @@ def processTopic():
 
         for comment in topic.getCons()[0:10]:
             print(comment.replace('\n', ' ').replace('\t', ' ')[:30])
+            
         # pProcon = research.topics[0].getPros()#'proListProcon'
         # cProcon = research.topics[0].getCons()#'conListProcon'
         # pReddit = [comment.text for comment in research.topics[0].getAllComments()][0:2:]#'proListReddit'
         # cReddit = [comment.text for comment in research.topics[0].getAllComments()][1:2:]#'conListReddit'
 
         response = {
-            'prosProcon': pProcon[:3],
-            'consProcon': cProcon[:3],
-            'prosReddit': pReddit[:3],
-            'consReddit': cReddit[:3]
+            'prosProcon': pProcon[:10],
+            'consProcon': cProcon[:10],
+            'prosReddit': pReddit[:10],
+            'consReddit': cReddit[:10]
         }
 
-        for comment in response['consProcon'][0:10]:
-            print(comment.replace('\n', ' ').replace('\t', ' ')[:30])
-        
-        j = jsonify(response)
-        print(j)
+        research.counter += 1
+        print('returning ya boi ', research.counter)
 
         return jsonify(response)
