@@ -1,0 +1,13 @@
+{
+    "topics": [
+        {
+            "topic-name": "medical marijuana",
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        }
+    ]
+}

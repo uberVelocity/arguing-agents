@@ -8,6 +8,8 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
+from research import Research
+
 app = Flask(__name__)
 CORS(app)
 
@@ -22,7 +24,19 @@ def processTopic():
         data = request.get_json()
         print('the data:', data)
         # print('the topic:', data.topic, file = sys.stdout)
+        
+        settings = {}
+        settings["topics"] = [{
+            "topic-name": data["topic"].lower(),
+            "procon": {
+                "mode": "find"
+            },
+            "reddit": {
+                "mode": "find"
+            }
+        }]
 
+        research = Research(settings)
         # TODO: Compile Procon List of topic
 
         # TODO: Compile Reddit List of topic
@@ -33,10 +47,10 @@ def processTopic():
 
         # TODO: Compile JSON object with: pro{procon, reddit}, con{procon, reddit}
         
-        pProcon = 'proListProcon'
-        cProcon = 'conListProcon'
-        pReddit = 'proListReddit'
-        cReddit = 'conListReddit'
+        pProcon = research.topics[0].getPros()#'proListProcon'
+        cProcon = research.topics[0].getCons()#'conListProcon'
+        pReddit = [comment.text for comment in research.topics[0].getAllComments()][0:2:]#'proListReddit'
+        cReddit = [comment.text for comment in research.topics[0].getAllComments()][1:2:]#'conListReddit'
 
         response = {
             'prosProcon': pProcon,
