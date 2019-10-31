@@ -7,3 +7,5 @@ public/
 .deploy*/
 src/_drafts
 package-lock.json
+backend/__pycache__
+*.out

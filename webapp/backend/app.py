@@ -78,8 +78,8 @@ def processTopic():
 
         pProcon = topic.getPros()#'proListProcon'
         cProcon = topic.getCons()#'conListProcon'
-        pReddit = [comment.text for comment in topic.getAllComments()][0::2]#'proListReddit'
-        cReddit = [comment.text for comment in topic.getAllComments()][1::2]#'conListReddit'
+        pReddit = [str(score) + " " + topic.getAllComments()[i].text for score, i in topic.comment_rank_pros[0]][:4]  #[comment.text for comment in topic.getAllComments()][0::2]#'proListReddit'
+        cReddit = [str(score) + " " + topic.getAllComments()[i].text for score, i in topic.comment_rank_cons[0]][:4]#[comment.text for comment in topic.getAllComments()][1::2]#'conListReddit'
 
         for comment in topic.getAllComments()[0:10]:
             print(comment.text.replace('\n', ' ').replace('\t', ' ')[:30])

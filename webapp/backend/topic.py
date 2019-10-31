@@ -1,6 +1,8 @@
 from reddit import Reddit
 from procon import Procon
 
+from comparison_methods import compare_only_noun_synsets
+
 class Topic:
     def __init__(self, topic_settings):
         if 'topic-name' not in topic_settings:
@@ -26,6 +28,10 @@ class Topic:
 
         self.procon = Procon(procon_settings)
         self.reddit = Reddit(reddit_settings)
+
+        self.comment_rank_pros, self.comment_rank_cons = compare_only_noun_synsets.match(self.getPros(), self.getCons(), [comment.text for comment in self.getAllComments()])
+        print(self.comment_rank_pros)
+        print(self.comment_rank_cons)
 
     def getAllComments(self):
         return self.reddit.getAllComments()
