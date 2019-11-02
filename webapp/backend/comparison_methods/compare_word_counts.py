@@ -3,6 +3,59 @@ from collections import Counter
 from scoring_methods import compare3
 
 def match(comment_texts, pro_texts, con_texts, scoring_function = compare3):
+    similarity_matrix_pro = []
+    similarity_matrix_con = []
+
+    pro_word_counts = []
+    con_word_counts = []
+    comment_word_counts = []
+
+    for pro_text in pro_texts:
+        words = pro_text.split(' ')
+        pro_word_count = Counter(words)
+        pro_word_counts.append(pro_word_count)
+
+    for con_text in con_texts:
+        words = con_text.split(' ')
+        con_word_count = Counter(words)
+        con_word_counts.append(con_word_count)
+
+    for comment_text in comment_texts:
+        text = comment_text.replace("\t", " ").replace("\n", " ")
+        sentences = re.split(r'[\.\?\!] \s*(?![^()]*\))', text)
+        words = []
+
+        for sentence in sentences:
+            words += sentence.split(" ")
+
+        comment_word_count = Counter(words)
+        comment_word_counts.append(comment_word_count)
+
+    for pro_word_count in pro_word_counts:
+        score_index_tuples = []
+        for i in range(len(comment_word_counts)):
+            comment_word_count = comment_word_counts[i]
+            matching_word_count = pro_word_count & comment_word_count
+            similarity_score = scoring_function(matching_word_count, comment_word_count, pro_word_count)
+            score_index_tuples.append((similarity_score, i))
+        similarity_matrix_pro.append(score_index_tuples.copy())
+
+    for con_word_count in con_word_counts:
+        score_index_tuples = []
+        for i in range(len(comment_word_counts)):
+            comment_word_count = comment_word_counts[i]
+            matching_word_count = con_word_count & comment_word_count
+            similarity_score = scoring_function(matching_word_count, comment_word_count, con_word_count)
+            score_index_tuples.append((similarity_score, i))
+        similarity_matrix_con.append(score_index_tuples.copy())
+
+    return similarity_matrix_pro, similarity_matrix_con
+            
+    
+
+
+
+
     matched_to_arg = {}
     matched_to_arg['pro'] = [[] for pro in pro_texts]
     matched_to_arg['con'] = [[] for con in con_texts]
@@ -37,19 +90,19 @@ def match(comment_texts, pro_texts, con_texts, scoring_function = compare3):
         #maxScore1 = [0, "", "", ""]
         #maxScore2 = [0, "", "", ""]
 
-        score = -1
-        best_tuple = ()
+        # score = -1
+        # best_tuple = ()
 
-        for awc_tuple in arg_word_counts:
+        for i in arg_word_counts:
             arg_polarity, arg_idx, awc = awc_tuple
 
             matched_w_c = comment_word_count & awc
 
             score = scoring_function(matched_w_c, comment_word_count, awc)
 
-            if max_score < score:
-                max_score = score
-                best_tuple = (arg_polarity, arg_idx, awc, matched_w_c, score)
+            # if max_score < score:
+            #     max_score = score
+            #     best_tuple = (arg_polarity, arg_idx, awc, matched_w_c, score)
 
         arg_polarity, arg_idx, awc, matched_w_c, score = best_tuple
 

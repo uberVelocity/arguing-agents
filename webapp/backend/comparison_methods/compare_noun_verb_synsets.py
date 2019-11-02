@@ -48,8 +48,8 @@ def match(comment_texts, pro_texts, con_texts, scoring_function = compare3):
         synsets = get_synsets(comment_text)
         comment_texts_wc.append(Counter(synsets))
 
-    comment_rank_pro_args = []
-    comment_rank_con_args = []
+    similarity_matrix_pros = []
+    similarity_matrix_cons = []
 
     for pro_text_wc in pro_texts_wc:
         score_comment_tuples = []
@@ -59,7 +59,7 @@ def match(comment_texts, pro_texts, con_texts, scoring_function = compare3):
             score = scoring_function(pro_text_wc & comment_text_wc, comment_text_wc, pro_text_wc)
             score_comment_tuples.append((score, i))
 
-        comment_rank_pro_args.append(sorted(score_comment_tuples, key = lambda tup: tup[0], reverse = True))
+        similarity_matrix_pros.append(score_comment_tuples.copy())  # sorted(score_comment_tuples, key = lambda tup: tup[0], reverse = True))
 
     for con_text_wc in con_texts_wc:
         score_comment_tuples = []
@@ -69,7 +69,7 @@ def match(comment_texts, pro_texts, con_texts, scoring_function = compare3):
             score = scoring_function(con_text_wc & comment_text_wc, comment_text_wc, con_text_wc)
             score_comment_tuples.append((score, i))
 
-        comment_rank_con_args.append(sorted(score_comment_tuples, key = lambda tup: tup[0], reverse = True))
+        similarity_matrix_cons.append(score_comment_tuples.copy())  # sorted(score_comment_tuples, key = lambda tup: tup[0], reverse = True))
 
-    return comment_rank_pro_args, comment_rank_con_args
+    return similarity_matrix_pros, similarity_matrix_cons
     

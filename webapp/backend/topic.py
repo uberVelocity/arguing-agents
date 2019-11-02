@@ -1,7 +1,9 @@
 from reddit import Reddit
 from procon import Procon
 
-from comparison_methods import compare_only_noun_synsets, compare_noun_verb_synsets, dandelion
+from comparison_methods import compare_word_counts, compare_only_noun_synsets, compare_noun_verb_synsets, dandelion
+
+similarity_matrix_algorithms = {'words': compare_word_counts, 'noun_synsets': compare_only_noun_synsets, 'n_v_adj_adv_synsets': compare_noun_verb_synsets, 'dandelion': dandelion}
 
 class Topic:
     def __init__(self, topic_settings):
@@ -28,6 +30,11 @@ class Topic:
 
         self.procon = Procon(procon_settings)
         self.reddit = Reddit(reddit_settings)
+
+        self.similarity_matrices = {}
+
+        for name, similarity_matrix_algorithm in similarity_matrix_algorithms.items():
+            self.similarity_matrices[name] = similarity_matrix_algorithm.match([comment.text for comment in self.getAllComments()], self.getPros(), self.getCons())
 
         self.comment_rank_pros, self.comment_rank_cons = dandelion.match([comment.text for comment in self.getAllComments()], self.getPros(), self.getCons())
         print(self.comment_rank_pros)
