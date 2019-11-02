@@ -1,6 +1,6 @@
 import re
 from collections import Counter
-from scoring_methods import compare3
+from comparison_methods.scoring_methods import compare3
 
 def match(comment_texts, pro_texts, con_texts, scoring_function = compare3):
     similarity_matrix_pro = []
