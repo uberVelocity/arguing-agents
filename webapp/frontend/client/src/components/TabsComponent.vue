@@ -54,6 +54,11 @@ import GraphComponent from "./GraphComponent";
 import HighestRatedComponent from "./HighestRatedComments";
 
 export default {
+  components: {
+    TopCommentsPerArgumentComponent,
+    GraphComponent,
+    HighestRatedComponent
+  },
   data() {
     activeItem: "per_argument";
   },
