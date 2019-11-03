@@ -58,8 +58,9 @@ def parse_request(request):
 
 @atexit.register
 def save_research():
-    print('Saving research...')
-    research.save('research_autosave')
+    print("Autosaving disabled.")
+    # print('Saving research...')
+    # research.save('research_autosave')
 
 @app.route('/')
 def hello():
@@ -88,12 +89,12 @@ def get_argument_elements(argument_texts, argument_comment_rankings, n_top_comme
         print("\tlen(argument_texts):", len(argument_texts))
         print("\tlen(argument_comment_rankings):", len(argument_comment_rankings))
 
-    print("App: get_argument_elements: Debug")
-    print("\targument_comment_rankings:", argument_comment_rankings)
-
     for i in range(len(argument_texts)):
         argument_text = argument_texts[i]
         comment_ranking = argument_comment_rankings[i]
+
+        print("App: get_argument_elements: Debug")
+        print("\tcomment_ranking:", comment_ranking)
 
         arg_element = {'arg_text': argument_text, 'best_comments': []}
 

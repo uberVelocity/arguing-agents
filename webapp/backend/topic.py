@@ -95,9 +95,13 @@ class Topic:
         comment_rankings_text = []
 
         for comment_ranking in comment_rankings:
+            comment_ranking_text = []
+
             for comment_score, comment_idx in comment_ranking:
                 comment_text = self.get_all_comments()[comment_idx].text
-                comment_rankings_text.append((comment_score, comment_text))
+                comment_ranking_text.append((comment_score, comment_text))
+
+            comment_rankings_text.append(comment_ranking_text)
 
         return comment_rankings_text
 
