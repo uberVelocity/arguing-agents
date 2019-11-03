@@ -33,6 +33,20 @@ def htmlify(string):
 def htmlifyList(list_of_strings):
     return [htmlify(string) for string in list_of_strings]
 
+def parse_request(request):
+    request_dict = request.get_json()
+
+    if 'topic_name' not in request_dict:
+        print("App: get_data_for_graph: Invalid request. No topic name specified. Received json:", request_dict)
+
+    if 'similarity_measure' not in request_dict:
+        print("App: get_data_for_graph: Invalid request. No similarity measure specified. Received json:", request_dict)
+
+    topic_name = request_dict['topic_name']
+    similarity_measure = request_dict['similarity_measure']
+
+    return topic_name, similarity_measure
+
 @atexit.register
 def save_research():
     print('Saving research...')
@@ -47,16 +61,7 @@ def get_data_for_graph():
     if request.method != 'POST':
         return
 
-    request_dict = request.get_json()
-
-    if 'topic_name' not in request_dict:
-        print("App: get_data_for_graph: Invalid request. No topic name specified. Received json:", request_dict)
-
-    if 'similarity_measure' not in request_dict:
-        print("App: get_data_for_graph: Invalid request. No similarity measure specified. Received json:", request_dict)
-
-    topic_name = request_dict['topic_name']
-    similarity_measure = request_dict['similarity_measure']
+    topic_name, similarity_measure = parse_request(request)
 
     topic = research.get_topic(topic_name)
 
@@ -89,30 +94,42 @@ def processTopic():
     if request.method != 'POST':
         return
 
-    request_json = request.get_json()
-
-    print('the data:', request_json)
-
-    if 'topic_name' not in request_json:
-        print("App: processTopic: Invalid request. No topic name specified. Received json:", request_json)
-
-    topic_name = request_json['topic_name']
+    topic_name, similarity_measure = parse_request(request)
 
     topic = research.get_topic(topic_name)
 
     response_json = {'pros': [], 'cons': []}
 
     pro_texts = topic.get_pros()
-    comment_rankings_text_pro = topic.get_comment_rankings_text('new', 'pro')
+    comment_rankings_text_pro = topic.get_comment_rankings_text(similarity_measure, 'pro')
 
     con_texts = topic.get_cons()
-    comment_rankings_text_con = topic.get_comment_rankings_text('new', 'con')
+    comment_rankings_text_con = topic.get_comment_rankings_text(similarity_measure, 'con')
 
     response_json['pros'] = get_argument_elements(pro_texts, comment_rankings_text_pro)
     response_json['cons'] = get_argument_elements(con_texts, comment_rankings_text_con)
 
     return jsonify(response_json)
 
+@app.route('/best_comments', methods = ['POST'])
+def get_best_comments():
+    if request.method != 'POST':
+        return
+
+    topic_name, similarity_measure = parse_request(request)
+
+    topic = research.get_topic(topic_name)
+
+    aggregated_comment_scores = topic.get_aggregated_scores_comments(similarity_measure)
+
+    sorted_aggregated_comment_scores = sorted(aggregated_comment_scores, key = itemgetter(0), reverse = True)
+
+    response_dict = {}
+
+    response_dict['comment_ranking'] = sorted_aggregated_comment_scores
+
+    return jsonify(response_dict)
+    
         # settings = {}
         # settings["topics"] = [{
         #     "topic-name": data["topic"].lower(),

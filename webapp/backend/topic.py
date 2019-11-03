@@ -1,3 +1,5 @@
+from operator import itemgetter
+
 from reddit import Reddit
 from procon import Procon
 
@@ -94,36 +96,65 @@ class Topic:
         return transposed_matrix
 
     def get_aggregated_scores_comments(self, similarity_matrix_algorithm, aggregation):
-        pass
-
-
-    def get_data_points_comment_score_author_delta(self, similarity_matrix_algorithm, aggregation = 'max'):
-        data_points = {}
-
         similarity_matrix_pro, similarity_matrix_con = self.get_similarity_matrices(similarity_matrix_algorithm)
 
         combined_matrix = similarity_matrix_pro + similarity_matrix_con
 
         transposed_combined_matrix = self.transpose(combined_matrix)
+        
+        aggregated_comment_scores = []
 
-        for i in range(len(transposed_combined_matrix)):
-            similarity_vector_comment = transposed_combined_matrix[i]
-            scores = [score for score, idx in similarity_vector_comment]
-            
+        for similarity_vector_comment in transposed_combined_matrix:
             if aggregation == 'max':
-                comment_score = max(scores)
+                comment_score = max(similarity_vector_comment, key = itemgetter(0))
             else:
-                print("Topic: Get_data_points_comment_score_author_delta:", aggregation)
+                print("Topic: get_aggregated_score_comments: Unknown aggregation method:", aggregation)
                 exit(0)
 
-            deltas_author = self.get_all_comments()[i].author_delta
+            aggregated_comment_scores.append(comment_score)
+
+        return aggregated_comment_scores
+        
+
+    def get_data_points_comment_score_author_delta(self, similarity_matrix_algorithm, aggregation = 'max'):
+        data_points = {}
+
+        aggregated_comment_scores = self.get_aggregated_scores_comments(similarity_matrix_algorithm, aggregation)
+
+        for score, idx in aggregated_comment_scores:
+            deltas_author = self.get_all_comments()[idx].author_delta
 
             if deltas_author not in data_points:
                 data_points[deltas_author] = []
 
-            data_points[deltas_author].append(comment_score)
+            data_points[deltas_author].append(score)
         
         return data_points
+
+        # similarity_matrix_pro, similarity_matrix_con = self.get_similarity_matrices(similarity_matrix_algorithm)
+
+        # combined_matrix = similarity_matrix_pro + similarity_matrix_con
+
+        # transposed_combined_matrix = self.transpose(combined_matrix)
+
+        # for i in range(len(transposed_combined_matrix)):
+        #     similarity_vector_comment = transposed_combined_matrix[i]
+        #     scores = [score for score, idx in similarity_vector_comment]
+            
+        #     if aggregation == 'max':
+        #         comment_score = max(scores)
+        #     else:
+        #         print("Topic: Get_data_points_comment_score_author_delta:", aggregation)
+        #         exit(0)
+
+        #     deltas_author = self.get_all_comments()[i].author_delta
+
+        #     if deltas_author not in data_points:
+        #         data_points[deltas_author] = []
+
+        #     data_points[deltas_author].append(comment_score)
+        
+        # return data_points
 
     def get_all_comments(self):
         return self.reddit.getAllComments()
