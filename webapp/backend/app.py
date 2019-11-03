@@ -79,6 +79,14 @@ def get_data_for_graph():
 def get_argument_elements(argument_texts, argument_comment_rankings, n_top_comments = 3):
     argument_elements = []
 
+    if len(argument_texts) != len(argument_comment_rankings):
+        print("App: get_argument_elements: Amount of arguments are not the same!")
+        print("\tlen(argument_texts):", len(argument_texts))
+        print("\tlen(argument_comment_rankings):", len(argument_comment_rankings))
+
+    print("App: get_argument_elements: Debug")
+    print("\targument_comment_rankings:", argument_comment_rankings)
+
     for i in range(len(argument_texts)):
         argument_text = argument_texts[i]
         comment_ranking = argument_comment_rankings[i]
