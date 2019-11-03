@@ -2,16 +2,20 @@ import praw
 from submission import Submission
 
 class Reddit:
-    def __init__(self, reddit_settings):
-        if 'mode' not in reddit_settings:
-            print("Reddit: __init__: Mode not provided. Initializing it to 'find'.")
-        
-        mode = reddit_settings['mode']
-
+    def __init__(self, reddit_settings = {}):
         self.reddit = praw.Reddit(client_id='Vyw-20ZFtH4msA',
                     client_secret='-vZkEG8s6qlRvbTcuGxmJOnpAds',
                     user_agent='ubuntu:arguing-agents:v1 (by /u/HolzmindenScherfede)'
                     )
+        
+        if reddit_settings == {}:
+            print("Reddit: __init__: No settings given. Creating empty object.")
+            return
+
+        if 'mode' not in reddit_settings:
+            print("Reddit: __init__: Mode not provided. Initializing it to 'find'.")
+        
+        mode = reddit_settings['mode']
         
         if mode == 'find':
             if 'topic' in reddit_settings:
@@ -56,6 +60,14 @@ class Reddit:
         for submission in self.submissions:
             dic['submissions'].append(submission.to_dict())
         return dic
+
+    def from_dict(self, dic):
+        self.submissions = []
+
+        for dic_submission in dic['submissions']:
+            submission = Submission()
+            submission.from_dict(dic_submission, self.reddit)
+            self.submissions.append(submission)
             
     def getAllComments(self):
         return [comment for submission in self.submissions for comment in submission.comments]

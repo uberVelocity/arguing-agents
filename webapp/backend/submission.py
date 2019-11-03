@@ -2,7 +2,11 @@ import praw
 from comment import Comment
 
 class Submission:
-    def __init__(self, praw_submission):
+    def __init__(self, praw_submission = None):
+        if praw_submission == None:
+            print("Submission: __init__: No praw submission given. Creating empty object.")
+            return
+
         self.src = praw_submission
         
         print("-", praw_submission.title)
@@ -27,11 +31,22 @@ class Submission:
 
     def to_dict(self):
         dic = {}
+
         dic['src'] = self.src.url
         dic['comments'] = []
+
         for comment in self.comments:
             dic['comments'].append(comment.to_dict())
+            
         return dic
+
+    def from_dict(self, dic, reddit):
+        self.src = praw.models.Submission(reddit, url = dic['src'])
+        self.comments = []
+        for dic_comment in dic['comments']:
+            comment = Comment()
+            comment.from_dict(dic_comment, reddit)
+            self.comments.append(comment)
 
 
     """ 
