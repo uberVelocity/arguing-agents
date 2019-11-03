@@ -34,18 +34,18 @@ class Topic:
         self.similarity_matrices = {}
 
         for name, similarity_matrix_algorithm in similarity_matrix_algorithms.items():
-            self.similarity_matrices[name] = similarity_matrix_algorithm.match([comment.text for comment in self.getAllComments()], self.getPros(), self.getCons())
+            self.similarity_matrices[name] = similarity_matrix_algorithm.match([comment.text for comment in self.get_all_comments()], self.get_pros(), self.get_cons())
 
         # self.comment_rank_pros, self.comment_rank_cons = dandelion.match([comment.text for comment in self.getAllComments()], self.getPros(), self.getCons())
         # print(self.comment_rank_pros)
         # print(self.comment_rank_cons)
 
-    def getSimilarityMatrices(self, similarity_matrix_algorithm):
+    def get_similarity_matrices(self, similarity_matrix_algorithm):
         similarity_matrix_pro, similarity_matrix_con = self.similarity_matrices[similarity_matrix_algorithm]
         return similarity_matrix_pro, similarity_matrix_con
 
-    def getSimilarityMatrix(self, similarity_matrix_algorithm, polarity):
-        similarity_matrix_pro, similarity_matrix_con = self.getSimilarityMatrices(similarity_matrix_algorithm)
+    def get_similarity_matrix(self, similarity_matrix_algorithm, polarity):
+        similarity_matrix_pro, similarity_matrix_con = self.get_similarity_matrices(similarity_matrix_algorithm)
 
         if polarity == 'pro':
             return similarity_matrix_pro
@@ -54,8 +54,8 @@ class Topic:
         else:
             print("Topic: getSimilarityMatrix: Unknown polarity:", polarity)
 
-    def getCommentRankings(self, similarity_matrix_algorithm, polarity):
-        similarity_matrix = self.getSimilarityMatrix(similarity_matrix_algorithm, polarity)
+    def get_comment_rankings(self, similarity_matrix_algorithm, polarity):
+        similarity_matrix = self.get_similarity_matrix(similarity_matrix_algorithm, polarity)
 
         comment_rankings = []
         
@@ -63,6 +63,18 @@ class Topic:
             comment_rankings.append(sorted(similarity_vector_argument, key = lambda tup: tup[0], reverse = True))
 
         return comment_rankings
+
+    def get_comment_rankings_text(self, similarity_matrix_algorithm, polarity):
+        comment_rankings = self.get_comment_rankings(similarity_matrix_algorithm, polarity)
+
+        comment_rankings_text = []
+
+        for comment_ranking in comment_rankings:
+            for comment_score, comment_idx in comment_ranking:
+                comment_text = self.get_all_comments()[comment_idx].text
+                comment_rankings_text.append((comment_score, comment_text))
+
+        return comment_rankings_text
 
     def transpose(self, matrix):
         transposed_matrix = [[] for _ in matrix[0]]
@@ -73,10 +85,14 @@ class Topic:
 
         return transposed_matrix
 
+    def get_aggregated_scores_comments(self, similarity_matrix_algorithm, aggregation):
+        pass
+
+
     def get_data_points_comment_score_author_delta(self, similarity_matrix_algorithm, aggregation = 'max'):
         data_points = {}
 
-        similarity_matrix_pro, similarity_matrix_con = self.getSimilarityMatrices(similarity_matrix_algorithm)
+        similarity_matrix_pro, similarity_matrix_con = self.get_similarity_matrices(similarity_matrix_algorithm)
 
         combined_matrix = similarity_matrix_pro + similarity_matrix_con
 
@@ -92,24 +108,22 @@ class Topic:
                 print("Topic: Get_data_points_comment_score_author_delta:", aggregation)
                 exit(0)
 
-            deltas_author = self.getAllComments()[i].author_delta
+            deltas_author = self.get_all_comments()[i].author_delta
 
             if deltas_author not in data_points:
                 data_points[deltas_author] = []
 
             data_points[deltas_author].append(comment_score)
+        
+        return data_points
 
-            
-
-
-
-    def getAllComments(self):
+    def get_all_comments(self):
         return self.reddit.getAllComments()
 
-    def getPros(self):
+    def get_pros(self):
         return self.procon.pros
 
-    def getCons(self):
+    def get_cons(self):
         return self.procon.cons
 
 #topic = Topic({'topic-name': 'medical marijuana', 'procon': {'mode': 'find'}, 'reddit': {'mode': 'find'}})

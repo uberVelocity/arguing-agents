@@ -30,6 +30,18 @@ class Research:
         #f = open("tsv_file.tsv", "w")
         #f.write(self.getTSV())
         #f.close()
+
+    def get_topic(self, topic_name):
+        for topic in self.topics:
+            if topic.topic_name == topic_name:
+                return topic
+        return None
+
+    def add_topic(self, topic):
+        for topic_ in self.topics:
+            if topic.topic_name == topic_.topic_name:
+                print("Research: add_topic: Topic name already exists:", topic_.topic_name)
+        self.topics.append(topic)
         
         
     def getTSV(self):
