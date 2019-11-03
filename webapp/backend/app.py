@@ -10,6 +10,8 @@ from flask import request
 
 import atexit
 
+from operator import itemgetter
+
 from research import Research
 from topic import Topic
 
