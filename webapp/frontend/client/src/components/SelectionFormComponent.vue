@@ -1,24 +1,17 @@
 <template>
   <div>
-    <div class="container">
-      <h1>Rextractor</h1>
-      <div class="program-description">
-        <p>
-          Rextractor is an argument extraction tool that attempts to categorize arguments into pros and cons
-          from natural language. It currently supports {{nTopics}} topics from which it is able to compile lists
-          of pros and cons. The program compares its lists of pros and cons with pros and cons taken from www.procon.org.
-        </p>
-      </div>
-      <SelectionFormComponent />
-      <TabsComponent />
+    <div class="topic-select">
+        <select v-model="topic">
+          <option value="abortion">Abortion</option>
+          <option value="gun control">Gun Control</option>
+          <option value="school uniforms">School uniforms</option>
+        </select>
+        <button class="green waves-effect waves-light btn" @click="submitForm">Submit</button>
     </div>
   </div>
 </template>
 
 <script>
-import SelectionFormComponent from './SelectionFormComponent';
-import TabsComponent from './TabsComponent'
-
 import BackendService from "../services/BackendService";
 
 export default {
