@@ -8,6 +8,8 @@ from flask import Flask
 from flask import jsonify
 from flask import request
 
+import atexit
+
 from research import Research
 from topic import Topic
 
@@ -30,6 +32,11 @@ def htmlify(string):
 
 def htmlifyList(list_of_strings):
     return [htmlify(string) for string in list_of_strings]
+
+@atexit.register
+def save_research():
+    print('Saving research...')
+    research.save('research_autosave')
 
 @app.route('/')
 def hello():

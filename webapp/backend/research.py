@@ -4,6 +4,7 @@ from comparison_methods import compare_noun_synsets
 
 import re
 import operator
+import json
 
 class Research:
     def __init__(self, research_settings):
@@ -36,6 +37,13 @@ class Research:
         dic['topics'] = []
         for topic in self.topics:
             dic['topics'].append(topic.to_dict())
+
+    def save(self, file_name):
+        dic = self.to_dict()
+        
+        with open(file_name, 'w') as f:
+            f.write(json.dumps(dic))
+        
 
     def get_topic(self, topic_name):
         for topic in self.topics:
