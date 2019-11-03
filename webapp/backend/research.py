@@ -37,19 +37,26 @@ class Research:
         dic['topics'] = []
         for topic in self.topics:
             dic['topics'].append(topic.to_dict())
+        return dic
 
     def save(self, file_name):
         dic = self.to_dict()
         
         with open(file_name, 'w') as f:
             f.write(json.dumps(dic))
-        
 
     def get_topic(self, topic_name):
         for topic in self.topics:
             if topic.topic_name == topic_name:
                 return topic
-        return None
+
+        print("App: processTopic: Tried to parse an unknown topic", topic_name)
+        print("\tCreating a new Topic to match request.")
+
+        topic = Topic({'topic-name': topic_name})
+        self.add_topic(topic)  
+
+        return topic
 
     def add_topic(self, topic):
         for topic_ in self.topics:

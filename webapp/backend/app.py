@@ -42,60 +42,76 @@ def save_research():
 def hello():
     return 'Hello world!'
 
+@app.route('/graph', methods = ['POST'])
+def get_data_for_graph():
+    if request.method != 'POST':
+        return
+
+    request_dict = request.get_json()
+
+    if 'topic_name' not in request_dict:
+        print("App: get_data_for_graph: Invalid request. No topic name specified. Received json:", request_dict)
+
+    if 'similarity_measure' not in request_dict:
+        print("App: get_data_for_graph: Invalid request. No similarity measure specified. Received json:", request_dict)
+
+    topic_name = request_dict['topic_name']
+    similarity_measure = request_dict['similarity_measure']
+
+    topic = research.get_topic(topic_name)
+
+    data_points = topic.get_data_points_comment_score_author_delta(similarity_measure)
+
+    response_dict = {'data_points': data_points}
+
+    return jsonify(response_dict)
+
+def get_argument_elements(argument_texts, argument_comment_rankings, n_top_comments = 3):
+    argument_elements = []
+
+    for i in range(len(argument_texts)):
+        argument_text = argument_texts[i]
+        comment_ranking = argument_comment_rankings[i]
+
+        arg_element = {'arg_text': argument_text, 'best_comments': []}
+
+        for j in range(n_top_comments):
+            comment_score, comment_text = comment_ranking[j]
+            comment_element = {'score': comment_score, 'text': comment_text}
+            arg_element['best_comments'].append(comment_element)
+
+        argument_elements.append(arg_element.copy())
+
+    return argument_elements
+
 @app.route('/process', methods = ['POST'])
 def processTopic():
-    if request.method == 'POST':
-        # Get topic from frontend
-        request_json = request.get_json()
+    if request.method != 'POST':
+        return
 
-        print('the data:', request_json)
-        # print('the topic:', data.topic, file = sys.stdout)
+    request_json = request.get_json()
 
-        if 'topic' not in request_json:
-            print("App: processTopic: Invalid request. No topic specified. Received json:", request_json)
+    print('the data:', request_json)
 
-        topic_name = request_json['topic']
+    if 'topic_name' not in request_json:
+        print("App: processTopic: Invalid request. No topic name specified. Received json:", request_json)
 
-        topic = research.get_topic(topic_name)
+    topic_name = request_json['topic_name']
 
-        if topic == None:
-            print("App: processTopic: Tried to parse an unknown topic", topic_name)
-            print("\tCreating a new Topic to match request.")
+    topic = research.get_topic(topic_name)
 
-            topic = Topic({'topic-name': topic_name})
-            research.add_topic(topic)
+    response_json = {'pros': [], 'cons': []}
 
-        response_json = {'pros': [], 'cons': []}
+    pro_texts = topic.get_pros()
+    comment_rankings_text_pro = topic.get_comment_rankings_text('new', 'pro')
 
-        comment_rankings_text_pro = topic.get_comment_rankings_text('new', 'pro')
+    con_texts = topic.get_cons()
+    comment_rankings_text_con = topic.get_comment_rankings_text('new', 'con')
 
-        for i in range(len(topic.get_pros())):
-            pro_text = topic.get_pros()[i]
-            comment_ranking = comment_rankings_text_pro[i]
+    response_json['pros'] = get_argument_elements(pro_texts, comment_rankings_text_pro)
+    response_json['cons'] = get_argument_elements(con_texts, comment_rankings_text_con)
 
-            arg_element = {'arg_text': pro_text, 'best_comments': []}
-
-            for j in range(3):
-                comment_score, comment_text = comment_ranking[j]
-                comment_element = {'score': comment_score, 'text': comment_text}
-                arg_element['best_comments'].append(comment_element)
-
-            response_json['pros'].append(arg_element.copy())
-
-        for i in range(len(topic.get_cons())):
-            con_text = topic.get_cons()[i]
-            comment_ranking = comment_rankings_text_con[i]
-
-            arg_element = {'arg_text': con_text, 'best_comments': []}
-
-            for j in range(3):
-                comment_score, comment_text = comment_ranking[j]
-                comment_element = {'score': comment_score, 'text': comment_text}
-                arg_element['best_comments'].append(comment_element)
-
-            response_json['cons'].append(arg_element.copy())
-
-        return jsonify(response_json)
+    return jsonify(response_json)
 
         # settings = {}
         # settings["topics"] = [{

@@ -4,8 +4,7 @@ from submission import Submission
 class Reddit:
     def __init__(self, reddit_settings):
         if 'mode' not in reddit_settings:
-            print("Reddit: provide mode")
-            exit(-1002)
+            print("Reddit: __init__: Mode not provided. Initializing it to 'find'.")
         
         mode = reddit_settings['mode']
 

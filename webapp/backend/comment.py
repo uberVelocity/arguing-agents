@@ -15,7 +15,7 @@ class Comment:
         dic['src'] = self.src.permalink
         dic['text'] = self.text
         dic['depth'] = self.text
-        dic['author'] = self.author.name
+        dic['author'] = self.author
         dic['author_delta'] = self.author_delta
         return dic
         

@@ -7,8 +7,8 @@ from sys import argv
 class Procon:
 	def __init__(self, settings):
 		if 'mode' not in settings:
-			print("Procon: Provide mode!")
-			exit(-1229)
+			print("Procon: __init__: Mode not provided. Initializing it to 'find'.")
+			
 		mode = settings['mode']
 
 		if mode == 'find':
