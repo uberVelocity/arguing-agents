@@ -31,6 +31,12 @@ class Research:
         #f.write(self.getTSV())
         #f.close()
 
+    def to_dict(self):
+        dic = {}
+        dic['topics'] = []
+        for topic in self.topics:
+            dic['topics'].append(topic.to_dict())
+
     def get_topic(self, topic_name):
         for topic in self.topics:
             if topic.topic_name == topic_name:
@@ -41,8 +47,7 @@ class Research:
         for topic_ in self.topics:
             if topic.topic_name == topic_.topic_name:
                 print("Research: add_topic: Topic name already exists:", topic_.topic_name)
-        self.topics.append(topic)
-        
+        self.topics.append(topic)       
         
     def getTSV(self):
         tsv_string = ""

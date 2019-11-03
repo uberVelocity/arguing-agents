@@ -38,6 +38,13 @@ class Procon:
 			print("Procon: Unsupported mode!")
 			exit(-1230)
 
+	def to_dict(self):
+		dic = {}
+		dic['background'] = self.background
+		dic['pros'] = self.pros
+		dic['cons'] = self.cons
+		return dic
+
 	def load(self):
 		self.background = self.retrieveBackground()
 		self.pros = self.retrievePros()

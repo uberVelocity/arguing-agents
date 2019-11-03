@@ -40,6 +40,14 @@ class Topic:
         # print(self.comment_rank_pros)
         # print(self.comment_rank_cons)
 
+    def to_dict(self):
+        dic = {}
+        dic['topic_name'] = self.topic_name
+        dic['procon'] = self.procon.to_dict()
+        dic['reddit'] = self.reddit.to_dict()
+        dic['similarity_matrices'] = self.similarity_matrices
+        return dic
+
     def get_similarity_matrices(self, similarity_matrix_algorithm):
         similarity_matrix_pro, similarity_matrix_con = self.similarity_matrices[similarity_matrix_algorithm]
         return similarity_matrix_pro, similarity_matrix_con

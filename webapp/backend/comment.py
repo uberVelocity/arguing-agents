@@ -9,6 +9,15 @@ class Comment:
         self.author = praw_comment.author
         print(self.author, praw_comment.author_flair_text)
         self.author_delta = self.parseDeltaFlair(praw_comment.author_flair_text)
+
+    def to_dict(self):
+        dic = {}
+        dic['src'] = self.src.permalink
+        dic['text'] = self.text
+        dic['depth'] = self.text
+        dic['author'] = self.author.name
+        dic['author_delta'] = self.author_delta
+        return dic
         
         
     """ def __init__(self, body, depth, author, author_delta):

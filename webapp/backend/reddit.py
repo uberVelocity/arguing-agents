@@ -50,6 +50,13 @@ class Reddit:
             for submission_url in submission_urls:
                 submission = Submission(praw.models.Submission(self.reddit, url=submission_url))
                 self.submissions.append(submission)
+
+    def to_dict(self):
+        dic = {}
+        dic['submissions'] = []
+        for submission in self.submissions:
+            dic['submissions'].append(submission.to_dict())
+        return dic
             
     def getAllComments(self):
         return [comment for submission in self.submissions for comment in submission.comments]

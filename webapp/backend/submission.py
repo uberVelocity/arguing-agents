@@ -25,6 +25,14 @@ class Submission:
     def addComment(self, comment):
         self.comments.append(comment)
 
+    def to_dict(self):
+        dic = {}
+        dic['src'] = self.src.url
+        dic['comments'] = []
+        for comment in self.comments:
+            dic['comments'].append(comment.to_dict())
+        return dic
+
 
     """ 
     def __init__(self, title, comments = []):
