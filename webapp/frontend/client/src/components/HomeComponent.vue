@@ -2,6 +2,28 @@
   <div>
     <div class="container">
       <h1>Rextractor</h1>
+      <div class="tabs">
+        <div class="row">
+          <div class="col s12">
+            <ul class="tabs">
+              <li class="tab col s4"><a href="#test1">Some Data</a></li>
+              <li class="tab col s4"><a href="#test2">Test 2</a></li>
+              <li class="tab col s4"><a href="#test3">Test 3</a></li>
+            </ul>
+          </div>
+          <div id="test1" class="col s12">{{someData}}</div>
+          <div id="test2" class="col s12">Test 2</div>
+          <div id="test3" class="col s12">Test 3</div>
+        </div>
+      </div>
+      <div class="topic-select">
+        <select v-model="topic">
+          <option value="abortion">Abortion</option>
+          <option value="gun control">Gun Control</option>
+          <option value="school uniforms">School uniforms</option>
+        </select>
+        <button class="green waves-effect waves-light btn" @click="submitForm">Submit</button>
+      </div>
       <div class="program-description">
         <p>
           Rextractor is an argument extraction tool that attempts to categorize arguments into pros and cons
@@ -9,23 +31,24 @@
           of pros and cons. The program compares its lists of pros and cons with pros and cons taken from www.procon.org.
         </p>
       </div>
-      <SelectionFormComponent />
-      <TabsComponent />
     </div>
   </div>
 </template>
 
 <script>
-import SelectionFormComponent from './SelectionFormComponent';
-import TabsComponent from './TabsComponent'
+import TabsComponent from "./TabsComponent";
 
 import BackendService from "../services/BackendService";
 
 export default {
+  components: {
+    TabsComponent
+  },
   data() {
     return {
       nTopics: 3,
       topic: "",
+      someData: "someDataBoy",
       debugResponse: "noResponse",
       ourPros: [],
       ourCons: [],

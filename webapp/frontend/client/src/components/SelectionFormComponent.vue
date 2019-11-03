@@ -1,13 +1,6 @@
 <template>
   <div>
-    <div class="topic-select">
-        <select v-model="topic">
-          <option value="abortion">Abortion</option>
-          <option value="gun control">Gun Control</option>
-          <option value="school uniforms">School uniforms</option>
-        </select>
-        <button class="green waves-effect waves-light btn" @click="submitForm">Submit</button>
-    </div>
+    
   </div>
 </template>
 
