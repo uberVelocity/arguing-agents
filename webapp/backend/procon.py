@@ -5,9 +5,14 @@ import requests
 from sys import argv
 
 class Procon:
-	def __init__(self, settings):
+	def __init__(self, settings = {}):
+		if settings == {}:
+			print("Procon: __init__: No settings given. Creating empty object.")
+			return
+
 		if 'mode' not in settings:
 			print("Procon: __init__: Mode not provided. Initializing it to 'find'.")
+			settings['mode'] = 'find'
 			
 		mode = settings['mode']
 
@@ -44,6 +49,11 @@ class Procon:
 		dic['pros'] = self.pros
 		dic['cons'] = self.cons
 		return dic
+
+	def from_dict(self, dic):
+		self.background = dic['background']
+		self.pros = dic['pros']
+		self.cons = dic['cons']
 
 	def load(self):
 		self.background = self.retrieveBackground()

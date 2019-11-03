@@ -22,7 +22,10 @@ json_str = f.read()
 settings = json.loads(json_str)
 f.close()
 
-research = Research(settings)
+# research = Research(settings)
+
+research = Research()
+research.load('research_autosave')
 
 app = Flask(__name__)
 CORS(app)

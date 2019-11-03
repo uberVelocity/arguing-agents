@@ -8,7 +8,11 @@ from comparison_methods import compare_word_counts, compare_only_noun_synsets, c
 similarity_matrix_algorithms = {'words': compare_word_counts, 'noun_synsets': compare_only_noun_synsets, 'n_v_adj_adv_synsets': compare_noun_verb_synsets, 'new': new}  # 'dandelion': dandelion, 'new': new}
 
 class Topic:
-    def __init__(self, topic_settings):
+    def __init__(self, topic_settings = {}):
+        if topic_settings == {}:
+            print("Topic: __init__: No settings given. Creating empty object.")
+            return
+
         if 'topic-name' not in topic_settings:
             print("Topic: Provide a topic name")
             exit(-12312)
@@ -45,6 +49,21 @@ class Topic:
         dic['reddit'] = self.reddit.to_dict()
         dic['similarity_matrices'] = self.similarity_matrices
         return dic
+
+    def from_dict(self, dic):
+        self.topic_name = dic['topic_name']
+        
+        procon_dict = dic['procon']
+        procon = Procon()
+        procon.from_dict(procon_dict)
+        self.procon = procon
+
+        reddit_dict = dic['reddit']
+        reddit = Reddit()
+        reddit.from_dict(reddit_dict)
+        self.reddit = reddit
+
+        self. similarity_matrices = dic['similarity_matrices']
 
     def get_similarity_matrices(self, similarity_matrix_algorithm):
         similarity_matrix_pro, similarity_matrix_con = self.similarity_matrices[similarity_matrix_algorithm]

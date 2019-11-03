@@ -1,7 +1,12 @@
+import praw
 import re
 
 class Comment:
-    def __init__(self, praw_comment, depth):
+    def __init__(self, praw_comment = None, depth = 0):
+        if praw_comment == None:
+            print("Comment: __init__: No praw comment given. Creating empty object.")
+            return
+
         self.src = praw_comment
 
         self.text = praw_comment.body
@@ -12,15 +17,31 @@ class Comment:
 
     def to_dict(self):
         dic = {}
-        dic['src'] = self.src.permalink
+
+        dic['src'] = self.src.id
         dic['text'] = self.text
         dic['depth'] = self.text
+
         if self.author == None:
             dic['author'] = ''
         else:
             dic['author'] = self.author.name
+
         dic['author_delta'] = self.author_delta
+
         return dic
+
+    def from_dict(self, dic, reddit):
+        self.src = praw.models.Comment(reddit, id = dic['src'])
+        self.text = dic['text']
+        self.depth = dic['depth']
+
+        if dic['author'] == '':
+            self.author = None
+        else:
+            self.author = praw.models.Redditor(reddit, dic['author'])
+
+        self.author_delta = dic['author_delta']
         
         
     """ def __init__(self, body, depth, author, author_delta):
