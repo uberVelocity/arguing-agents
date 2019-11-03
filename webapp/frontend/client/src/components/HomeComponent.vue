@@ -22,6 +22,14 @@
           <option value="gun control">Gun Control</option>
           <option value="school uniforms">School uniforms</option>
         </select>
+      </div>
+      <div class="similarity-measure">
+        <select v-model="similarityMeasure">
+          <option value="words">Words</option>
+          <option value="noun_synsets">Noun synsets</option>
+          <option value="n_v_adj_adv_synsets">n_v_adj_adv_synsets</option>
+          <option value="new">New</option>
+z        </select>
         <button class="green waves-effect waves-light btn" @click="submitForm">Submit</button>
       </div>
       <div class="program-description">
@@ -52,6 +60,7 @@ export default {
       debugResponse: "noResponse",
       ourPros: [],
       ourCons: [],
+      similarityMeasure: "",
       proconPros: [],
       proconCons: [],
       nRequests: 0,
@@ -72,7 +81,7 @@ export default {
   methods: {
     async submitForm() {
       this.nRequests += 1;
-      const response = await BackendService.processTopic(this.topic);
+      const response = await BackendService.processTopic(this.topic, this.similarityMeasure);
       this.debugResponse = response.data;
       this.nResponses += 1;
 
