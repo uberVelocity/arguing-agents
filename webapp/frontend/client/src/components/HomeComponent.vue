@@ -2,13 +2,26 @@
   <div>
     <div class="container">
       <h1>Rextractor</h1>
+      <div class="program-description">
+        <p>
+          Rextractor is an argument extraction tool that attempts to categorize arguments into pros and cons
+          from natural language. It currently supports {{nTopics}} topics from which it is able to compile lists
+          of pros and cons. The program compares its lists of pros and cons with pros and cons taken from www.procon.org.
+        </p>
+      </div>
       <div class="tabs">
         <div class="row">
           <div class="col s12">
             <ul class="tabs">
-              <li class="tab col s4"><a href="#test1">Some Data</a></li>
-              <li class="tab col s4"><a href="#test2">Test 2</a></li>
-              <li class="tab col s4"><a href="#test3">Test 3</a></li>
+              <li class="tab col s4">
+                <a href="#test1">Some Data</a>
+              </li>
+              <li class="tab col s4">
+                <a href="#test2">Test 2</a>
+              </li>
+              <li class="tab col s4">
+                <a href="#test3">Test 3</a>
+              </li>
             </ul>
           </div>
           <div id="test1" class="col s12">{{someData}}</div>
@@ -29,40 +42,103 @@
           <option value="noun_synsets">Noun synsets</option>
           <option value="n_v_adj_adv_synsets">n_v_adj_adv_synsets</option>
           <option value="new">New</option>
-z        </select>
+        </select>
         <button class="green waves-effect waves-light btn" @click="submitForm">Submit</button>
       </div>
-      <div class="program-description">
-        <p>
-          Rextractor is an argument extraction tool that attempts to categorize arguments into pros and cons
-          from natural language. It currently supports {{nTopics}} topics from which it is able to compile lists
-          of pros and cons. The program compares its lists of pros and cons with pros and cons taken from www.procon.org.
-        </p>
+    </div>
+
+    <div class="row">
+      <div class="col s6">
+        <h4 class="header-list-pros">PROS</h4>
+        <div
+          class="pros"
+          v-for="(pro, index) in pros"
+          v-bind:item="pro"
+          v-bind:index="index"
+          v-bind:key="pro"
+        >
+          <div class="row">
+            <!-- Argument text -->
+            <div class="iter-arg">
+              -- Argument {{index+1}} --
+              <br />
+            </div>
+            <div class="col s6">{{pro.arg_text}}</div>
+            <!-- Comments -->
+
+            <div class="col s6">
+              <div class="iter-arg">-- Comments --</div>
+              <div
+                class="pros"
+                v-for="(comment, index) in pro.best_comments"
+                v-bind:item="comment"
+                v-bind:index="index"
+                v-bind:key="comment"
+              >
+                {{comment.score}}: {{comment.text}}
+                <br />
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+
+      <div class="col s6">
+        <h4 class="header-list-cons">CONS</h4>
+        <div
+          class="cons"
+          v-for="(con, index) in cons"
+          v-bind:item="con"
+          v-bind:index="index"
+          v-bind:key="con"
+        >
+          <div class="row">
+            <!-- Argument text -->
+            <div class="iter-arg">
+              -- Argument {{index+1}} --
+              <br />
+            </div>
+            <div class="col s6">{{con.arg_text}}</div>
+            <!-- Comments -->
+            <div class="col s6">
+              <div class="iter-arg">-- Comments --</div>
+
+              <div
+                class="cons"
+                v-for="(comment, index) in con.best_comments"
+                v-bind:item="comment"
+                v-bind:index="index"
+                v-bind:key="comment"
+              >
+                {{comment.score}}: {{comment.text}}
+                <br />
+              </div>
+            </div>
+          </div>
+          <hr />
+        </div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import TabsComponent from "./TabsComponent";
-
 import BackendService from "../services/BackendService";
 
 export default {
-  components: {
-    TabsComponent
-  },
+  components: {},
   data() {
     return {
       nTopics: 3,
       topic: "",
       someData: "someDataBoy",
       debugResponse: "noResponse",
-      ourPros: [],
-      ourCons: [],
+      pros: [],
+      argText: "",
+      bestComments: [],
+      cons: [],
       similarityMeasure: "",
-      proconPros: [],
-      proconCons: [],
       nRequests: 0,
       nResponses: 0
     };
@@ -81,14 +157,18 @@ export default {
   methods: {
     async submitForm() {
       this.nRequests += 1;
-      const response = await BackendService.processTopic(this.topic, this.similarityMeasure);
+      const response = await BackendService.processTopic(
+        this.topic,
+        this.similarityMeasure
+      );
       this.debugResponse = response.data;
       this.nResponses += 1;
 
-      this.ourPros = response.data.prosReddit;
-      this.ourCons = response.data.consReddit;
-      this.proconPros = response.data.prosProcon;
-      this.proconCons = response.data.consProcon;
+      this.pros = response.data.pros;
+      this.cons = response.data.cons;
+
+      this.argText = response.data.pros[0].arg_text;
+      this.bestComments = response.data.pros[0].best_comments;
     }
   }
 };
@@ -96,6 +176,14 @@ export default {
 
 <style scoped>
 .program-description {
+  text-align: justify;
+}
+
+.pros {
+  text-align: justify;
+}
+
+.cons {
   text-align: justify;
 }
 
