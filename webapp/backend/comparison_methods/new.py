@@ -40,12 +40,10 @@ def checkRelevance(comment, dic):
             if t in dic.keys(): 
                 prob += dic[t] 
             else: 
-                prob +=0
+                prob +=math.log2(1/len(comment))
     else: 
         prob = math.log2(0.00001) 
     
-    print("comment", comment) 
-    print("prob=" , prob)
     return prob
 
 def match(argument_texts, pro_texts, con_texts):
