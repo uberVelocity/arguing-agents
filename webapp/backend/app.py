@@ -22,11 +22,13 @@ json_str = f.read()
 settings = json.loads(json_str)
 f.close()
 
-try:
-    research = Research()
-    research.load('research_autosave')
-except:
-    research = Research(settings)
+# try:
+#     research = Research()
+#     research.load('research_autosave')
+# except:
+    # research = Research(settings)
+
+research = Research(settings)
 
 # research = Research()
 # research.load('research_autosave')
@@ -35,6 +37,26 @@ app = Flask(__name__)
 CORS(app)
 
 counter = 0
+
+def create_files():
+    topic_names = ['abortion', 'gun control', 'school uniforms']
+    similarity_measures = ['words', 'noun_synsets', 'n_v_adj_adv_synsets', 'new']
+
+    for topic_name in topic_names:
+        for similarity_measure in similarity_measures:
+            with open("data_" + topic_name + "_"+similarity_measure, 'w') as f:
+                topic = research.get_topic(topic_name)
+                data_points = topic.get_data_points_comment_score_author_delta(similarity_measure)
+                lines = []
+                for x in data_points:
+                    data_points_deltas = data_points[x]
+                    for y in data_points_deltas:
+                        lines.append(str(x) + ', ' + str(y) + '\r\n')
+                f.writelines(lines)
+
+create_files()
+
+
 
 def htmlify(string):
     return re.sub(r'\[(.*?)\]\((.*?)\)', r'<a href="\2">\1</a>', string)

@@ -27,7 +27,7 @@ class Reddit:
             if 'amount' in reddit_settings:   
                 amount = reddit_settings['amount']
             else:
-                amount = 2
+                amount = 10
 
             if 'sortby' in reddit_settings:
                 sortby = reddit_settings['sortby']

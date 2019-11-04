@@ -37,12 +37,13 @@ class Submission:
 
         for comment in self.comments:
             dic['comments'].append(comment.to_dict())
-            
+
         return dic
 
     def from_dict(self, dic, reddit):
         self.src = praw.models.Submission(reddit, url = dic['src'])
         self.comments = []
+        
         for dic_comment in dic['comments']:
             comment = Comment()
             comment.from_dict(dic_comment, reddit)
